@@ -1,6 +1,7 @@
 ---
 title: TALKS
-description: Yes I love sharing knowledge, click here and see the talks I have done online and in person around the world 🎉
+description: 
+Sharing knowledge 🌎
 date: 2020-05-28
 template: portfolio
 image: ./event.png
