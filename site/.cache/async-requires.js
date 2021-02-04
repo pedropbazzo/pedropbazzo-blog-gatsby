@@ -8,8 +8,6 @@ exports.components = {
   "component---node-modules-gatsby-theme-elemental-src-pages-index-js": () => import("./../../../../node_modules/gatsby-theme-elemental/src/pages/index.js" /* webpackChunkName: "component---node-modules-gatsby-theme-elemental-src-pages-index-js" */),
   "component---node-modules-gatsby-theme-elemental-src-templates-basepage-js": () => import("./../../../../node_modules/gatsby-theme-elemental/src/templates/basepage.js" /* webpackChunkName: "component---node-modules-gatsby-theme-elemental-src-templates-basepage-js" */),
   "component---node-modules-gatsby-theme-elemental-src-templates-blog-js": () => import("./../../../../node_modules/gatsby-theme-elemental/src/templates/blog.js" /* webpackChunkName: "component---node-modules-gatsby-theme-elemental-src-templates-blog-js" */),
-  "component---node-modules-gatsby-theme-elemental-src-templates-blog-list-js": () => import("./../../../../node_modules/gatsby-theme-elemental/src/templates/blog-list.js" /* webpackChunkName: "component---node-modules-gatsby-theme-elemental-src-templates-blog-list-js" */),
-  "component---node-modules-gatsby-theme-elemental-src-templates-portfolio-js": () => import("./../../../../node_modules/gatsby-theme-elemental/src/templates/portfolio.js" /* webpackChunkName: "component---node-modules-gatsby-theme-elemental-src-templates-portfolio-js" */),
-  "component---node-modules-gatsby-theme-elemental-src-templates-portfolio-list-js": () => import("./../../../../node_modules/gatsby-theme-elemental/src/templates/portfolio-list.js" /* webpackChunkName: "component---node-modules-gatsby-theme-elemental-src-templates-portfolio-list-js" */)
+  "component---node-modules-gatsby-theme-elemental-src-templates-blog-list-js": () => import("./../../../../node_modules/gatsby-theme-elemental/src/templates/blog-list.js" /* webpackChunkName: "component---node-modules-gatsby-theme-elemental-src-templates-blog-list-js" */)
 }
 
