@@ -10,7 +10,7 @@ image: ./event.png
 
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/42f07ced6bca42e9968bb400117ea302" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
 
-🎬 [Veja o vídeo completo da live clicando aqui!](https://www.youtube.com/watch?v=ZtOJ54X0uIk)
+<!-- 🎬 [Veja o vídeo completo da live clicando aqui!](https://www.youtube.com/watch?v=ZtOJ54X0uIk)
 👩🏼‍💻 [Repositório com o código :D](https://github.com/anabneri/ReactivePokedex)
 
 ### [PT-BR] JVM por debaixo dos panos
@@ -46,4 +46,4 @@ image: ./event.png
 
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/f23483c8a4344cde9f453d0818dd9294" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
 
-🎬[Check the live code here!](https://www.youtube.com/watch?v=FwSsCHIfPe4)
+🎬[Check the live code here!](https://www.youtube.com/watch?v=FwSsCHIfPe4) -->
