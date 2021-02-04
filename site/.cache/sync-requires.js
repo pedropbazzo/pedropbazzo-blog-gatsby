@@ -11,6 +11,8 @@ exports.components = {
   "component---node-modules-gatsby-theme-elemental-src-pages-index-js": hot(preferDefault(require("/home/pedropbazzo/Downloads/pedropbazzo-blog-gatsby/node_modules/gatsby-theme-elemental/src/pages/index.js"))),
   "component---node-modules-gatsby-theme-elemental-src-templates-basepage-js": hot(preferDefault(require("/home/pedropbazzo/Downloads/pedropbazzo-blog-gatsby/node_modules/gatsby-theme-elemental/src/templates/basepage.js"))),
   "component---node-modules-gatsby-theme-elemental-src-templates-blog-js": hot(preferDefault(require("/home/pedropbazzo/Downloads/pedropbazzo-blog-gatsby/node_modules/gatsby-theme-elemental/src/templates/blog.js"))),
-  "component---node-modules-gatsby-theme-elemental-src-templates-blog-list-js": hot(preferDefault(require("/home/pedropbazzo/Downloads/pedropbazzo-blog-gatsby/node_modules/gatsby-theme-elemental/src/templates/blog-list.js")))
+  "component---node-modules-gatsby-theme-elemental-src-templates-blog-list-js": hot(preferDefault(require("/home/pedropbazzo/Downloads/pedropbazzo-blog-gatsby/node_modules/gatsby-theme-elemental/src/templates/blog-list.js"))),
+  "component---node-modules-gatsby-theme-elemental-src-templates-portfolio-js": hot(preferDefault(require("/home/pedropbazzo/Downloads/pedropbazzo-blog-gatsby/node_modules/gatsby-theme-elemental/src/templates/portfolio.js"))),
+  "component---node-modules-gatsby-theme-elemental-src-templates-portfolio-list-js": hot(preferDefault(require("/home/pedropbazzo/Downloads/pedropbazzo-blog-gatsby/node_modules/gatsby-theme-elemental/src/templates/portfolio-list.js")))
 }
 
