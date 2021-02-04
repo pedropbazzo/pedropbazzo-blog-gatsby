@@ -1,6 +1,6 @@
 ---
 title: Pensando...
-date: 2020-05-22
+date: 2020-11-12
 template: blog
 image: ./helloworld.jpg
 banner: ./helloworld.jpg
