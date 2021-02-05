@@ -1,6 +1,6 @@
 ---
 title: Next JS
-date: 2021-05-03
+date: 2021-02-06
 template: blog
 image: ./helloworld.jpg
 banner: ./helloworld.jpg
