@@ -47,7 +47,7 @@ let siteMetadata = {
     },
     {
       name: "Instagram",
-      icon: "/images/Instagram.svg",
+      icon: "/images/Instagram.png",
       url: "https://www.instagram.com/pedropbazzo/",
     },
     {
