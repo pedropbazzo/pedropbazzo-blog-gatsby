@@ -1,5 +1,5 @@
 ---
-title: Next JS
+title: Next.js
 date: 2021-02-06
 template: blog
 image: ./helloworld.jpg
@@ -32,10 +32,17 @@ Internationalization: As a standard, Next.js already has a structure for identif
 Image Optimization: Next's native component for optimizing your images with resizing, lazyload, images in a modern format and easy to implement.
 Next.js and Server Side Rendering
 The big difference at the beginning of Next was the possibility of using rendering on the server side (SSR) this solves a problem in applications and websites built with React that mainly need SEO. In some React applications you will find that it is not always efficient to load all content on the client side (client-side) which is the React standard. Currently Next js is able to work in a hybrid way with SSG and SSR.
-
 ---
 
 ---
+title: Angular
+date: 2021-02-17
+template: blog
+image: ./Angular.png
+banner: ./Angular.png
+description: Next.js is a React framework with a focus on production and efficiency created and maintained by the Vercel team, Next seeks to bring together several features such as hybrid and static content rendering, TypeScript support, pre-fetching, route system, feature packs and several plugins and examples to accelerate your development providing a complete structure for you to start your project. Next.js is an open source framework under the MIT license and is being used by several companies with good growth in the market. 
+---
+
 
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--0o844t6O--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/odkb0v27gaimxvuh5qaz.png)
 
