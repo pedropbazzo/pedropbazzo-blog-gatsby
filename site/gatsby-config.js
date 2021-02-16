@@ -45,6 +45,11 @@ let siteMetadata = {
       icon: "/images/Instagram.svg",
       url: "https://www.instagram.com/pedropbazzo/",
     },
+    {
+      name: "Github",
+      icon: "/images/Github.svg",
+      url: "https://www.github.com/pedropbazzo/",
+    },
   ],
   contact: {
     api_url: "./test.json",
