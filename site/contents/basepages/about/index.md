@@ -5,7 +5,6 @@ image: ./imageme2.png
 
 ---
 
-
 ![page github](https://raw.githubusercontent.com/pedropbazzo/nlw-3/master/web/src/images/%23ACREDITAR%20(1).png)
 
 ### **Hi there** 👋
@@ -53,14 +52,15 @@ image: ./imageme2.png
 
 ## 😇 My Github Stats:
 
-<p align = "center">
-  <img src = "https://github-readme-stats.vercel.app/api?username=pedropbazzo&show_icons=true&theme=dark&line_height=27">
-</p>
-
-<p align = "center">
-  <img src =https://github-readme-stats.vercel.app/api/top-langs/?username=pedropbazzo&show_icons=true&theme=dark&line_height=27">
-</p>
-
+<center>
+<table>
+  <tr>
+      <td><img width="440px" align="left" src="https://github-readme-stats.vercel.app/api?username=pedropbazzo&show_icons=true&theme=dark&line_height=27" /></td>
+     </td>
+      <td><img width="440px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedropbazzo&show_icons=true&theme=dark&line_height=27"  /></td>
+  </tr>  
+</table>
+</center>
 
 *"Nothing in this world surpasses good old persistence. Talent does not surpass. Nothing more common than talented failures. Genius does not surpass. Unrecognized geniuses are practically a cliché. Education does not surpass. Because the world is full of educated fools. Persistence and determination , just, are powerful. "* **(Clarence Floyd Nelson)**
 

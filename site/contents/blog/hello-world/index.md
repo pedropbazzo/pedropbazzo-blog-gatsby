@@ -12,6 +12,10 @@ description: ---
 
 ## [EN-US] What is Next.js?
 
+🎬 [See the full video by clicking here](https://www.youtube.com/watch?v=mTz0GXj8NN0) 
+
+👩🏼‍💻 [Click here to view the repository](https://github.com/pedropbazzo/next.js)
+
 Next.js is a React framework with a focus on production and efficiency created and maintained by the Vercel team, Next seeks to bring together several features such as hybrid and static content rendering, TypeScript support, pre-fetching, route system, feature packs and several plugins and examples to accelerate your development providing a complete structure for you to start your project. Next.js is an open source framework under the MIT license and is being used by several companies with good growth in the market.
 
 With all these pre-configured facilities it is assimilated to a create react app where you start the project very fast and without worrying about webpack settings, folder structures, route configuration and so on.
@@ -41,6 +45,11 @@ The big difference at the beginning of Next was the possibility of using renderi
 <!-- 16 February 2021 | 5 min read -->
 
 ## [EN-US] Angular
+
+🎬 [See the full video by clicking here](https://www.youtube.com/watch?v=FiVw6zjgw24) 
+
+👩🏼‍💻 [Click here to view the repository](https://github.com/angular)
+
 
 Angular is a JavaScript (Typescript) based framework developed by Google for building web applications. Angular was established in 2009 as AngularJS, which used JavaScript as it’s a programming language, but in 2016, Google completely rewrites Angular. Since then, Angular Use Typescript as its language, typescript, is similar to JavaScript, and it is also considered as the superset of JavaScript.
 
@@ -78,6 +87,11 @@ Limited SEO Option
 
 ## [EN-US] React
 
+🎬 [See the full video by clicking here](https://www.youtube.com/watch?v=XxVg_s8xAms) 
+
+👩🏼‍💻 [Click here to view the repository](https://github.com/facebook/react)
+
+
 <!-- 16 February 2021 | 3 min read -->
 
 One of the most popular front-end web development frameworks is [Reactjs](https://pt-br.reactjs.org/docs/getting-started.html) which is developed by Facebook. Though React is not a web development framework but an open-source JavaScript library that is highly used for developing user interfaces.
@@ -113,6 +127,11 @@ Less focus on UI
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--tXk3J448--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/2xz2fk2m9rjt26lkmihe.png)
 
 ## [EN-US] Vue
+
+🎬 [See the full video by clicking here](https://www.youtube.com/watch?v=Vp5ANvd88x0) 
+
+👩🏼‍💻 [Click here to view the repository](https://github.com/vuejs/vue)
+
 
 <!-- 16 February 2021 | 3 min read -->
 
