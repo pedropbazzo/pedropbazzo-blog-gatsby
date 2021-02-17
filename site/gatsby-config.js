@@ -41,16 +41,6 @@ let siteMetadata = {
   ],
   social: [
     {
-      name: "Linkedin",
-      icon: "/images/Linkedin.svg",
-      url: "https://www.linkedin.com/in/pedropbazzo/",
-    },
-    {
-      name: "Instagram",
-      icon: "/images/Instagram.png",
-      url: "https://www.instagram.com/pedropbazzo/",
-    },
-    {
       name: "Github",
       icon: "/images/Github.svg",
       url: "https://www.github.com/pedropbazzo/",
