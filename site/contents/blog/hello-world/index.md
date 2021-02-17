@@ -38,7 +38,7 @@ The big difference at the beginning of Next was the possibility of using renderi
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--0o844t6O--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/odkb0v27gaimxvuh5qaz.png)
 
 
-16 February 2021 | 5 min read
+<!-- 16 February 2021 | 5 min read -->
 
 ## [EN-US] Angular
 
@@ -78,7 +78,7 @@ Limited SEO Option
 
 ## [EN-US] React
 
-16 February 2021 | 3 min read
+<!-- 16 February 2021 | 3 min read -->
 
 One of the most popular front-end web development frameworks is [Reactjs](https://pt-br.reactjs.org/docs/getting-started.html) which is developed by Facebook. Though React is not a web development framework but an open-source JavaScript library that is highly used for developing user interfaces.
 
@@ -114,7 +114,7 @@ Less focus on UI
 
 ## [EN-US] Vue
 
-16 February 2021 | 3 min read
+<!-- 16 February 2021 | 3 min read -->
 
 [Vue](https://vuejs.org/v2/guide/) is another most popular open-source JavaScript framework mainly used for creating a single page application. Vue.js came into existence in February 2014 and is developed by Evan You. This framework uses “high decoupling,” which facilitate developers to create attractive and easy to use user interfaces (UIs). It is based on Model-View-View model (MVVM) architecture.
 
