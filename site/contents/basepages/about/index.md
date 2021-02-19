@@ -11,7 +11,7 @@ image: ./imageme2.png
 <a href="https://www.instagram.com/pedropbazzo/"><img src="https://img.shields.io/badge/instagram-E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white"></a>
 <a href="mailto:developerpedropbazzo@gmail.com"><img src="https://img.shields.io/badge/e‑mail-D14836.svg?style=for-the-badge&logo=GMail&logoColor=white"></a> 
 
-# ✉️ If you want to contact me for work purposes or if you have any questions send me an email
+## ✉️ If you want to contact me for work purposes or if you have any questions send me an email
 
 <ul>
   <li>💻 I'm a Javascript Developer from <b>São Paulo, <img src="https://image.flaticon.com/icons/svg/197/197386.svg" width="13"/> Brasil</b></li>
