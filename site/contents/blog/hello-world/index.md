@@ -9,6 +9,14 @@ description: ---
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png)
 
+# Summary
+
+- [Ideas](#)
+- [Inspiration](#)
+- [Technologies](#tech)
+- [Updates](#)
+
+<a id="tech"></a>
 
 ## [EN-US] What is Next.js?
 
