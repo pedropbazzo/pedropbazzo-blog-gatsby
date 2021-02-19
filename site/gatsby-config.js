@@ -4,7 +4,7 @@ let siteMetadata = {
   logo: `/images/logo.png`,
   icon: `/images/icon.png`,
   titleImage: `/images/wall.jpg`,
-  introTag: `Senior Software Engineer Front End | MBA in Front End Development`,
+  introTag: `Senior IT Analyst Engineer | MBA in Front End Development`,
   description: `I work daily on creating new features for the Android and IOS application with React Native and the Web System with ReactJS and developing back-end with NodeJS, creating and maintaining microservices.`,
   author: `@pedropbazzo`,
   blogItemsPerPage: 20,
