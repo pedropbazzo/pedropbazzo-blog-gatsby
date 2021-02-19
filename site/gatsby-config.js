@@ -5,7 +5,7 @@ let siteMetadata = {
   icon: `/images/icon.png`,
   titleImage: `/images/wall.jpg`,
   introTag: `Senior IT Analyst Engineer`,
-  description: `I work daily on creating new features for the Android and IOS application with React Native and the Web System with ReactJS and developing back-end with NodeJS, creating and maintaining microservices.`,
+  description: `Working daily on creating new features for the Web, Android, IOS systems, and developing back-end, creating and maintaining microservices.`,
   author: `@pedropbazzo`,
   blogItemsPerPage: 20,
   portfolioItemsPerPage: 20,
