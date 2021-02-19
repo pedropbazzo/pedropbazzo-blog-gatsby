@@ -28,10 +28,6 @@ let siteMetadata = {
       name: "PORTFOLIO",
       url: "/portfolio",
     },
-    {
-      name: "CONTACT",
-      url: "/contact",
-    },
   ],
   footerLinks: [
     {
@@ -47,7 +43,7 @@ let siteMetadata = {
     },
   ],
   contact: {
-    api_url: "./test.json",
+    api_url: "",
     /* Leave this completely empty (no space either) if you don't want a contact form. */
     description: `If you want to contact me for work purposes or if you have any questions send me an email. `,
     mail: "developerpedropbazzo@gmail.com",
