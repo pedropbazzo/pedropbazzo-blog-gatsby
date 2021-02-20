@@ -1,6 +1,6 @@
 ---
 title: TALKS
-description: Sharing knowledge 🌎
+description: Sharing Knowledge 🌎
 date: 2020-11-12
 template: portfolio
 image: ./event.png
