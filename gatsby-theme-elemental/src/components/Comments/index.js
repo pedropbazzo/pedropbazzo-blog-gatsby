@@ -1,21 +1,16 @@
 import React from "react"
 import PropTypes from "prop-types"
-import ReactDisqusComments from "react-disqus-comments"
+
 
 import * as S from "./styled"
 
 const Comments = ({ url, title }) => {
-    const completeURL = `https://pedropbazzo-blog.vercel.app/${url}`
+    const completeURL = `${url}`
 
     return (
         <S.CommentsWrapper>
             <S.CommentsTitle>Comments</S.CommentsTitle>
-            <ReactDisqusComments
-                shortname="pedropbazzo"
-                identifier={completeURL}
-                title={title}
-                url={completeURL}
-            />
+            
         </S.CommentsWrapper>
     )
 }

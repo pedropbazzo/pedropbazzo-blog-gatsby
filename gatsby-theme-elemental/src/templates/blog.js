@@ -6,7 +6,7 @@ import LatestPosts from "../components/blogposts-latest"
 import SEO from "../components/seo"
 import Date from "../components/date"
 import "../style/blog-singlepage.less"
-import Comments from "../components/Comments"
+
 
 export default function ({ data }) {
     return (
@@ -44,11 +44,7 @@ export default function ({ data }) {
                         ></div>
                     </div>
                 </article>
-                <Comments
-                    url={data.markdownRemark.frontmatter.slug}
-                    title={data.markdownRemark.frontmatter.title}
-                />
-                <LatestPosts id={data.markdownRemark.id} />
+                
             </div>
         </Layout>
     )
