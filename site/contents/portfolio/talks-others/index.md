@@ -6,7 +6,7 @@ template: portfolio
 image: ./event.png
 ---
 
-![](https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/event.png)
+![](https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/event-dasa.png)
 
 ### [EN-US] Organizing an application with React
 
