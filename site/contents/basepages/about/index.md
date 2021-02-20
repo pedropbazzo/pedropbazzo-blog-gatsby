@@ -21,7 +21,6 @@ image: ./imageme2.png
   <li>🤝 Open for collaborations in Javascript Stack</li>
 </ul>
 
----
 
 ## 🛠 Tech Stack
 
