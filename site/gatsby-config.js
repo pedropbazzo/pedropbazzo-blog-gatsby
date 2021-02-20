@@ -1,5 +1,5 @@
 let siteMetadata = {
-  title: `Pedro Bazzo`,
+  title: `@pedropbazzo`,
   capitalizeTitleOnHome: true,
   logo: `/images/logo.png`,
   icon: `/images/icon.png`,
