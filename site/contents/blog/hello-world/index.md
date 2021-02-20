@@ -3,7 +3,7 @@ title: Newsletter Tech
 date: 2021-02-16
 template: blog
 image: ./helloworld.jpeg
-banner: 
+banner: ./helloworld.jpeg
 description: Sharing News 🚀
 ---
 
