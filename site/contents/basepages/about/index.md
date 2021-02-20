@@ -5,13 +5,13 @@ image: ./imageme2.png
 
 ---
  
-### <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="60"/> Hi there, I'm Pedro Bazzo - aka Bjorn 👋
+### <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="60"/> Hi there, I'm Pedro Bazzo  aka Bjorn 👋
 
 <a href="https://www.linkedin.com/in/pedropbazzo/"><img src="https://img.shields.io/badge/linkedin-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a href="https://www.instagram.com/pedropbazzo/"><img src="https://img.shields.io/badge/instagram-E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white"></a>
-<a href="mailto:developerpedropbazzo@gmail.com"><img src="https://img.shields.io/badge/e‑mail-D14836.svg?style=for-the-badge&logo=GMail&logoColor=white"></a> 
+<a href="mailto:developerpedropbazzo@gmail.com"><img src="https://img.shields.io/badge/e‑mail-D14836.svg?style=for-the-badge&logo=GMail&logoColor=white"></a>
 
- ✉️ **If you want to contact me for work purposes or if you have any questions send me an email**
+✉️ **If you want to contact me for work purposes or if you have any questions send me an email**
 
 <ul>
   <li>💻 I'm a Javascript Developer from <b>São Paulo, <img src="https://image.flaticon.com/icons/svg/197/197386.svg" width="13"/> Brasil</b></li>
@@ -21,6 +21,7 @@ image: ./imageme2.png
   <li>🤝 Open for collaborations in Javascript Stack</li>
 </ul>
 
+---
 
 ## 🛠 Tech Stack
 
@@ -46,6 +47,8 @@ image: ./imageme2.png
 <img src="https://img.shields.io/badge/elixir%20-314690.svg?&style=for-the-badge&logo=elixir&logoColor=white"/>
 <img src="https://img.shields.io/badge/ruby%20-FF0000.svg?&style=for-the-badge&logo=ruby&logoColor=white"/>
 <img src="https://img.shields.io/badge/go%20-87CEFA.svg?&style=for-the-badge&logo=go&logoColor=white"/>
+<img src="https://img.shields.io/badge/kotlin%20-bf40bf.svg?&style=for-the-badge&logo=kotlin&logoColor=white"/>
+<img src="https://img.shields.io/badge/swift%20-e68a19.svg?&style=for-the-badge&logo=swift&logoColor=white"/>
 </p>
 
 ## 😇 My Github Stats:
@@ -55,6 +58,7 @@ image: ./imageme2.png
   <tr>
       <td><img width="440px" align="left" src="https://github-readme-stats.vercel.app/api?username=pedropbazzo&show_icons=true&theme=dark&line_height=27" /></td>
      </td>
+      <td><img width="440px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedropbazzo&show_icons=true&theme=dark&line_height=27"  /></td>
   </tr>  
 </table>
 </center>
