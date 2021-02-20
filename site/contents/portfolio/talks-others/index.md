@@ -6,6 +6,8 @@ template: portfolio
 image: ./event.png
 ---
 
+![](https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/event.png)
+
 ### [EN-US] Organizing an application with React
 
 ## 👩🏼‍💻 [View structure in gits](https://gist.github.com/pedropbazzo/d39a1c8f5845d5daab36a70edb8ad2e3)
