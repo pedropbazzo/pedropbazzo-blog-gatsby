@@ -176,6 +176,125 @@ Less plug-in and components
 
 ---
 
+<a id="cyber"></a>
+
+## [EN-US] GraphQL vs. REST | What are the diferences?
+
+<div style="text-align:center"><img src ="" />
+
+GraphQL refers to a query language and runtime for application programming interfaces, known for providing users with the precise data they are looking for. GraphQL allows developers to create flexible and fast APIs and can be deployed in an integrated development environment known as GraphiQL. GraphQL is widely considered a viable alternative to REST. Developers using GraphQL can create requests capable of fetching data from multiple sources in one API call.
+
+GraphQL users can add or remove fields in an API without making any changes to existing queries. Users can use their chosen API development methods and rely on GraphQL to maintain the desired functionality for customers.
+
+What are the benefits of GraphQL?
+These are the main advantages of using GraphQL:
+
+Declarative data search
+GraphQL uses the search for declarative data for its queries. This is advantageous for users, as data can be selected, including its fields and entities, with a single query request on data relationships. GraphQL dictates which fields are required by your UI, functioning in principle as a solution in which the UI is looking for data.
+
+GraphQL queries are efficient in partial data selection for UI operations to retrieve data in a single request. Customers using GraphQL are aware of data requirements, and servers are aware of data structures and requirements for using data from a source.
+
+Solves overfetching
+GraphQL does not perform any excessive data searching. This is different from a RESTful API configuration in which a client generally extracts data excessively if there is an identical API. In GraphQL, the mobile client has the option of selecting different sets of fields. This allows GraphQL users to search only for the specific information needed for a user query.
+
+GraphQL is versatile
+GraphQL is more versatile than most developers consider. It is decoupled from the back-end and front-end solutions and has JavaScript reference implementation. It facilitates the use of the server side and the client side in JavaScript libraries, including Express, Angular, Hapi, Koa and Vue and several others. GraphQL is capable of working similarly to the language-independent interface of REST.
+
+What are the disadvantages of GraphQL?
+These are the main disadvantages of a GraphQL API.
+
+Problems handling complex queries
+GraphQL queries can create performance-related problems, while allowing customers to execute specific requests. Problems occur if and when a customer requires many fields nested simultaneously. This is one of the reasons why many users choose the REST API when performing complex queries, as it allows them to search for data through various terminals using precise queries. Despite the need for multiple network calls, avoiding GraphQL performance problems can be a safer option.
+
+Not the best option for small applications
+A smaller application may not require GraphQL, as it can benefit from the simplicity of REST. GraphQL is best suited for use cases where there are many multiple services. REST is also preferable as the best option for establishing connections for resource-oriented applications, as they do not need flexible GraphQL queries.
+
+Cache is complex
+GraphQL does not use HTTP caching processes that make it easy to store request content. The cache allows users to reduce the amount of traffic to a server, making regularly accessed information more easily available.
+
+Steep learning curve
+GraphQL is considered by many to be difficult to understand due to its steep learning curve. Users may need to learn the schema definition language to start using GraphQL. It may not be possible for all projects to allocate time and effort to gain familiarity with GraphQL. As a result, they tend to opt for the easiest to understand REST. Understanding GraphQL queries can take considerable time, although there are several useful resources.
+
+What is REST?
+
+REST, which stands for Representational State Transfer, is an architectural style for setting standards between web and computer systems. Facilitates the most natural communication between computer systems. RESTful systems are characterized by their statelessness and the tendency to differentiate server and client concerns. In a REST architecture, users can achieve a client and server independent implementation. This means that the client-side code can be changed without having any effect on server operations. In addition, the server side can be changed without having any effect on client operations.
+
+What are the benefits of REST?
+Here are the main advantages of a REST API.
+
+REST is scalable
+REST is a protocol known for its scalability and preferred by many for this reason. It draws a line between the server and the client, allowing for easier sizing of a product.
+
+It is quite portable and flexible
+REST is also known for its flexibility and portability. Users find it easier to port data from one server to another or make changes to a database at any time. Developers can choose to host front-end and back-end on separate servers, allowing for better management.
+
+Offers more independence
+As the client and the server are separated in a REST protocol configuration, developers find it much easier to implement developments in different areas of any project independently. In addition, a REST API is able to easily adapt to different platforms and syntax. As a result, developers can make use of different environments during the development phase.
+
+What are the disadvantages of REST?
+Here are the disadvantages of a REST API.
+
+Client server
+A limitation of REST stems from the fact that it depends on the concept of server and client separate from each other and can grow independently.
+
+Stateless
+REST APIs are stateless in nature and allow developers to make independent calls. Each of your calls has all the necessary data for completion.
+
+General requests
+REST has not been state and this type of API can increase request overheads, since the bulky loads of incoming and outgoing calls are handled. A REST API must be optimized for caching data.
+
+Interface
+Decoupling a client from the server requires a uniform interface that facilitates independent application evolution without requiring the services, actions, or models of the application, which are included in the API layer.
+
+On-demand code
+Code on Demand is a feature that allows applets and code transmission through the API to be used in the application.
+
+Layered structure
+REST APIs have different architectural layers that create a hierarchical structure for modular and scalable applications.
+
+GraphQL vs REST | What are the diferences?
+HTTP status codes
+The common status code for each GraphQL request, error or success is 200. It is quite different from the REST APIs, where different status codes point to different responses, that is, 200, 400 and 401 represent success, incorrect and unauthorized request, respectively.
+
+Monitoring
+Monitoring is more convenient with HTTP status codes and REST APIs. Performing a health check on a given endpoint gives users an idea of ​​the API uptime status. For example, a 200 status code means that an API is running. This is in stark contrast to GraphQL, since the analysis of the response body must be performed using a monitoring tool to detect possible errors that are being returned.
+
+Cache
+In the REST API, it is possible to cache all server-side GET endpoints with a content delivery network. Endpoints are cached by browsers and marked for regular calls in the future. GraphQL is not compatible with HTTP specifications and is available through a single terminal. As a result, queries are not cached in a manner similar to the REST APIs.
+
+Schema
+REST APIs do not depend on schema-type systems. On the other hand, GraphQL uses a type system to create API definitions. Fields mapped to types define a schema, which is a classification agreement between client and server.
+
+GraphQL vs REST comparison table
+
+The table below shows the most fundamental differences between GraphQL and REST.
+
+                          GraphQL                                                |        REST
+
+Technology                New                                                    |        Mature
+Ideal for                 Larger apps                                            |        Small and medium apps 
+Architecture              Customer-oriented architecture                         |        Server-based architecture         
+Operations                Mutation, query, subscription                          |        CRUD
+Benefits                  No overfetching                                        |        The data is not linked to resources or methods
+Type of organization      Schema                                                 |        Endpoints
+Data fetching             Single API call for data fetch                         |        Multiple API calls with fixed data
+Community                 Growing                                                |        Big
+Performance               Fast performance                                       |        More time needed for multiple calls
+Speed                     Rapid development                                      |        Slow performance
+Complexity                High                                                   |        Low
+Self-documented           Yes                                                    |        No
+Upload option             No                                                     |        Yes
+Web cache option          Only with libraries                                    |        Yes
+Stability                 Fewer errors, automatic validation and type checking   |        Best suited for complex queries                         
+
+
+
+Conclusion
+GraphQL is a query and runtime language for application programming interfaces.
+
+
+---
+
 ## [EN-US] AWS vs. Azure vs. Google: Cloud Comparison
 
 <a id="cloud"></a>
@@ -353,3 +472,6 @@ For example, Cybervore offers a patented breakthrough technology, which combines
 https://www.cybervore.com/fragglestorm 
 
 A secure method where data is encrypted, sliced, or split into a defined number of fragments that are replicated, and only the authorized user has access. This offers a way to significantly increase data protection and integrity, and ensure a user’s data privacy across any on-premise device and cloud storage service.
+
+---
+
