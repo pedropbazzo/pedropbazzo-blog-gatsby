@@ -271,23 +271,43 @@ The table below shows the most fundamental differences between GraphQL and REST.
 
 ---
 
-|     GraphQL                                              |        REST                                             |
-|----------------------------------------------------------|---------------------------------------------------------|
-|    New                                                   |        Mature                                           |
-|    Larger apps                                           |        Small and medium apps                            |
-|    Customer-oriented                                     |        Server-based architecture                        |
-|    Mutation, query                                       |        CRUD                                             |
-|    No overfetching                                       |        The data is not linked to resources or methods   |
-|    Schema                                                |        Endpoints                                        |
-|    Single API data fetch                                 |        Multiple API calls with fixed data               |
-|    Growing                                               |        Big                                              |
-|    Fast performance                                      |        More time needed for multiple calls              |
-|    Rapid development                                     |        Slow performance                                 |
-|    High                                                  |        Low                                              |
-|    Yes                                                   |        No                                               |
-|    No                                                    |        Yes                                              |
-|    Only with libraries                                   |        Yes                                              |
-|    Fewer errors                                          |        Best suited for complex queries                  |
+|     GraphQL                                              |
+|----------------------------------------------------------|
+|    New                                                   |
+|    Larger apps                                           |
+|    Customer-oriented                                     |
+|    Mutation, query                                       |
+|    No overfetching                                       |
+|    Schema                                                |
+|    Single API data fetch                                 |
+|    Growing                                               |
+|    Fast performance                                      |
+|    Rapid development                                     |
+|    High                                                  |
+|    Yes                                                   |
+|    No                                                    |
+|    Only with libraries                                   |
+|    Fewer errors                                          |
+
+---
+
+|        REST                                         |
+|-----------------------------------------------------|
+|    Mature                                           |
+|    Small and medium apps                            |
+|    Server-based architecture                        |
+|    CRUD                                             |
+|    The data is not linked to resources or methods   |
+|    Endpoints                                        |
+|    Multiple API calls with fixed data               |
+|    Big                                              |
+|    More time needed for multiple calls              |
+|    Slow performance                                 |
+|    Low                                              |
+|    No                                               |
+|    Yes                                              |
+|    Yes                                              |
+|    Best suited for complex queries                  |
 
 ---
 
