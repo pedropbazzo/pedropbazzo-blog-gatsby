@@ -17,11 +17,6 @@ description: Sharing News 🚀
 - [Cyber Security](#cyber)
   - [Cybersecurity Statistics, Predictions, and Solutions for 2021](#cyber2021) 
 
-
-- [Ideas](#)
-- [Inspiration](#)
-- [News](#)
-
 - [Technologies](#tech)
   - [What is Next.js?](#nextjs) 
   - [Angular](#angular) 
