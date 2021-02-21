@@ -16,7 +16,7 @@ export const CommentsWrapper = styled.section`
     }
     #disqus_thread {
         a {
-            color: #cc8400 !important;
+            color: #223364 !important;
         }
     }
 `
