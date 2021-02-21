@@ -4,7 +4,7 @@ let siteMetadata = {
   logo: `/images/logo.png`,
   icon: `/images/icon.png`,
   titleImage: `/images/wall.jpg`,
-  introTag: `Senior Software Engineer`,
+  introTag: `Senior Software Engineer 🛡️`,
   description: `Working daily on creating new features for the Web, Android, IOS systems, and developing back-end, creating and maintaining microservices.`,
   author: `@pedropbazzo`,
   blogItemsPerPage: 20,
