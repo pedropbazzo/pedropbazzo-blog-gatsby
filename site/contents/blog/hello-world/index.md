@@ -12,11 +12,14 @@ description: Sharing News 🚀
 
 - [Cloud Computing](#cloud)
   - [AWS vs. Azure vs. Google: Cloud Comparison](#comparisoncloud) 
+
 - [Cyber Security](#cyber)
   - [Cybersecurity Statistics, Predictions, and Solutions for 2021](#cyber2021) 
+
 - [Ideas](#)
 - [Inspiration](#)
 - [News](#)
+
 - [Technologies](#tech)
   - [What is Next.js?](#nextjs) 
   - [Angular](#angular) 
@@ -24,11 +27,11 @@ description: Sharing News 🚀
   - [Vue](#vue) 
   - [GraphQL vs. REST | What are the diferences?](#graphql) 
 
+<a id="nextjs"></a> 
+
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png)
 
 <a id="tech"></a>
-
-<a id="nextjs"></a>
 
 ## [EN-US] What is Next.js?
 
