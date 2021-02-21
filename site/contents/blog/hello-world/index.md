@@ -7,8 +7,6 @@ banner: ./helloworld.jpeg
 description: Sharing News 🚀
 ---
 
-teste
-
 <a id="backtothetop"></a> 
 
 # 📚 Summary
