@@ -271,23 +271,23 @@ The table below shows the most fundamental differences between GraphQL and REST.
 
 ---
 
-| Description           |     GraphQL                                              |        REST                                             |
-|-----------------------|----------------------------------------------------------|---------------------------------------------------------|
-| Technology            |    New                                                   |        Mature                                           |
-| Ideal for             |    Larger apps                                           |        Small and medium apps                            |
-| Architecture          |    Customer-oriented architecture                        |        Server-based architecture                        |
-| Operations            |    Mutation, query, subscription                         |        CRUD                                             |
-| Benefits              |    No overfetching                                       |        The data is not linked to resources or methods   |
-| Type                  |    Schema                                                |        Endpoints                                        |
-| Data fetching         |    Single API call for data fetch                        |        Multiple API calls with fixed data               |
-| Community             |    Growing                                               |        Big                                              |
-| Performance           |    Fast performance                                      |        More time needed for multiple calls              |
-| Speed                 |    Rapid development                                     |        Slow performance                                 |
-| Complexity            |    High                                                  |        Low                                              |
-| Self                  |    Yes                                                   |        No                                               |
-| Upload option         |    No                                                    |        Yes                                              |
-| Web cache             |    Only with libraries                                   |        Yes                                              |
-| Stability             |    Fewer errors, automatic validation and type checking  |        Best suited for complex queries                  |
+|     GraphQL                                              |        REST                                             |
+|----------------------------------------------------------|---------------------------------------------------------|
+|    New                                                   |        Mature                                           |
+|    Larger apps                                           |        Small and medium apps                            |
+|    Customer-oriented architecture                        |        Server-based architecture                        |
+|    Mutation, query, subscription                         |        CRUD                                             |
+|    No overfetching                                       |        The data is not linked to resources or methods   |
+|    Schema                                                |        Endpoints                                        |
+|    Single API call for data fetch                        |        Multiple API calls with fixed data               |
+|    Growing                                               |        Big                                              |
+|    Fast performance                                      |        More time needed for multiple calls              |
+|    Rapid development                                     |        Slow performance                                 |
+|    High                                                  |        Low                                              |
+|    Yes                                                   |        No                                               |
+|    No                                                    |        Yes                                              |
+|    Only with libraries                                   |        Yes                                              |
+|    Fewer errors, automatic validation and type checking  |        Best suited for complex queries                  |
 
 ---
 
