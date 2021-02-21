@@ -10,6 +10,8 @@ description: Sharing News 🚀
 
 # Summary
 
+- [Cloud Computing](#)
+- [Cyber Security](#)
 - [Ideas](#)
 - [Inspiration](#)
 - [News](#)
