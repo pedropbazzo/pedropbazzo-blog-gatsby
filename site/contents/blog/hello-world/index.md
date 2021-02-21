@@ -67,7 +67,7 @@ The big difference at the beginning of Next was the possibility of using renderi
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--0o844t6O--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/odkb0v27gaimxvuh5qaz.png)
 
 
-- [Back to the top](#backtothetop)
+- 🔝[Back to the top](#backtothetop)
 
 <!-- 16 February 2021 | 5 min read -->
 
@@ -112,7 +112,7 @@ Limited SEO Option
 
 ---
 
-- [Back to the top](#backtothetop)
+- 🔝[Back to the top](#backtothetop)
 
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--C5Iu9vhG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/srs7igm8b5flk912n1zv.jpeg)
 
@@ -157,7 +157,7 @@ Less focus on UI
 
 ---
 
-- [Back to the top](#backtothetop)
+- 🔝[Back to the top](#backtothetop)
 
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--tXk3J448--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/2xz2fk2m9rjt26lkmihe.png)
 
@@ -202,7 +202,7 @@ Less plug-in and components
 
 ---
 
-- [Back to the top](#backtothetop)
+- 🔝[Back to the top](#backtothetop)
 
 <a id="graphql"></a>
 
@@ -346,7 +346,7 @@ GraphQL is a query and runtime language for application programming interfaces.
 
 ---
 
-- [Back to the top](#backtothetop)
+- 🔝[Back to the top](#backtothetop)
 
 <a id="comparisoncloud"></a>
 
@@ -471,7 +471,7 @@ The trend is to get customers to combine resources and providers to arrive with 
 
 ---
 
-- [Back to the top](#backtothetop)
+- 🔝[Back to the top](#backtothetop)
 
 <a id="cyber"></a>
 
@@ -534,4 +534,4 @@ A secure method where data is encrypted, sliced, or split into a defined number 
 
 ---
 
-- [Back to the top](#backtothetop)
+- 🔝[Back to the top](#backtothetop)
