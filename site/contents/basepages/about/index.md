@@ -5,6 +5,12 @@ image: ./imageme2.png
 
 ---
  
+<p align="center">
+  
+  <img alt="pedropbazzo" src="https://img.shields.io/badge/pedropbazzo-brightgreen">
+
+</p> 
+
 ### <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="60"/> Hi there, I'm Pedro Bazzo  aka Bjorn 👋
 
 <a href="https://www.linkedin.com/in/pedropbazzo/"><img src="https://img.shields.io/badge/linkedin-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
@@ -12,11 +18,6 @@ image: ./imageme2.png
 <a href="mailto:developerpedropbazzo@gmail.com"><img src="https://img.shields.io/badge/e‑mail-D14836.svg?style=for-the-badge&logo=GMail&logoColor=white"></a>
 <a href="https://github.com/pedropbazzo"><img src="https://img.shields.io/badge/github-000000.svg?style=for-the-badge&logo=github&logoColor=white"></a>
 <a href="https://www.npmjs.com/~pedropbazzo"><img src="https://img.shields.io/badge/npm-000000.svg?style=for-the-badge&logo=npm&logoColor=white"></a>
-<p align="center">
-  
-  <img alt="pedropbazzo" src="https://img.shields.io/badge/pedropbazzo-brightgreen">
-
-</p>
 
 ✉️ **If you want to contact me for work purposes or if you have any questions send me an email**
 
