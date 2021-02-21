@@ -10,7 +10,7 @@ description: Sharing News 🚀
 
 # Summary
 
-- [Cloud Computing](#)
+- [Cloud Computing](#cloud)
 - [Cyber Security](#)
 - [Ideas](#)
 - [Inspiration](#)
@@ -173,3 +173,122 @@ Does not have stable tools
 Does not support by tech-giants
 
 Less plug-in and components
+
+## [EN-US] AWS vs. Azure vs. Google: Cloud Comparison
+
+<a id="cloud"></a>
+
+![]()
+
+The top three cloud computing providers, AWS, Microsoft Azure and Google Cloud, have strengths and weaknesses that make them ideal for different use cases.
+
+The competition for leadership in public cloud computing is a close race between the giants AWS vs. Azure vs. Google.
+
+Clearly, for infrastructure as a service (IaaS) and platform as a service (PaaS), they maintain a high position among the many companies in this segment.
+
+AWS practically dominates the market. In a 2018 report, Synergy Research Group noted that spending on cloud infrastructure services increased by a surprising 51% compared to the previous year's quarter, noting: “AWS's global market share has remained stable at around 33% in the last twelve months, even with the market rising, almost tripled in size ”.
+
+![](https://blog.saninternet.com/wp-content/uploads/2019/12/aws-srgresearch-aws-vs-azure-vs-google-hospedagem-de-sites-san.jpg)
+
+Meanwhile, Microsoft is particularly strong on SaaS, while Google Cloud is positioned for aggressive growth - and is known for offering discounts.
+
+Amazon Web Services has a range of tools that keep growing. Unparalleled features. However, the cost structure can be confusing.
+
+Microsoft Azure has a cloud infrastructure with exceptional capacity. If you are an enterprise customer, Azure is definitely for you - few companies have a corporate history (and Windows support) like Microsoft.
+
+Google Cloud entered the cloud market later and has no corporate focus. But its technical expertise is deep and its market-leading tools in artificial intelligence, machine learning and data analysis.
+
+AWS vs. Azure vs. Google: general pros and cons
+Many experts recommend that companies assess their public cloud needs on a case-by-case basis and analyze which one offers the best for their needs. Each major supplier has strengths and weaknesses that make them a good choice for certain projects. Want to see?
+
+Pros and cons of AWS
+
+Amazon's greatest strength is its dominance of the public cloud market. In your Quadrante Mágico de Infraestrutura de Nuvem como Serviço, em todo o mundo, o Gartner observou: “A AWS é líder em participação de mercado em IaaS na nuvem há mais de 10 anos”. 
+
+![](https://blog.saninternet.com/wp-content/uploads/2019/09/aws-services-aws-vs-azure-vs-google-hospedagem-de-sites-SAN-1024x640.png)
+
+Part of the reason for its popularity is undoubtedly the enormous scope of its operations. AWS has a huge and growing range of services available, as well as the most comprehensive network of data centers worldwide. The Gartner report summed it up, saying, "AWS is the most mature and enterprise-ready provider, with the deepest resources to manage a large number of users and resources."
+
+Amazon's big weakness is related to cost. Many companies find it difficult to understand the company's cost structure and manage those costs effectively when performing a high volume of workloads in the service.
+
+When to choose AWS
+AWS is a great choice for analytical and web workloads, even large-scale data center migrations, AWS provides a range of services.
+
+When it comes to computing, AWS provides the widest range of VM types. Currently, AWS also has the highest computing and storage options available on the market. Its wide variety of VM types (136 VM types and over 26 VM families) allows customers to run everything from small workloads on the web to the largest workloads.
+
+For machine learning and AI workloads, AWS also provides the highest settings for GPU-enabled VM types. For workloads requiring one-time rentals for compliance and regulatory reasons, AWS now also provides 
+
+https://aws.amazon.com/pt/about-aws/whats-new/2019/02/introducing-five-new-amazon-ec2-bare-metal-instances/
+
+Block storage comes with a variety of options, such as dynamic resizing, different disk types (magnetic and SSD). Unlike other CSPs, AWS does not restrict IOPS by volume size. You can provision IOPS for an extra cost even for small disks.
+
+In front of the managed relational database, AWS supports managed databases for MySQL, PostgreSQL, MariaDB, Oracle (SE and EE) and MS SQL (Web and Enterprise editions). In addition, they have their own MySQL and PostgreSQL compatible database, which offers Oracle-like performance for a low investment.
+
+For NoSQL databases, AWS has been offering its DynamoDB product for over half a decade. AWS is an advocate and provides a variety of NoSQL databases created for this purpose. This includes DynamoDB, Neptune and Elasticache.
+
+For network security, AWS has launched managed services to protect against DDoS (AWS Shield) and Web Application Firewall (WAF), along with AWS Inspector, AWS Config and CloudTrail for managing and auditing inventory and policies. GuardDuty provides threat detection.
+
+AWS serves U.S. government workloads in separate US GovCloud regions (CIA and FBI).
+
+Pros and cons of Microsoft Azure
+Microsoft was late to the cloud market, but took a step forward, essentially adopting local software - Windows Server, Office, SQL Server, Sharepoint, Dynamics Active Directory, .Net and others - and adapting it again for the cloud.
+
+
+Azure Services
+
+![](https://blog.saninternet.com/wp-content/uploads/2019/09/azure-services-aws-vs-azure-vs-google-hospedagem-de-sites-SAN.png)
+
+A big reason for Azure's success is the integration with Microsoft applications / software. Since Azure is fully integrated with these other applications, companies that use a lot of Microsoft software often find that it also makes sense to use Azure.
+
+When to choose Azure
+Azure is a cloud platform of great importance on the market with a variety of features, which can be a preferred platform for customers who are already using Microsoft products. Although Azure supports several services based on open source products, Microsoft's cloud portfolio is what sets it apart from customers.
+
+Azure has more than 151 types of VMs and 26 families that support everything from small workloads to HPC, Oracle and SAP workloads. Azure has Windows and several types of Linux (RHEL, CentOS, SUSE, Ubuntu). Azure has a separate family of instances for ML / AI workloads.
+
+If you need to run next-generation workloads that require up to 128 vCPU and 3.5 TB memory, Azure can do it. If you have existing licenses for Windows OS, MS-SQL and bring them to the cloud (BYOL) through the Microsoft License Mobility Program, Azure is the option.
+
+Azure was also the first cloud player to recognize the hybrid cloud trend. Azure also provided support for hybrid storage devices like StorSimple, which was unique in the public cloud space.
+
+If you have a data center with predominantly Microsoft workloads and need to migrate on a large scale to the cloud, taking advantage of the well-known tools, Azure provides tools and services, such as Azure Site Recovery.
+
+When it comes to SQL and NoSQL databases, Azure has a very complete set of services. It provides MS SQL Server and Managed SQL Datawarehouse. Azure also provides managed databases for MySQL, PostgreSQL and MariaDB.
+
+It provides an API compatible with MongoDB, Cassandra, Gremlin (Graph) and Azure Table Storage. If you need to run multiple managed data models, including document data models, graphs, key-values, tables and column families in a single cloud, Cosmos may be the best option.
+
+https://azure.microsoft.com/en-us/blog/microsoft-s-azure-cosmos-db-is-named-a-leader-in-the-forrester-wave-big-data-nosql/
+
+In addition to the pay-per-use credit card billing model and other billing modes, customers with existing corporate accounts can purchase pre-subscriptions to Azure as part of their annual renewals. This is useful for customers who want to budget annual cloud spending in advance. Avoiding uncertainty and additional mid-year budget approvals.
+
+Mobility of cloud licenses for Microsoft products is also relatively easy for customers with multiple Microsoft products running on-premises.
+
+Pros and cons of Google Cloud Platform
+
+The Google Cloud Platform (GCP), despite being late in the game and with the lowest market share of public cloud providers, is showing growth in recent years.
+
+![](https://blog.saninternet.com/wp-content/uploads/2019/09/google-cloud-platform-services-aws-vs-azure-vs-google-hospedagem-de-sites-SAN.png)
+
+Google Cloud Platform Services
+
+It has several features that put you ahead of your competitors in certain areas. GCP is also catching on, not only with new customers who are already part of the ecosystem, but also the first cloud users who want to expand their scenario to Google as part of a multi-cloud strategy. Google also started with PaaS services, but has been constantly expanding its product portfolio.
+
+When to choose GCP
+From a computing point of view, Google has the least number of VM sizes (28 instance types in 4 categories). However, it does have a feature that makes these numbers a little irrelevant.
+
+Google allows users to create their own custom sizes (CPU, memory) so that customers can match the size of workloads in the cloud with the size on site. Billing is also based on the total CPU and memory used, rather than individual VMs. This reduces wasted unused capacity.
+
+Another unique feature is that GCP allows almost all instance types to connect GPUs. This can turn any standard or custom instance into an ML-ready VM. Google was also a leader in billing per second, which forced other CSPs to follow suit. Compared to the usual hourly billing standard, billing per second greatly reduces any waste of capacity. This results in savings of up to 40% overall.
+
+Google also linked or purchased third-party cloud migration tools. These tools, such as CloudEndure, Velostrata and CloudPhysics, help customers evaluate, plan and live migrate their VMs to GCP.
+
+Network is the highlight of GCP. They have a low latency global network. Even from the customer's perspective, a VPC network spans all of its regions. Other CSPs limit VPC networks to one region. This makes it easier for GCP customers to create applications that serve customers globally, without creating complex infrastructure design mechanisms across regions and data replication.
+
+For NoSQL Banks, GCP has a product called BigTable. BigTable is a NoSQL database managed on a petabyte scale, used by Google in its own products, such as Gmail.
+
+From a billing point of view, Google offers automatic discounts, such as sustained usage discounts, which lower the price on demand if a VM runs more than a certain number of hours in a month. If you want the most economical cloud provider, GCP is a great option.
+
+Conclusion
+Each provider has features and advantages that meet specific customer needs. While all cloud providers will continue to provide certain common services (such as a managed MySQL database), each CSP will create differentiated and exclusive services to address very specific customer needs.
+
+From the customer's perspective, these services will also become a way to adopt a multi-cloud strategy. As an example, a customer may want to use GCP for an application that needs Spanner capabilities, while using AWS for their AI services and Azure for specific Windows workloads.
+
+The trend is to get customers to combine resources and providers to arrive with a high availability and operational capacity solution.
