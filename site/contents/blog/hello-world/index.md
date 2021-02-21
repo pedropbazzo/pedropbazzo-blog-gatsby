@@ -275,8 +275,8 @@ The table below shows the most fundamental differences between GraphQL and REST.
 |----------------------------------------------------------|---------------------------------------------------------|
 |    New                                                   |        Mature                                           |
 |    Larger apps                                           |        Small and medium apps                            |
-|    Customer-oriented architecture                        |        Server-based architecture                        |
-|    Mutation, query, subscription                         |        CRUD                                             |
+|    Customer-oriented                                     |        Server-based architecture                        |
+|    Mutation, query                                       |        CRUD                                             |
 |    No overfetching                                       |        The data is not linked to resources or methods   |
 |    Schema                                                |        Endpoints                                        |
 |    Single API call for data fetch                        |        Multiple API calls with fixed data               |
