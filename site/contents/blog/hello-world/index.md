@@ -301,7 +301,8 @@ The trend is to get customers to combine resources and providers to arrive with 
 
 ## [EN-US] Cybersecurity Statistics, Predictions, and Solutions for 2021
 
-![](https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/blog/hello-world/cyber.jpg)
+<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/blog/hello-world/cyber.jpg" />
+
 
 In 2020, Cybersecurity has become more important than ever for businesses all over the world. Following various statistics published across the media, we can clearly see that no one is immune against cyber-attacks: major players investing massively in their companies’ cybersecurity, small businesses, and individuals.
 
