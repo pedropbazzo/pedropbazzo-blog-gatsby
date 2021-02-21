@@ -7,7 +7,6 @@ banner: ./helloworld.jpeg
 description: Sharing News 🚀
 ---
 
-//
 
 # Summary
 
