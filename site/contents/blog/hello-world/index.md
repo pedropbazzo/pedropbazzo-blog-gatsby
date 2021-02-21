@@ -174,6 +174,8 @@ Does not support by tech-giants
 
 Less plug-in and components
 
+---
+
 ## [EN-US] AWS vs. Azure vs. Google: Cloud Comparison
 
 <a id="cloud"></a>
