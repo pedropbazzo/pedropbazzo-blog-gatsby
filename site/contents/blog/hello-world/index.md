@@ -271,8 +271,8 @@ The table below shows the most fundamental differences between GraphQL and REST.
 
 ---
 
-| Description         |           GraphQL                                             |        REST                                                      |
-|----------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------- |
+| Description           |                GraphQL                                               |        REST                                             |
+|-----------------------|----------------------------------------------------------------------|---------------------------------------------------------|
 | Technology            |                New                                                   |        Mature                                           |
 | Ideal for             |                Larger apps                                           |        Small and medium apps                            |
 | Architecture          |                Customer-oriented architecture                        |        Server-based architecture                        |
