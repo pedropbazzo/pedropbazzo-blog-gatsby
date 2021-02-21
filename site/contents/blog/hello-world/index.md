@@ -57,12 +57,12 @@ Internationalization: As a standard, Next.js already has a structure for identif
 Image Optimization: Next's native component for optimizing your images with resizing, lazyload, images in a modern format and easy to implement.
 Next.js and Server Side Rendering
 The big difference at the beginning of Next was the possibility of using rendering on the server side (SSR) this solves a problem in applications and websites built with React that mainly need SEO. In some React applications you will find that it is not always efficient to load all content on the client side (client-side) which is the React standard. Currently Next js is able to work in a hybrid way with SSG and SSR.
+
+- 🔝 [Back to the top](#backtothetop)
 ---
 
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--0o844t6O--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/odkb0v27gaimxvuh5qaz.png)
 
-
-- 🔝 [Back to the top](#backtothetop)
 
 <!-- 16 February 2021 | 5 min read -->
 
@@ -103,11 +103,11 @@ Slow processing
 
 Limited SEO Option
 
----
-
----
-
 - 🔝 [Back to the top](#backtothetop)
+
+---
+
+---
 
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--C5Iu9vhG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/srs7igm8b5flk912n1zv.jpeg)
 
@@ -148,11 +148,12 @@ Complex structure than JavaScript.
 
 Less focus on UI
 
----
-
----
-
 - 🔝 [Back to the top](#backtothetop)
+
+---
+
+---
+
 
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--tXk3J448--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/2xz2fk2m9rjt26lkmihe.png)
 
@@ -195,9 +196,10 @@ Does not support by tech-giants
 
 Less plug-in and components
 
----
 
 - 🔝 [Back to the top](#backtothetop)
+
+---
 
 <a id="graphql"></a>
 
@@ -338,10 +340,9 @@ Conclusion
 
 GraphQL is a query and runtime language for application programming interfaces.
 
+- 🔝 [Back to the top](#backtothetop)
 
 ---
-
-- 🔝 [Back to the top](#backtothetop)
 
 <a id="comparisoncloud"></a>
 
@@ -464,9 +465,9 @@ From the customer's perspective, these services will also become a way to adopt 
 
 The trend is to get customers to combine resources and providers to arrive with a high availability and operational capacity solution.
 
----
-
 - 🔝 [Back to the top](#backtothetop)
+
+---
 
 <a id="cyber"></a>
 
@@ -527,6 +528,6 @@ https://www.cybervore.com/fragglestorm
 
 A secure method where data is encrypted, sliced, or split into a defined number of fragments that are replicated, and only the authorized user has access. This offers a way to significantly increase data protection and integrity, and ensure a user’s data privacy across any on-premise device and cloud storage service.
 
----
-
 - 🔝 [Back to the top](#backtothetop)
+
+---
