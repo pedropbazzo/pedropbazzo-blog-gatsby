@@ -271,7 +271,7 @@ The table below shows the most fundamental differences between GraphQL and REST.
 
 ---
 
-|     GraphQL                                              |
+|    GraphQL                                               |
 |----------------------------------------------------------|
 |    New                                                   |
 |    Larger apps                                           |
@@ -291,7 +291,7 @@ The table below shows the most fundamental differences between GraphQL and REST.
 
 ---
 
-|        REST                                         |
+|    REST                                             |
 |-----------------------------------------------------|
 |    Mature                                           |
 |    Small and medium apps                            |
