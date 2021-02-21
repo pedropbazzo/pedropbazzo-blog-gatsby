@@ -287,7 +287,7 @@ The table below shows the most fundamental differences between GraphQL and REST.
 |    Yes                                                   |        No                                               |
 |    No                                                    |        Yes                                              |
 |    Only with libraries                                   |        Yes                                              |
-|    Fewer errors, automatic validation and type checking  |        Best suited for complex queries                  |
+|    Fewer errors, automatic validation                    |        Best suited for complex queries                  |
 
 ---
 
