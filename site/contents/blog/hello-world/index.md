@@ -180,7 +180,7 @@ Less plug-in and components
 
 ## [EN-US] GraphQL vs. REST | What are the diferences?
 
-<div style="text-align:center"><img src ="" />
+<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/blog/hello-world/graphqlvsrest.jpg" />
 
 GraphQL refers to a query language and runtime for application programming interfaces, known for providing users with the precise data they are looking for. GraphQL allows developers to create flexible and fast APIs and can be deployed in an integrated development environment known as GraphiQL. GraphQL is widely considered a viable alternative to REST. Developers using GraphQL can create requests capable of fetching data from multiple sources in one API call.
 
