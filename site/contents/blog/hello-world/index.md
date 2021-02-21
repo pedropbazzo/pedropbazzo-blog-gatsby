@@ -11,16 +11,24 @@ description: Sharing News 🚀
 # Summary
 
 - [Cloud Computing](#cloud)
+  - [AWS vs. Azure vs. Google: Cloud Comparison](#comparisoncloud) 
 - [Cyber Security](#cyber)
+  - [Cybersecurity Statistics, Predictions, and Solutions for 2021](#cyber2021) 
 - [Ideas](#)
 - [Inspiration](#)
 - [News](#)
 - [Technologies](#tech)
+  - [What is Next.js?](#nextjs) 
+  - [Angular](#angular) 
+  - [React](#react)
+  - [Vue](#vue) 
   - [GraphQL vs. REST | What are the diferences?](#graphql) 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png)
 
 <a id="tech"></a>
+
+<a id="nextjs"></a>
 
 ## [EN-US] What is Next.js?
 
@@ -55,6 +63,8 @@ The big difference at the beginning of Next was the possibility of using renderi
 
 
 <!-- 16 February 2021 | 5 min read -->
+
+<a id="angular"></a>
 
 ## [EN-US] Angular
 
@@ -96,6 +106,8 @@ Limited SEO Option
 ---
 
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--C5Iu9vhG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/srs7igm8b5flk912n1zv.jpeg)
+
+<a id="react"></a>
 
 ## [EN-US] React
 
@@ -139,6 +151,8 @@ Less focus on UI
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--tXk3J448--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/2xz2fk2m9rjt26lkmihe.png)
 
 ## [EN-US] Vue
+
+<a id="vue"></a>
 
 🎬 [See the full video by clicking here](https://www.youtube.com/watch?v=Vp5ANvd88x0) 
 
@@ -319,6 +333,8 @@ GraphQL is a query and runtime language for application programming interfaces.
 
 ---
 
+<a id="comparisoncloud"></a>
+
 ## [EN-US] AWS vs. Azure vs. Google: Cloud Comparison
 
 <a id="cloud"></a>
@@ -441,6 +457,8 @@ The trend is to get customers to combine resources and providers to arrive with 
 ---
 
 <a id="cyber"></a>
+
+<a id="cyber2021"></a>
 
 ## [EN-US] Cybersecurity Statistics, Predictions, and Solutions for 2021
 
