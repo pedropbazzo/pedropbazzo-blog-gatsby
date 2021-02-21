@@ -279,7 +279,7 @@ The table below shows the most fundamental differences between GraphQL and REST.
 |    Mutation, query                                       |        CRUD                                             |
 |    No overfetching                                       |        The data is not linked to resources or methods   |
 |    Schema                                                |        Endpoints                                        |
-|    Data fetch                                            |        Multiple API calls with fixed data               |
+|    Single API data fetch                                 |        Multiple API calls with fixed data               |
 |    Growing                                               |        Big                                              |
 |    Fast performance                                      |        More time needed for multiple calls              |
 |    Rapid development                                     |        Slow performance                                 |
