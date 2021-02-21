@@ -104,7 +104,6 @@ Slow processing
 Limited SEO Option
 
 - 🔝 [Back to the top](#backtothetop)
-
 ---
 
 ---
@@ -149,7 +148,6 @@ Complex structure than JavaScript.
 Less focus on UI
 
 - 🔝 [Back to the top](#backtothetop)
-
 ---
 
 ---
@@ -198,7 +196,6 @@ Less plug-in and components
 
 
 - 🔝 [Back to the top](#backtothetop)
-
 ---
 
 <a id="graphql"></a>
@@ -341,7 +338,6 @@ Conclusion
 GraphQL is a query and runtime language for application programming interfaces.
 
 - 🔝 [Back to the top](#backtothetop)
-
 ---
 
 <a id="comparisoncloud"></a>
@@ -466,7 +462,6 @@ From the customer's perspective, these services will also become a way to adopt 
 The trend is to get customers to combine resources and providers to arrive with a high availability and operational capacity solution.
 
 - 🔝 [Back to the top](#backtothetop)
-
 ---
 
 <a id="cyber"></a>
@@ -529,5 +524,4 @@ https://www.cybervore.com/fragglestorm
 A secure method where data is encrypted, sliced, or split into a defined number of fragments that are replicated, and only the authorized user has access. This offers a way to significantly increase data protection and integrity, and ensure a user’s data privacy across any on-premise device and cloud storage service.
 
 - 🔝 [Back to the top](#backtothetop)
-
 ---
