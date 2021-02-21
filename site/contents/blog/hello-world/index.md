@@ -348,4 +348,8 @@ But how to make sure that the data stored on your computers and cloud services i
 Apparently, as we have seen, following all the figures listed above, your data is ultra-protected not when it cannot be breached (because it always can), but when it cannot be read by unauthorized users.
 Today there are various new technologies that render data useless to unauthorized users and protect your data no matter where it is stored. 
 
-For example, Cybervore offers a patented breakthrough technology, which combines authentication, AES 265 encryption, and fragmentation. It is a cybersecurity software called Fragglestorm™ [https://www.cybervore.com/fragglestorm] a secure method where data is encrypted, sliced, or split into a defined number of fragments that are replicated, and only the authorized user has access. This offers a way to significantly increase data protection and integrity, and ensure a user’s data privacy across any on-premise device and cloud storage service.
+For example, Cybervore offers a patented breakthrough technology, which combines authentication, AES 265 encryption, and fragmentation. It is a cybersecurity software called Fragglestorm™: 
+
+https://www.cybervore.com/fragglestorm 
+
+A secure method where data is encrypted, sliced, or split into a defined number of fragments that are replicated, and only the authorized user has access. This offers a way to significantly increase data protection and integrity, and ensure a user’s data privacy across any on-premise device and cloud storage service.
