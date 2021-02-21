@@ -176,7 +176,7 @@ Less plug-in and components
 
 ---
 
-<a id="cyber"></a>
+<a id="tech"></a>
 
 ## [EN-US] GraphQL vs. REST | What are the diferences?
 
