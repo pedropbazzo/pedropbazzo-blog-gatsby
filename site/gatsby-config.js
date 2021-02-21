@@ -37,9 +37,9 @@ let siteMetadata = {
   ],
   social: [
     {
-      name: "Github",
-      icon: "/images/Github.svg",
-      url: "https://www.github.com/pedropbazzo/",
+      name: "",
+      icon: "",
+      url: "",
     },
   ],
   contact: {
