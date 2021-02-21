@@ -178,7 +178,7 @@ Less plug-in and components
 
 <a id="cloud"></a>
 
-![]()
+![](https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/blog/hello-world/clouds.png)
 
 The top three cloud computing providers, AWS, Microsoft Azure and Google Cloud, have strengths and weaknesses that make them ideal for different use cases.
 
