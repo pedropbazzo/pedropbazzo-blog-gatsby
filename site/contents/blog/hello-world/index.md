@@ -16,6 +16,7 @@ description: Sharing News 🚀
 - [Inspiration](#)
 - [News](#)
 - [Technologies](#tech)
+  - [GraphQL vs. REST | What are the diferences?](#graphql) 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png)
 
@@ -176,7 +177,7 @@ Less plug-in and components
 
 ---
 
-<a id="tech"></a>
+<a id="graphql"></a>
 
 ## [EN-US] GraphQL vs. REST | What are the diferences?
 
