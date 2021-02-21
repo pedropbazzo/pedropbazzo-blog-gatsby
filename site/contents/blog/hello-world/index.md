@@ -309,23 +309,23 @@ The table below shows the most fundamental differences between GraphQL and REST.
 
 ---
 
-|    REST                                             |
-|-----------------------------------------------------|
-|    Mature                                           |
-|    Small and medium apps                            |
-|    Server-based architecture                        |
-|    CRUD                                             |
-|    The data is not linked to resources or methods   |
-|    Endpoints                                        |
-|    Multiple API calls with fixed data               |
-|    Big                                              |
-|    More time needed for multiple calls              |
-|    Slow performance                                 |
-|    Low                                              |
-|    No                                               |
-|    Yes                                              |
-|    Yes                                              |
-|    Best suited for complex queries                  |
+|    REST                                                  |
+|----------------------------------------------------------|
+|    Mature                                                |
+|    Small and medium apps                                 |
+|    Server-based architecture                             |
+|    CRUD                                                  |
+|    The data is not linked to resources or methods        |
+|    Endpoints                                             |
+|    Multiple API calls with fixed data                    |
+|    Big                                                   |
+|    More time needed for multiple calls                   |
+|    Slow performance                                      |
+|    Low                                                   |
+|    No                                                    |
+|    Yes                                                   |
+|    Yes                                                   |
+|    Best suited for complex queries                       |
 
 ---
 
