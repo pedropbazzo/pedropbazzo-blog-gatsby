@@ -11,7 +11,7 @@ description: Sharing News 🚀
 # Summary
 
 - [Cloud Computing](#cloud)
-- [Cyber Security](#)
+- [Cyber Security](#cyber)
 - [Ideas](#)
 - [Inspiration](#)
 - [News](#)
@@ -294,3 +294,57 @@ Each provider has features and advantages that meet specific customer needs. Whi
 From the customer's perspective, these services will also become a way to adopt a multi-cloud strategy. As an example, a customer may want to use GCP for an application that needs Spanner capabilities, while using AWS for their AI services and Azure for specific Windows workloads.
 
 The trend is to get customers to combine resources and providers to arrive with a high availability and operational capacity solution.
+
+---
+
+<a id="cyber"></a>
+
+## [EN-US] Cybersecurity Statistics, Predictions, and Solutions for 2021
+
+![]()
+
+In 2020, Cybersecurity has become more important than ever for businesses all over the world. Following various statistics published across the media, we can clearly see that no one is immune against cyber-attacks: major players investing massively in their companies’ cybersecurity, small businesses, and individuals.
+
+Covid-19 pandemic definitely left a huge impact on the overall cybersecurity situation.
+First, the global lockdown forced many companies to shift to remote work. Cybercriminals took advantage of vulnerable home networks. Many organizations encountered data breaches at the beginning of the work-from-home shift. For instance:
+80% of companies reported an increase in cyberattacks in 2020.
+
+Most of the malware was received from email (94% of cases)
+At the beginning of April 2020, Google reported it was blocking every day 18 million malware e-mails related to COVID-19.
+Between January and April 2020, the attacks on cloud services increased by 630%
+Apparently, the healthcare and financial industries were the most affected ones, as they deal with huge amounts of personal data. For instance, various researches show that:
+In 2020, 27% of all cyberattacks targeted healthcare and financial sectors.
+
+From the beginning of February to the end of April 2020, attacks against the banks rose by 238% (when COVID-19 have started spreading).
+Most of the financial institutions (82%) reported that it is more and more difficult to fight against cybercriminals, as they become more and more sophisticated.
+Even though the businesses are trying to adapt to the growing threats coming from cybercriminals, cybersecurity specialists are not optimistic at all, as their researches show that cybercriminals are changing their way of acting even more, and are not planning to slow down. Here are just some figures and predictions for 2021, presented by 
+
+Cybersecurity Ventures:
+By 2021, Cybercrime is expected to cost the world $6.1 trillion annually (more than twice compared to 2015), making it the world’s third-largest economy, after the USA and China.
+
+The cybersecurity experts predict a cyberattack incident to happen every 11 seconds in 2021 (4 times more than in 2016)
+In 2021, 1st place in the nomination “The Fastest Growing Kind Of Cyber-crime” will go to Ransomware. As the worldwide costs caused by such kind of damages will reach $20 billion (57 times more than in 2015).
+Taking into account all the mentioned statistics and predictions, it is obvious that organizations and individuals must rethink completely their cybersecurity approaches and strategies. 
+
+So what can we all do to resist the cybercrimes more effectively?
+
+Empower your Employees…with Knowledge
+It has been proved that 90% of cyber-attacks are related to human errors. Often, people take cybersecurity for granted, and most of the employees are not even aware of cyber-attack types and risks…until it is too late. Any employee, who is not well-informed about cybersecurity, can unwillingly fall victim to cyber-attacks, placing your company and clients at risk. That’s why it is crucial to educate the employees, especially today when many of them are working from home.
+So start spreading cybersecurity awareness right now: provide your employees with all the necessary information concerning cyber threats and bad consequences caused by those; organize cybersecurity training sessions and phishing experiments. Stay in control of the process: make your employees use only secure software and strong passwords, explain to them why they should get the approval of the IT department before installing any software, and why they might have limited access to some data, in some cases.
+
+Protect Proactively
+
+Preventing any damage is always better than repairing it. Cyber-criminals will constantly search the weak points in your company’s cybersecurity infrastructure, that is why you always have to be ahead of them, detecting an attack before it happens. This way of thinking will help you to reduce the damage and avoid major problems. Take all the necessary precautions to ensure your data is protected.
+
+Any Backup Plans?
+
+Researches show that many companies didn’t think about any back-up plans and tactics in the case the attackers have succeeded to steal the data.
+Again, educate your employees: everyone should be aware of his own responsibilities in all the possible scenarios
+Constantly control and monitor the entire data stored and shared inside and outside your company’s network.
+Even though the attacks on cloud storage have increased drastically, never forget to back up your entire content.
+But how to make sure that the data stored on your computers and cloud services is really protected…even if it was stolen? The answer is simple. Make it useless for the thieves!
+
+Apparently, as we have seen, following all the figures listed above, your data is ultra-protected not when it cannot be breached (because it always can), but when it cannot be read by unauthorized users.
+Today there are various new technologies that render data useless to unauthorized users and protect your data no matter where it is stored. 
+
+For example, Cybervore offers a patented breakthrough technology, which combines authentication, AES 265 encryption, and fragmentation. It is a ![cybersecurity software called Fragglestorm™](https://www.cybervore.com/fragglestorm) a secure method where data is encrypted, sliced, or split into a defined number of fragments that are replicated, and only the authorized user has access. This offers a way to significantly increase data protection and integrity, and ensure a user’s data privacy across any on-premise device and cloud storage service.
