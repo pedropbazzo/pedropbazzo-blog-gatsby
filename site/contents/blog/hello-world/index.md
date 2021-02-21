@@ -278,15 +278,15 @@ The table below shows the most fundamental differences between GraphQL and REST.
 | Architecture          |    Customer-oriented architecture                        |        Server-based architecture                        |
 | Operations            |    Mutation, query, subscription                         |        CRUD                                             |
 | Benefits              |    No overfetching                                       |        The data is not linked to resources or methods   |
-| Type of organization       |    Schema                                                |        Endpoints                                        |
+| Type of organization--|----Schema                                                |        Endpoints                                        |
 | Data fetching         |    Single API call for data fetch                        |        Multiple API calls with fixed data               |
 | Community             |    Growing                                               |        Big                                              |
 | Performance           |    Fast performance                                      |        More time needed for multiple calls              |
 | Speed                 |    Rapid development                                     |        Slow performance                                 |
 | Complexity            |    High                                                  |        Low                                              |
-| Self-documented       |    Yes                                                   |        No                                               |
+| Self-documented-------|    Yes                                                   |        No                                               |
 | Upload option         |    No                                                    |        Yes                                              |
-| Web cache option         |    Only with libraries                                   |        Yes                                              |
+| Web cache option------|----Only with libraries                                   |        Yes                                              |
 | Stability             |    Fewer errors, automatic validation and type checking  |        Best suited for complex queries                  |
 
 ---
