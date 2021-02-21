@@ -12,6 +12,13 @@ image: ./imageme2.png
 <a href="mailto:developerpedropbazzo@gmail.com"><img src="https://img.shields.io/badge/e‑mail-D14836.svg?style=for-the-badge&logo=GMail&logoColor=white"></a>
 <a href="https://github.com/pedropbazzo"><img src="https://img.shields.io/badge/github-000000.svg?style=for-the-badge&logo=github&logoColor=white"></a>
 
+<p align="center">
+  
+<a href="https://www.npmjs.com/~pedropbazzo"><img src="https://img.shields.io/badge/npm-000000.svg?style=for-the-badge&logo=npm&logoColor=white"></a>
+  <img alt="pedropbazzo" src="https://img.shields.io/badge/pedropbazzo-brightgreen">
+
+</p>
+
 ✉️ **If you want to contact me for work purposes or if you have any questions send me an email**
 
 <ul>
