@@ -371,7 +371,7 @@ Many experts recommend that companies assess their public cloud needs on a case-
 
 Pros and cons of AWS
 
-Amazon's greatest strength is its dominance of the public cloud market. In your Quadrante Mágico de Infraestrutura de Nuvem como Serviço, em todo o mundo, o Gartner observou: “A AWS é líder em participação de mercado em IaaS na nuvem há mais de 10 anos”. 
+Amazon's greatest strength is its dominance of the public cloud market. In your Magic Quadrant for Cloud Infrastructure as a Service, Worldwide, Gartner noted: “AWS has been a market share leader in cloud IaaS for over 10 years”. 
 
 ![](https://blog.saninternet.com/wp-content/uploads/2019/09/aws-services-aws-vs-azure-vs-google-hospedagem-de-sites-SAN-1024x640.png)
 
