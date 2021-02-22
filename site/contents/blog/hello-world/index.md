@@ -61,6 +61,8 @@ The big difference at the beginning of Next was the possibility of using renderi
 - 🔝 [Back to the top](#backtothetop)
 ---
 
+---
+
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--0o844t6O--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/odkb0v27gaimxvuh5qaz.png)
 
 
@@ -196,6 +198,8 @@ Less plug-in and components
 
 
 - 🔝 [Back to the top](#backtothetop)
+---
+
 ---
 
 <a id="graphql"></a>
@@ -340,6 +344,8 @@ GraphQL is a query and runtime language for application programming interfaces.
 - 🔝 [Back to the top](#backtothetop)
 ---
 
+---
+
 <a id="comparisoncloud"></a>
 
 ## [EN-US] AWS vs. Azure vs. Google: Cloud Comparison
@@ -464,6 +470,8 @@ The trend is to get customers to combine resources and providers to arrive with 
 - 🔝 [Back to the top](#backtothetop)
 ---
 
+---
+
 <a id="cyber"></a>
 
 <a id="cyber2021"></a>
@@ -524,4 +532,6 @@ https://www.cybervore.com/fragglestorm
 A secure method where data is encrypted, sliced, or split into a defined number of fragments that are replicated, and only the authorized user has access. This offers a way to significantly increase data protection and integrity, and ensure a user’s data privacy across any on-premise device and cloud storage service.
 
 - 🔝 [Back to the top](#backtothetop)
+---
+
 ---
