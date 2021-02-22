@@ -309,9 +309,6 @@ The table below shows the most fundamental differences between GraphQL and REST.
 |    Growing                                               |
 |    Fast performance                                      |
 |    Rapid development                                     |
-|    High                                                  |
-|    Yes                                                   |
-|    No                                                    |
 |    Only with libraries                                   |
 |    Fewer errors                                          |
 
@@ -326,13 +323,8 @@ The table below shows the most fundamental differences between GraphQL and REST.
 |    The data is not linked to resources or methods        |
 |    Endpoints                                             |
 |    Multiple API calls with fixed data                    |
-|    Big                                                   |
 |    More time needed for multiple calls                   |
 |    Slow performance                                      |
-|    Low                                                   |
-|    No                                                    |
-|    Yes                                                   |
-|    Yes                                                   |
 |    Best suited for complex queries                       |
 
 ---
