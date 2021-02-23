@@ -1,8 +1,13 @@
-test
 <p align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
+</p>
+<p align="center">
+    <img alt="Gatsby" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/google-seo.png" width="600" />
+</p>
+<p align="center">
+    <img alt="Gatsby" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/google-measure.png" width="600" />
 </p>
 <h1 align="center">
   Gatsby v2
