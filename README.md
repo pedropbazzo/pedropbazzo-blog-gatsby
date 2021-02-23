@@ -4,10 +4,10 @@
   </a>
 </p>
 <p align="center">
-    <img alt="Gatsby" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/google-seo.png" width="600" />
+    <img alt="Gatsby" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/google-seo.png" width="800" />
 </p>
 <p align="center">
-    <img alt="Gatsby" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/google-measure.png" width="600" />
+    <img alt="Gatsby" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/google-measure.png" width="800" />
 </p>
 <h1 align="center">
   Gatsby v2
