@@ -8,7 +8,7 @@ image: ./imageme2.png
 <p align="center">
   
   <img alt="pedropbazzo" src="https://img.shields.io/badge/pedropbazzo-brightgreen">
-  <img alt="GIF" height="160px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/basepages/about/github.gif" />
+  <img alt="GIF" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/basepages/about/github.gif" />
 
 </p> 
 
