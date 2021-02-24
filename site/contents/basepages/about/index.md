@@ -8,10 +8,11 @@ image: ./imageme2.png
 <p align="center">
   
   <img alt="pedropbazzo" src="https://img.shields.io/badge/pedropbazzo-brightgreen">
+  <img alt="GIF" height="160px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/basepages/about/github.gif" />
 
 </p> 
 
-<img align="center" alt="GIF" height="160px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/basepages/about/github.gif" />
+
 
 ### <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="60"/> Hi there, I'm Pedro Bazzo  aka Bjorn 👋
 
