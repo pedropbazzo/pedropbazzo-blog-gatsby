@@ -3313,8 +3313,7 @@ Kerridge (PDF) (email address *requested*, not required)
 
 <a id="git"></a> 
 
-# <img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/> 
- Git Tutorial With Command Line
+<img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/> Git Tutorial With Command Line
 =======================================
 This is a tutorial on git using the command line. My goal is to make this tutorial as deep as it gets within time, so this tutorial will evolve gradually within time. However, first things first, because that I believe that an ordinary developer should learn basic git concepts and what it does, when to use what, I'll focus on that at first. Later then, I want to extend this tutorial about advanced features of git.
 
