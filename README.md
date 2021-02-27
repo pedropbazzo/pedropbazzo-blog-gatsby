@@ -9,6 +9,10 @@
 <p align="center">
     <img alt="Gatsby" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/google-measure.png" width="800" />
 </p>
+<p align="center">
+    <img alt="Gatsby-Sonnar" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/sonar.png" width="800" />
+</p>
+
 <h1 align="center">
   Gatsby v2
 </h1>
