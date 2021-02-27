@@ -8,7 +8,7 @@ image: ./imageme2.png
 <p align="center">
   
   <img alt="pedropbazzo" src="https://img.shields.io/badge/pedropbazzo-brightgreen">
-
+<a href="https://pedropbazzo.github.io/online-cv/"><img src="https://img.shields.io/badge/My%20online%20curriculum-0077B5.svg"></a>
 </p> 
 
 ### <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="60"/> Hi there, I'm Pedro Bazzo  aka Bjorn 
