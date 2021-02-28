@@ -60,15 +60,22 @@ image: ./imageme2.png
 
 ## 😇 My Github Stats:
 
+
 <center>
 <table>
   <tr>
   <td><img width="440px" align="left" src="https://github-readme-stats.vercel.app/api?username=pedropbazzo&show_icons=true&theme=dracula&line_height=27" /></td>
   </td>
+
+---
+
   <td><img width="440px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedropbazzo&show_icons=true&theme=dracula&line_height=27"  /></td>
   </tr>  
 </table>
 </center>
+
+---
+
 <center>
 <table>
   <tr>
@@ -76,6 +83,9 @@ image: ./imageme2.png
   </tr>  
 </table>
 </center>
+
+---
+
 <center>
 <table>
   <tr>
