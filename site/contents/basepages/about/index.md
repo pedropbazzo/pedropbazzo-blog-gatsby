@@ -63,20 +63,16 @@ image: ./imageme2.png
 <center>
 <table>
   <tr>
-      <td><img width="440px" align="left" src="https://github-readme-stats.vercel.app/api?username=pedropbazzo&show_icons=true&theme=dracula&line_height=27" /></td>
-     </td>
-      <td><img width="440px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedropbazzo&show_icons=true&theme=dracula&line_height=27"  /></td>
+  <td><img width="440px" align="left" src="https://github-readme-stats.vercel.app/api?username=pedropbazzo&show_icons=true&theme=dracula&line_height=27" /></td>
+  </td>
+  <td><img width="440px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedropbazzo&show_icons=true&theme=dracula&line_height=27"  /></td>
+  <td><img width="880px" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pedropbazzo&&theme=dracula"/></td>
+  <td><img width="880px" align="center" src="https://activity-graph.herokuapp.com/graph?username=pedropbazzo&theme=dracula"/></td>
   </tr>  
 </table>
 </center>
 
-  ---
-  <img width="880px" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pedropbazzo&&theme=dracula"/>
-  
-  ---
-  
-  <img width="880px" align="center" src="https://activity-graph.herokuapp.com/graph?username=pedropbazzo&theme=dracula"/>
-
+---
 
 *"Nothing in this world surpasses good old persistence. Talent does not surpass. Nothing more common than talented failures. Genius does not surpass. Unrecognized geniuses are practically a cliché. Education does not surpass. Because the world is full of educated fools. Persistence and determination , just, are powerful. "* **(Clarence Floyd Nelson)**
 
