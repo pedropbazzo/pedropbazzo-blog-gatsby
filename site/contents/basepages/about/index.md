@@ -7,7 +7,7 @@ image: ./imageme2.png
  
 <p align="center">
   
-  <img alt="pedropbazzo" src="https://img.shields.io/badge/pedropbazzo-brightgreen">
+  <a href="http://pedropbazzo.com.br"><img alt="pedropbazzo" src="https://img.shields.io/badge/pedropbazzo-brightgreen"></a>
 <a href="https://pedropbazzo.github.io/online-cv/"><img src="https://img.shields.io/badge/My%20online%20curriculum-0077B5.svg"></a>
 </p> 
 
