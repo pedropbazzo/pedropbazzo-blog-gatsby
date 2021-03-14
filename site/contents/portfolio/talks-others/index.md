@@ -434,7 +434,7 @@ Application Developed for Hospital Israelita Albert Einstein - for Web platform
 
 ---
 
-## 👨‍💻 [Click to view some projects open source from my portfolio](https://github.com/pedropbazzo/)
+# 👨‍💻 [Click to view some projects open source from my portfolio](https://github.com/pedropbazzo/)
 
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
 
