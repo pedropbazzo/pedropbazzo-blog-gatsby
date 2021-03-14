@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 description: Sharing Knowledge 🌎
-date: 2021-01-01
+date: 2021-01-02
 template: portfolio
 image: ./event.png
 ---
@@ -18,6 +18,10 @@ image: ./event.png
 
 - [Open Source Community](#github)
   - [Java EE 8 Design Patterns and Best Practices](#github01) 
+
+- [Packages](#npm)
+  - [Angular Dashboard](#npm01)
+
 
 
 <a id="techtalk01">
@@ -520,6 +524,50 @@ This project is under the MIT license.
 </h3>
 
 ---
+
+---
+<a id="responsive"></a>
+## 💻  Web Responsive 📱
+
+Application Developed for Dasa - for Web Responsive platform
+
+<h3 align="center">
+    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/logo-dasa-ai.png">
+    <br>
+    <img alt="web" src="https://img.shields.io/badge/dasa.ai/v1-brightgreen">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</h3>
+
+Web Responsive| Access to the customer portal : https://dasa.ai/
+
+<h3 align="center">
+    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/responsive.png">
+    <br>
+</h3>
+
+## 🚀 Technologies Used
+
+The project was developed using the following technologies
+
+- [React JS](https://pt-br.reactjs.org/docs/getting-started.html) <br>
+- [Java](https://docs.oracle.com/en/java/) <br>
+- [Python](https://docs.python.org/3/) <br>
+- [Jenkins](https://www.jenkins.io/doc/) <br>
+- [Sonnar](https://docs.sonarqube.org/latest/) <br>
+- [Docker](https://docs.docker.com/) <br>
+- [Docker](https://docs.docker.com/) <br>
+  Were used here:<br/><br/>
+
+## License
+
+This project is under the MIT license. 
+
+## 👨‍💻  [Developed by:](https://github.com/pedropbazzo/) 
+
+<h3 align="center">
+    <img alt="Avatar" title="#pedropbazzo" width="140px" src="https://avatars.githubusercontent.com/u/32115702?s=460&u=18b6f3c1f7fb02331ad007fd21a6fdd1c2105790&v=4">
+    <br>
+</h3>
 
 <!-- # 👨‍💻 [Click to view some projects open source from my portfolio](https://github.com/pedropbazzo/)
 
