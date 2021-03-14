@@ -28,7 +28,7 @@ image: ./event.png
 
 <div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/tech-talk01.jpeg" /></a> 
 
-### [EN-US] Organizing an application with React
+### [EN-US] Organizing an application with React 
 
 ## 👩🏼‍💻 [View structure in gits](https://gist.github.com/pedropbazzo/d39a1c8f5845d5daab36a70edb8ad2e3)
 
@@ -567,6 +567,16 @@ This project is under the MIT license.
     <img alt="Avatar" title="#pedropbazzo" width="140px" src="https://avatars.githubusercontent.com/u/32115702?s=460&u=18b6f3c1f7fb02331ad007fd21a6fdd1c2105790&v=4">
     <br>
 </h3>
+
+---
+
+## 👩🏼‍💻 [Open Source Community](https://github.com/pedropbazzo/) 👨‍💻
+
+    - [Java EE 8 Design Patterns and Best Practices](https://github.com/pedropbazzo/Java-EE-8-Design-Patterns-and-Best-Practices)
+
+
+## 👩🏼‍💻 [Packages](https://www.npmjs.com/package/pedropbazzo) 👨‍💻
+
 
 <!-- # 👨‍💻 [Click to view some projects open source from my portfolio](https://github.com/pedropbazzo/)
 
