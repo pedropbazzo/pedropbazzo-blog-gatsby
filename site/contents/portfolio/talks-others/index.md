@@ -20,7 +20,7 @@ image: ./event.png
   - [Java EE 8 Design Patterns and Best Practices](#github01) 
 
 - [Packages](#npm)
-  - [Angular Dashboard](#npm01)
+  - [Angular Dashboard](#npm01)<br/><br/>
 
 
 
