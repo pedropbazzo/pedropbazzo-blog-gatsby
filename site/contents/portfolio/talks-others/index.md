@@ -572,11 +572,23 @@ This project is under the MIT license.
 
 ## 👩🏼‍💻 [Open Source Community](https://github.com/pedropbazzo/) 👨‍💻
 
+<a id="github">
+
+<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/github.jpeg" /></a> 
+
     - [Java EE 8 Design Patterns and Best Practices](https://github.com/pedropbazzo/Java-EE-8-Design-Patterns-and-Best-Practices)
 
 
 ## 👩🏼‍💻 [Packages](https://www.npmjs.com/package/pedropbazzo) 👨‍💻
 
+<a id="npm">
+
+<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/npm.png" /></a> 
+
+    - [Angular Dashboard](https://www.npmjs.com/package/pedropbazzo)
+
+
+---
 
 <!-- # 👨‍💻 [Click to view some projects open source from my portfolio](https://github.com/pedropbazzo/)
 
