@@ -448,3 +448,37 @@ Web | Access to the customer portal : https://dash-business.web.app/telemedicina
 
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
 
+## 🚀 Technologies Used
+
+The project was developed using the following technologies
+
+- [React JS](https://pt-br.reactjs.org/docs/getting-started.html) <br>
+- [Node JS](https://nodejs.org/en/docs/) <br>
+  Were used here:
+
+- [Front]
+- "@testing-library/jest-dom": "^5.11.4",
+- "@testing-library/react": "^11.1.0",
+- "@testing-library/user-event": "^12.1.10",
+- "axios": "^0.21.0",
+- "bootstrap": "^4.5.3",
+- "chart.js": "^2.9.4",
+- "multiselect-react-dropdown": "^1.6.3",
+- "npm": "5",
+- "npm5": "^5.0.0-beta.69",
+- "react": "^17.0.1",
+- "react-chartjs-2": "^2.11.1",
+- "react-csv": "^2.0.3",
+- "react-dom": "^17.0.1",
+- "react-export-excel": "^0.5.3",
+- "react-google-charts": "^3.0.15",
+- "react-icons": "^3.11.0",
+- "react-loading-skeleton": "^2.1.1",
+- "react-map-gl": "^5.2.10",
+- "react-router-dom": "^5.2.0",
+- "react-scripts": "^4.0.0",
+- "react-scroll": "^1.8.1",
+- "react-select": "^3.2.0",
+- "reactstrap": "^8.7.1",
+- "styled-components": "^5.2.1",
+- "web-vitals": "^0.2.4"
