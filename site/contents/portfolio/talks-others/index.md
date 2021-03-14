@@ -555,8 +555,7 @@ The project was developed using the following technologies
 - [Jenkins](https://www.jenkins.io/doc/) <br>
 - [Sonnar](https://docs.sonarqube.org/latest/) <br>
 - [Docker](https://docs.docker.com/) <br>
-- [Fortify](https://community.microfocus.com/t5/Fortify-Product-Documentation/ct-p/fortify-product-documentation) <br>
-  Were used here:<br/><br/>
+- [Fortify](https://community.microfocus.com/t5/Fortify-Product-Documentation/ct-p/fortify-product-documentation) <br><br/>
 
 ## License
 
