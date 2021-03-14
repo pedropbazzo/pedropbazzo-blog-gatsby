@@ -289,11 +289,11 @@ they know what a "view" is supposed to be.
 
 </p></center>
 
-# Índice
+# Index
 
-- [Sobre](#sobre)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Como Usar](#como-usar)
+- [On](#sobre)
+- [Technology Used](#tecnologias-utilizadas)
+- [How to use](#como-usar)
 
 <a id="sobre"></a>
 
