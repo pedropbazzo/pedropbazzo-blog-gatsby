@@ -274,7 +274,7 @@ they know what a "view" is supposed to be.
 
 ## Some projects in my Portfolio
 
-## 📱 
+## 📱 Mobile
 
 Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
 
@@ -318,7 +318,7 @@ A club for those who love skin care. Here you win <strong>year-round discounts</
 
 <a id="tecnologias-utilizadas"></a>
 
-## :rocket: Tecnologias Utilizadas
+## 🚀 Technologies Used
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
