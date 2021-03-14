@@ -285,13 +285,13 @@ added benefit that there's no such thing as an "MSC" yet, so the word
 they know what a "view" is supposed to be.
 
 ---
-<a id="portfolio">
-# <center>Portfolio</center></a>
+<a id="portfolio"></a>
+# <center>Portfolio</center>
 
 ## Some projects in my Portfolio
-<a id="mobile">
+<a id="mobile"></a>
 ## 📱 Mobile
-</a>
+
 
 Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
 
@@ -439,9 +439,8 @@ This project is under the MIT license.
 </h3>
 
 ---
-<a id="web">
+<a id="web"></a>
 ## 💻 Web
-</a>
 
 Application Developed for Hospital Israelita Albert Einstein - for Web platform
 
@@ -509,6 +508,16 @@ The project was developed using the following technologies
 - API - Heroku - Azure
 - Front - Vercel - Azure
 
+## License
+
+This project is under the MIT license. 
+
+## 👨‍💻  [Developed by:](https://github.com/pedropbazzo/) 
+
+<h3 align="center">
+    <img alt="Avatar" title="#pedropbazzo" width="140px" src="https://avatars.githubusercontent.com/u/32115702?s=460&u=18b6f3c1f7fb02331ad007fd21a6fdd1c2105790&v=4">
+    <br>
+</h3>
 
 ---
 
