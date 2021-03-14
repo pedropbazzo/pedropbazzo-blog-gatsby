@@ -20,15 +20,15 @@ image: ./event.png
   - [Java EE 8 Design Patterns and Best Practices](#github01) 
 
 - [Packages](#npm)
-  - [Angular Dashboard](#npm01)<br/><br/>
+  - [Angular Dashboard](#npm01)<br/><br/><br/>
+<br/>
 
 
-
-<a id="techtalk01">
-
-<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/tech-talk01.jpeg" /></a> 
+<a id="techtalk01"></a> 
 
 ### [EN-US] Organizing an application with React 
+
+<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/tech-talk01.jpeg" />
 
 ## 👩🏼‍💻 [View structure in gits](https://gist.github.com/pedropbazzo/d39a1c8f5845d5daab36a70edb8ad2e3)
 
