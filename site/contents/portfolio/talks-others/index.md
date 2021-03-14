@@ -8,6 +8,8 @@ image: ./event.png
 
 # 📚 Summary
 
+<a id="backtothetop"></a>
+
 - [Tech Talk](#techtalk01)
   - [Organizing an application with React](#techtalk01) 
 
@@ -585,12 +587,13 @@ This project is under the MIT license.
 
 <div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/npm.png" /></a> 
 
- - [Angular Dashboard](https://www.npmjs.com/package/pedropbazzo)<br/><br/>
+ - [Angular Dashboard](https://www.npmjs.com/package/pedropbazzo)<br/><br/><br/>
+
+- 🔝 [Back to the top](#backtothetop)
+---
 
 
 ---
 
-<!-- # 👨‍💻 [Click to view some projects open source from my portfolio](https://github.com/pedropbazzo/)
 
-<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div> -->
 
