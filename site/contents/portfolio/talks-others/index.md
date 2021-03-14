@@ -448,9 +448,9 @@ The project was developed using the following technologies
 
 - [React JS](https://pt-br.reactjs.org/docs/getting-started.html) <br>
 - [Node JS](https://nodejs.org/en/docs/) <br>
-  Were used here:
+  Were used here:<br/><br/>
 
-- [Front]<br/><br/>
+- [Front]
 - "@testing-library/jest-dom": "^5.11.4",
 - "@testing-library/react": "^11.1.0",
 - "@testing-library/user-event": "^12.1.10",
@@ -475,9 +475,9 @@ The project was developed using the following technologies
 - "react-select": "^3.2.0",
 - "reactstrap": "^8.7.1",
 - "styled-components": "^5.2.1",
-- "web-vitals": "^0.2.4" <br/>
+- "web-vitals": "^0.2.4" <br/><br/>
 
-- [Back]<br/><br/>
+- [Back]
 - "cors": "^2.8.5",
 - "express": "^4.17.1",
 - "knex": "^0.21.12",
@@ -485,9 +485,9 @@ The project was developed using the following technologies
 - "mysql2": "^2.2.5",
 - "npm5": "^5.0.0-beta.69",
 - "request": "^2.88.2",
-- "xlsx": "^0.16.9"
+- "xlsx": "^0.16.9"<br/><br/>
 
-- [Deploy]<br/><br/>
+- [Deploy]
 - API - Heroku - Azure
 - Front - Vercel - Azure
 
