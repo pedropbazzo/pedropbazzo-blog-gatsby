@@ -419,8 +419,8 @@ The project was developed using the following technologies
 
 - ### **Requirements**
 
-  - It is ** necessary ** to have ** [Node.js] (https://nodejs.org/en/) ** installed on the machine
-  - Also, it is ** necessary ** to have a package manager either ** [NPM] (https://www.npmjs.com/) ** or ** [Yarn] (https://yarnpkg.com/) **.
+  - It is necessary to have [Node.js] (https://nodejs.org/en/) installed on the machine
+  - Also, it is necessary to have a package manager either [NPM] (https://www.npmjs.com/) or [Yarn] (https://yarnpkg.com/)
 
 1. Running the Application:
 
