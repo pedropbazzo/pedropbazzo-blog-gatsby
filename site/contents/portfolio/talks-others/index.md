@@ -538,7 +538,7 @@ Application Developed for Dasa - for Web Responsive platform
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </h3>
 
-Web Responsive| Access to the customer portal : https://dasa.ai/
+Web Responsive | Access to the customer portal : https://dasa.ai/
 
 <h3 align="center">
     <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/responsive.png">
