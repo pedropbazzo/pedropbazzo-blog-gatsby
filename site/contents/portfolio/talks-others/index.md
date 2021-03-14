@@ -280,7 +280,6 @@ Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
 
 <h3 align="center">
     <img alt="Logo" title="#logo" width="400px" src="https://www.dermaclub.com.br/assets/images/logo.png">
-    <br><br>
     <br>
     <img alt="GitHub language count" src="https://img.shields.io/badge/dermaclub/v1-brightgreen">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
@@ -295,9 +294,9 @@ Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
 
 <a id="sobre"></a>
 
-## :bookmark: Sobre
+## 📚 On
 
-O <strong>Dermaclub</strong> é uma aplicação Mobile desenvolvida para trazer mais uma opção ao cliente da Loreal.<br><br>
+<strong>Dermaclub</strong>is a mobile application developed to bring another option to Loreal's customer<br><br>
 Um clube para quem ama cuidar da pele. Aqui você ganha <strong>descontos o ano todo</strong> e as suas compras valem pontos para trocar por produtos das marcas participantes.
 <br><br>
 
