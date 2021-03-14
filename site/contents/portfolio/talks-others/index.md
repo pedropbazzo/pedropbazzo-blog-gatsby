@@ -442,12 +442,6 @@ Web | Access to the customer portal : https://dash-business.web.app/telemedicina
     <br>
 </h3>
 
----
-
-# 👨‍💻 [Click to view some projects open source from my portfolio](https://github.com/pedropbazzo/)
-
-<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>
-
 ## 🚀 Technologies Used
 
 The project was developed using the following technologies
@@ -482,3 +476,10 @@ The project was developed using the following technologies
 - "reactstrap": "^8.7.1",
 - "styled-components": "^5.2.1",
 - "web-vitals": "^0.2.4"
+
+---
+
+<!-- # 👨‍💻 [Click to view some projects open source from my portfolio](https://github.com/pedropbazzo/)
+
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div> -->
+
