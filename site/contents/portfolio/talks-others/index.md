@@ -287,6 +287,10 @@ Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
 
 Mobile First | Access to the customer portal : https://www.dermaclub.com.br/
 
+<h3 align="center">
+    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/dermaclub.jpeg">
+    <br>
+</h3>
 
 # Index
 
