@@ -418,7 +418,6 @@ This project is under the MIT license.
 
 <h3 align="center">
     <img alt="Avatar" title="#pedropbazzo" width="140px" src="https://avatars.githubusercontent.com/u/32115702?s=460&u=18b6f3c1f7fb02331ad007fd21a6fdd1c2105790&v=4">
-    <br><br>
     <br>
 </h3>
 
