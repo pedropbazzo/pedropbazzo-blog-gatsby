@@ -406,7 +406,7 @@ The project was developed using the following technologies
 
 ## License
 
-This project is under the MIT license. See the [LICENSE] file (LICENSE.md) for more details.
+This project is under the MIT license. 
 
 ## 👨‍💻  [Developed by:](https://github.com/pedropbazzo/) 
 
