@@ -450,7 +450,7 @@ The project was developed using the following technologies
 - [Node JS](https://nodejs.org/en/docs/) <br>
   Were used here:
 
-- [Front]
+- [Front]<br/><br/>
 - "@testing-library/jest-dom": "^5.11.4",
 - "@testing-library/react": "^11.1.0",
 - "@testing-library/user-event": "^12.1.10",
@@ -475,9 +475,9 @@ The project was developed using the following technologies
 - "react-select": "^3.2.0",
 - "reactstrap": "^8.7.1",
 - "styled-components": "^5.2.1",
-- "web-vitals": "^0.2.4" <br/><br/>
+- "web-vitals": "^0.2.4" <br/>
 
-- [Back]
+- [Back]<br/><br/>
 - "cors": "^2.8.5",
 - "express": "^4.17.1",
 - "knex": "^0.21.12",
@@ -487,7 +487,7 @@ The project was developed using the following technologies
 - "request": "^2.88.2",
 - "xlsx": "^0.16.9"
 
-- [Deploy]
+- [Deploy]<br/><br/>
 - API - Heroku - Azure
 - Front - Vercel - Azure
 
