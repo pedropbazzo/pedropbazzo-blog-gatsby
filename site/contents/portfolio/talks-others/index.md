@@ -490,6 +490,8 @@ The project was developed using the following technologies
 - [Deploy]
 - API - Heroku - Azure
 - Front - Vercel - Azure
+
+
 ---
 
 <!-- # 👨‍💻 [Click to view some projects open source from my portfolio](https://github.com/pedropbazzo/)
