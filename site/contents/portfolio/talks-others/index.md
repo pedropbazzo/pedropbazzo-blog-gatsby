@@ -17,7 +17,7 @@ image: ./event.png
   - [Web Responsive](#responsive)
 
 - [Open Source Community](#github)
-  - [](#github) 
+  - [Java EE 8 Design Patterns and Best Practices](#github01) 
 
 
 <a id="techtalk01">
@@ -290,7 +290,8 @@ they know what a "view" is supposed to be.
 
 ## Some projects in my Portfolio
 <a id="mobile">
-## 📱 Mobile</a>
+## 📱 Mobile
+</a>
 
 Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
 
@@ -439,7 +440,8 @@ This project is under the MIT license.
 
 ---
 <a id="web">
-## 💻 Web</a>
+## 💻 Web
+</a>
 
 Application Developed for Hospital Israelita Albert Einstein - for Web platform
 
