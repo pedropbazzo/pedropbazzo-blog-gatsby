@@ -274,7 +274,9 @@ they know what a "view" is supposed to be.
 
 ## Some projects in my Portfolio
 
-## 📱 Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
+## 📱 
+
+Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
 
 <h3 align="center">
     <img alt="Logo" title="#logo" width="400px" src="https://www.dermaclub.com.br/assets/images/logo.png">
