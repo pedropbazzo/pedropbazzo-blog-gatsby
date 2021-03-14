@@ -282,12 +282,12 @@ they know what a "view" is supposed to be.
     <br>
 </h3>
 
-<p align="center">
+<center><p>
   <img alt="GitHub language count" src="https://img.shields.io/badge/dermaclub/v1-brightgreen">
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 
-</p>
+</p></center>
 
 # Índice
 
