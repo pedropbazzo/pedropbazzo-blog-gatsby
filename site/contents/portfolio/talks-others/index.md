@@ -285,6 +285,8 @@ Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </h3>
 
+Mobile First | Access to the customer portal : https://www.dermaclub.com.br/
+
 
 # Index
 
