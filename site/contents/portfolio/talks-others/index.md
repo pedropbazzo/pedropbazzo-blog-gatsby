@@ -301,7 +301,7 @@ Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
 A club for those who love skin care. Here you win <strong>year-round discounts</strong>and your purchases are worth points to exchange for products from participating brands.
 <br><br>
 
-<h3>Aqui você encontra as marcas mais recomendadas pelos dermatologistas</h3>
+<h3>Here you can find the brands most recommended by dermatologists</h3>
 
 <br>
 
