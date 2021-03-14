@@ -6,7 +6,7 @@ template: portfolio
 image: ./event.png
 ---
 
-<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/event-dasa.png" />
+<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/tech-talk01.jpeg" />
 
 ### [EN-US] Organizing an application with React
 
