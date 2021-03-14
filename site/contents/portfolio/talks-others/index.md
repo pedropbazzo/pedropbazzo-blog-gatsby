@@ -320,7 +320,7 @@ A club for those who love skin care. Here you win <strong>year-round discounts</
 
 ## 🚀 Technologies Used
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias
+The project was developed using the following technologies
 
 - [React Native](https://reactnative.dev/) <br>
   Foram utilizado aqui:
