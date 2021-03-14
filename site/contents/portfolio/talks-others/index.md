@@ -386,27 +386,27 @@ The project was developed using the following technologies
 
 <a id="como-usar"></a>
 
-## :fire: Como usar
+## 🔥 How to use
 
-- ### **Pré-requisitos**
+- ### **Requirements**
 
-  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
-  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+  - It is ** necessary ** to have ** [Node.js] (https://nodejs.org/en/) ** installed on the machine
+  - Also, it is ** necessary ** to have a package manager either ** [NPM] (https://www.npmjs.com/) ** or ** [Yarn] (https://yarnpkg.com/) **.
 
-1. Executando a Aplicação:
+1. Running the Application:
 
 ```sh
-  # Instale as dependências
+  # Install the dependencies
   $ npm install
 
-  # Inicie a aplicação mobile
+  # Launch the mobile application
   $ cd loreal.digital.aplicativo
   $ npm start
 ```
 
-## :memo: License
+## License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under the MIT license. See the [LICENSE] file (LICENSE.md) for more details.
 
 ## 👨‍💻  [Developed by:](https://github.com/pedropbazzo/) 
 
