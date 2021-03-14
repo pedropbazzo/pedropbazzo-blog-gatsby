@@ -269,9 +269,11 @@ added benefit that there's no such thing as an "MSC" yet, so the word
 they know what a "view" is supposed to be.
 
 ---
-## Portfolio
 
-# Some projects in my Portfolio
+# Portfolio
+
+## Some projects in my Portfolio
+
 ---
 
 ## 👨‍💻 [Click to view some projects open source from my portfolio](https://github.com/pedropbazzo/)
