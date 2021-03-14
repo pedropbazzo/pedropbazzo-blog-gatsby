@@ -475,7 +475,7 @@ The project was developed using the following technologies
 - "react-select": "^3.2.0",
 - "reactstrap": "^8.7.1",
 - "styled-components": "^5.2.1",
-- "web-vitals": "^0.2.4" <br>
+- "web-vitals": "^0.2.4" <br/><br/>
 
 - [Back]
 - "cors": "^2.8.5",
