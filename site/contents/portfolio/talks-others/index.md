@@ -323,7 +323,7 @@ A club for those who love skin care. Here you win <strong>year-round discounts</
 The project was developed using the following technologies
 
 - [React Native](https://reactnative.dev/) <br>
-  Foram utilizado aqui:
+  Were used here:
 
   - @babel/runtime;
   - @expo/vector-icons;
