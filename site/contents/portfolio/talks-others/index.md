@@ -1,12 +1,28 @@
 ---
-title: Tech Talk
+title: Portfolio
 description: Sharing Knowledge 🌎
 date: 2020-11-12
 template: portfolio
 image: ./event.png
 ---
 
-<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/tech-talk01.jpeg" />
+# 📚 Summary
+
+- [Tech Talk](#techtalk01)
+  - [Organizing an application with React](#techtalk01) 
+
+- [Portfolio](#portfolio)
+  - [Mobile](#mobile)
+  - [Web](#web) 
+  - [Web Responsive](#responsive)
+
+- [Open Source Community](#github)
+  - [](#github) 
+
+
+<a id="techtalk01">
+
+<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/tech-talk01.jpeg" /></a> 
 
 ### [EN-US] Organizing an application with React
 
@@ -269,12 +285,12 @@ added benefit that there's no such thing as an "MSC" yet, so the word
 they know what a "view" is supposed to be.
 
 ---
-
-# <center>Portfolio</center>
+<a id="portfolio">
+# <center>Portfolio</center></a>
 
 ## Some projects in my Portfolio
-
-## 📱 Mobile
+<a id="mobile">
+## 📱 Mobile</a>
 
 Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
 
@@ -294,13 +310,13 @@ Mobile First | Access to the customer portal : https://www.dermaclub.com.br/
 
 # Index
 
-- [On](#sobre)
+- [Summary](#sobre)
 - [Technology Used](#tecnologias-utilizadas)
 - [How to use](#como-usar)
 
 <a id="sobre"></a>
 
-## 📚 On
+## 📚 Summary
 
 <strong>Dermaclub</strong>is a mobile application developed to bring another option to Loreal's customer<br><br>
 
