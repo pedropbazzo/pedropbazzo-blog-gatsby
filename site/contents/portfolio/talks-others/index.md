@@ -297,7 +297,8 @@ Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
 ## 📚 On
 
 <strong>Dermaclub</strong>is a mobile application developed to bring another option to Loreal's customer<br><br>
-Um clube para quem ama cuidar da pele. Aqui você ganha <strong>descontos o ano todo</strong> e as suas compras valem pontos para trocar por produtos das marcas participantes.
+
+A club for those who love skin care. Here you win <strong>year-round discounts</strong>and your purchases are worth points to exchange for products from participating brands.
 <br><br>
 
 <h3>Aqui você encontra as marcas mais recomendadas pelos dermatologistas</h3>
