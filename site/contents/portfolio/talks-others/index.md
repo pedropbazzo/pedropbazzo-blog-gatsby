@@ -280,14 +280,10 @@ they know what a "view" is supposed to be.
     <img alt="Logo" title="#logo" width="400px" src="https://www.dermaclub.com.br/assets/images/logo.png">
     <br><br>
     <br>
+    <img alt="GitHub language count" src="https://img.shields.io/badge/dermaclub/v1-brightgreen">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </h3>
 
-<center><p>
-  <img alt="GitHub language count" src="https://img.shields.io/badge/dermaclub/v1-brightgreen">
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-
-</p></center>
 
 # Index
 
