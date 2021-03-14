@@ -425,7 +425,7 @@ This project is under the MIT license.
 Application Developed for Hospital Israelita Albert Einstein - for Web platform
 
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="400px" src="https://www.einstein.br/Style%20Library/components/newHome/img/logoEinstenWhite.png">
+    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/einstein1.png">
     <br>
     <img alt="web" src="https://img.shields.io/badge/web/dash/v1-brightgreen">
     <img alt="api" src="https://img.shields.io/badge/api/v1-brightgreen">
