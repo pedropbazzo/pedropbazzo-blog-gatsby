@@ -270,7 +270,7 @@ they know what a "view" is supposed to be.
 
 ---
 
-# Portfolio
+# <center>Portfolio</center>
 
 ## Some projects in my Portfolio
 
