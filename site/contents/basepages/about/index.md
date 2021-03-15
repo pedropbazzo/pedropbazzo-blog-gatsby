@@ -57,7 +57,7 @@ image: ./imageme2.png
 <img src="https://img.shields.io/badge/kotlin%20-bf40bf.svg?&style=for-the-badge&logo=kotlin&logoColor=white"/>
 <img src="https://img.shields.io/badge/swift%20-e68a19.svg?&style=for-the-badge&logo=swift&logoColor=white"/>
 <img src="https://img.shields.io/badge/android-greem.svg?&style=for-the-badge&logo=android&logoColor=white"/>
-<img src="https://img.shields.io/badge/electron%20-808080.svg?&style=for-the-badge&logo=electron&logoColor=white"/> 
+<img src="https://img.shields.io/badge/electron%20-808080.svg?&style=for-the-badge&logo=electron&logoColor=white"/>
 </p>
 
 ## 😇 My Github Stats:
