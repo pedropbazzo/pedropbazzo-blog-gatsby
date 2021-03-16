@@ -32,7 +32,7 @@ image: ./event.png
 
 <div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/tech-talk01.jpeg" />
 
-## 👩🏼‍💻 [View structure in gits](https://gist.github.com/pedropbazzo/d39a1c8f5845d5daab36a70edb8ad2e3)
+## 👩🏼‍💻 [View structure in gist](https://gist.github.com/pedropbazzo/d39a1c8f5845d5daab36a70edb8ad2e3)
 
 Folder Structure
 ================
