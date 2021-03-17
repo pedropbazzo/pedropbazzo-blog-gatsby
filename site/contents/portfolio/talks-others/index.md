@@ -598,7 +598,7 @@ This project is under the MIT license.
 
 [Team Dasa Inova](https://dasa.com.br/inovacao/inteligencia-artificial)
 </h3>    
-<h3 align="center"><img alt="Dasai" title="#dasai" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/Taking_i%CC%81cone_logo.png">
+<h3 align="center"><img alt="Dasai" title="#dasai" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/logo-dasa-ai.png">
     <br>
 </h3>
 
