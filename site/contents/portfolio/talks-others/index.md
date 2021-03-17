@@ -446,15 +446,15 @@ This project is under the MIT license.
 <h3 align="center"><img alt="Avatar" title="#pedropbazzo" width="140px" src="https://avatars.githubusercontent.com/u/32115702?s=460&u=18b6f3c1f7fb02331ad007fd21a6fdd1c2105790&v=4">
     <br>
 </h3>
-
 <h3 align="center">
-  
-  [![Team Taking Consulting](https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/Taking_i%CC%81cone_logo.png)]
+
+[Team Taking Consulting](https://www.instagram.com/pedropbazzo/)
+</h3>    
+<h3 align="center"><img alt="Taking" title="#taking" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/Taking_i%CC%81cone_logo.png">
+    <br>
 </h3>
 
 
-
----
 <a id="web"></a>
 ## 💻 Web
 
