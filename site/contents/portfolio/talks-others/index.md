@@ -449,11 +449,12 @@ This project is under the MIT license.
 
 <h3 align="center">
   
-[Team Taking Consulting](https://www.taking.com.br/)
+[@TeamTaking](https://www.taking.com.br/)
 </h3>
 <h3 align="center"><img alt="Avatar" title="#pedropbazzo" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/Taking_i%CC%81cone_logo.png">
     <br>
 </h3>
+
 
 ---
 <a id="web"></a>
