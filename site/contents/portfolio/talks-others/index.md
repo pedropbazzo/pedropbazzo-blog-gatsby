@@ -530,7 +530,10 @@ This project is under the MIT license.
     <br>
 </h3>
 
-<h3 align="center">Team Taking Consulting – [@taking]</h3>
+<h3 align="center">
+  
+[@taking](https://www.taking.com.br/) - Team Taking Consulting 
+</h3>
 <h3 align="center"><img alt="Avatar" title="#pedropbazzo" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/Taking_i%CC%81cone_logo.png">
     <br>
 </h3>
