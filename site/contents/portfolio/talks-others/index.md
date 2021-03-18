@@ -550,7 +550,7 @@ This project is under the MIT license.
 
 
 <a id="responsive"></a>
-## 💻  Web Responsive 📱
+## 💻   Web Responsive 📱
 
 Application Developed for Dasa - for Web Responsive platform
 
