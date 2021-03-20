@@ -469,7 +469,7 @@ Application Developed for Hospital Israelita Albert Einstein - for Web platform
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </h3>
 
-Web | Access to the customer portal : https://dash-business.web.app/telemedicina
+Web | Access to the customer portal : https://dash-business.vercel.app/telemedicina
 
 <h3 align="center">
     <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/dash-einstein.jpeg">
