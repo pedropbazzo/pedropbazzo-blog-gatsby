@@ -23,11 +23,10 @@ image: ./imageme2.png
 ✉️ **If you want to contact me for work purposes or if you have any questions send me an email**
 
 <ul>
-  <li>💻 I'm a Javascript Developer from <b>São Paulo, <img src="https://image.flaticon.com/icons/svg/197/197386.svg" width="13"/> Brasil</b></li>
-  <li>💾 I'm working with React Native, ReactJS, Angular, Java, NodeJS, Vanilla JS, PHP and Git</li>
-  <li>😍 Passionate about education and problem solution through programming</li>
-  <li>😊 Willing to contribute in opensource development projects</li>
-  <li>🤝 Open for collaborations in Javascript Stack</li>
+  <li>💻  I'm Developer from <b>São Paulo <img src="https://image.flaticon.com/icons/svg/197/197386.svg" width="13"/> Brasil</b></li>
+  <li>💾  I'm working with Typescript, Angular, Angular Mobile, Android, Java, JSP, NodeJS, AWS and Git</li>
+  <li>😍  Passionate about education and problem solution through programming</li>
+  <li>🤝  Willing to contribute in opensource development projects</li>
 </ul>
 
 
