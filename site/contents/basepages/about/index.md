@@ -7,11 +7,15 @@ image: ./imageme2.png
  
 <p align="center">
   
-  [![Medium Badge](https://img.shields.io/badge/-Medium-000000?style=flatsquare&labelColor=000000&logo=medium&logoColor=white&link=https://pedropbazzo.medium.com/)](https://pedropbazzo.medium.com/)
-  <a href="http://pedropbazzo.com.br"><img src="https://img.shields.io/badge/pedropbazzo-brightgreen"></a>
-  [![Blog](https://img.shields.io/badge/Blog-black)](https://pedropbazzo.blog)
-  <a href="https://pedropbazzo.github.io/online-cv/"><img src="https://img.shields.io/badge/My%20online%20curriculum-0077B5.svg"></a>
-  [![GitHub Gist Badge](https://img.shields.io/badge/GitHub_Gist-black)](https://gist.github.com/pedropbazzo)
+[![Medium Badge](https://img.shields.io/badge/-Medium-000000?style=flatsquare&labelColor=000000&logo=medium&logoColor=white&link=https://pedropbazzo.medium.com/)](https://pedropbazzo.medium.com/)
+  
+<a href="http://pedropbazzo.com.br"><img src="https://img.shields.io/badge/pedropbazzo-brightgreen"></a>
+  
+[![Blog](https://img.shields.io/badge/Blog-black)](https://pedropbazzo.blog)
+
+<a href="https://pedropbazzo.github.io/online-cv/"><img src="https://img.shields.io/badge/My%20online%20curriculum-0077B5.svg"></a>
+  
+[![GitHub Gist Badge](https://img.shields.io/badge/GitHub_Gist-black)](https://gist.github.com/pedropbazzo)
   
   </p>
 
