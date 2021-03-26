@@ -78,8 +78,9 @@ image: ./imageme2.png
 </table>
 </center>
 <center>
- <tr>
-  <td><<img width="440px" align="center" src="https://activity-graph.herokuapp.com/graph?username=pedropbazzo&theme=dracula"/></td></tr></center></br>
+<tr>
+<td><img width="440px" align="center" src="https://activity-graph.herokuapp.com/graph?username=pedropbazzo&theme=dracula"/></td></tr></center></br>
+  
   
 ---
 
