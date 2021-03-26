@@ -76,7 +76,7 @@ image: ./imageme2.png
  <tr><td><img width="440px" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pedropbazzo&&theme=dracula"/></td>
  </tr>  
 </table>
-</center>
+</center></br>
 <center>
 <tr>
 <td><img width="440px" align="center" src="https://activity-graph.herokuapp.com/graph?username=pedropbazzo&theme=dracula"/></td></tr></center></br>
