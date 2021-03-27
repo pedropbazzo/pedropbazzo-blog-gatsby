@@ -472,7 +472,7 @@ Application Developed for Hospital Israelita Albert Einstein - for Web platform
 Web | Access to the customer portal : https://dash-business.vercel.app/telemedicina
 
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/print/dash-einstein.jpeg">
+    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/dash-einstein.jpeg">
     <br>
 </h3>
 
