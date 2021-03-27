@@ -311,7 +311,7 @@ Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
 Mobile First | Access to the customer portal : https://www.dermaclub.com.br/
 
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/dermaclub.jpeg">
+    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/print/mobile.jpeg">
     <br>
 </h3>
 
