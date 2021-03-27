@@ -564,7 +564,7 @@ Application Developed for Dasa - for Web Responsive platform
 Web Responsive | Access to the customer portal : https://dasa.ai/
 
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/print/responsive.png">
+    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/responsive.png">
     <br>
 </h3>
 
@@ -598,7 +598,7 @@ This project is under the MIT license.
 
 [Team Dasa Inova](https://dasa.com.br/inovacao/inteligencia-artificial)
 </h3>    
-<h3 align="center"><img alt="Dasai" title="#dasai" width="200px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/print/logo-dasa-ai.png">
+<h3 align="center"><img alt="Dasai" title="#dasai" width="200px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/logo-dasa-ai.png">
     <br>
 </h3>
 
