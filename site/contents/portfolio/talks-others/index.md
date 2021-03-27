@@ -611,7 +611,7 @@ This project is under the MIT license.
 
 <a id="github">
 
-<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/print/github.jpeg" /></a> 
+<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/github.jpeg" /></a> 
 
 <a id="github01"></a>
 
@@ -622,7 +622,7 @@ This project is under the MIT license.
 
 <a id="npm">
 
-<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/print/npm.png" /></a> 
+<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/npm.png" /></a> 
 
  - [Angular Dashboard](https://www.npmjs.com/package/pedropbazzo)<br/><br/><br/>
 <a id="npm01"></a>
