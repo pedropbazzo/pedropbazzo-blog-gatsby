@@ -306,6 +306,7 @@ Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
     <br>
     <img alt="GitHub language count" src="https://img.shields.io/badge/dermaclub/v1-brightgreen">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+    <img src="https://github.com/Shpota/github-activity-generator/workflows/build/badge.svg">
 </h3>
 
 Mobile First | Access to the customer portal : https://www.dermaclub.com.br/
@@ -452,6 +453,7 @@ This project is under the MIT license.
 [Team Taking Consulting](https://www.taking.com.br/)
 </h3>    
 <h3 align="center"><img alt="Taking" title="#taking" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/Taking_i%CC%81cone_logo.png">
+<img src="https://github.com/Shpota/github-activity-generator/workflows/build/badge.svg">
     <br>
 </h3>
 
@@ -559,6 +561,7 @@ Application Developed for Dasa - for Web Responsive platform
     <br>
     <img alt="web" src="https://img.shields.io/badge/dasa.ai/v1-brightgreen">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+    <img src="https://github.com/Shpota/github-activity-generator/workflows/build/badge.svg">
 </h3>
 
 Web Responsive | Access to the customer portal : https://dasa.ai/
