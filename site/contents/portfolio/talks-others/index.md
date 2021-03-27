@@ -555,7 +555,7 @@ This project is under the MIT license.
 Application Developed for Dasa - for Web Responsive platform
 
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/logo-dasa-ai.png">
+    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/print/logo-dasa-ai.png">
     <br>
     <img alt="web" src="https://img.shields.io/badge/dasa.ai/v1-brightgreen">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
@@ -564,7 +564,7 @@ Application Developed for Dasa - for Web Responsive platform
 Web Responsive | Access to the customer portal : https://dasa.ai/
 
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/responsive.png">
+    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/print/responsive.png">
     <br>
 </h3>
 
@@ -598,7 +598,7 @@ This project is under the MIT license.
 
 [Team Dasa Inova](https://dasa.com.br/inovacao/inteligencia-artificial)
 </h3>    
-<h3 align="center"><img alt="Dasai" title="#dasai" width="200px" src="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/logo-dasa-ai.png">
+<h3 align="center"><img alt="Dasai" title="#dasai" width="200px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/print/logo-dasa-ai.png">
     <br>
 </h3>
 
@@ -608,7 +608,7 @@ This project is under the MIT license.
 
 <a id="github">
 
-<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/github.jpeg" /></a> 
+<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/print/github.jpeg" /></a> 
 
 <a id="github01"></a>
 
@@ -619,7 +619,7 @@ This project is under the MIT license.
 
 <a id="npm">
 
-<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/dermaclub/master/Downloads/npm.png" /></a> 
+<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/print/npm.png" /></a> 
 
  - [Angular Dashboard](https://www.npmjs.com/package/pedropbazzo)<br/><br/><br/>
 <a id="npm01"></a>
