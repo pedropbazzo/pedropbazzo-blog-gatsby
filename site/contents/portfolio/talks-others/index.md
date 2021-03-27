@@ -309,7 +309,7 @@ Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
     <img src="https://github.com/Shpota/github-activity-generator/workflows/build/badge.svg">
 </h3>
 
-Mobile First | Access to the customer portal : https://www.dermaclub.com.br/
+Mobile First | Access to the customer portal : https://loja.dermaclub.com.br/
 
 <h3 align="center">
     <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/mobile.jpeg">
