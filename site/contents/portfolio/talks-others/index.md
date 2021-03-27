@@ -311,7 +311,7 @@ Application developed for Lóreal Paris - Dermaclub for Android and IOS platform
 Mobile First | Access to the customer portal : https://www.dermaclub.com.br/
 
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/print/mobile.jpeg">
+    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/mobile.jpeg">
     <br>
 </h3>
 
@@ -555,7 +555,7 @@ This project is under the MIT license.
 Application Developed for Dasa - for Web Responsive platform
 
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/print/logo-dasa-ai.png">
+    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/logo-dasa-ai.png">
     <br>
     <img alt="web" src="https://img.shields.io/badge/dasa.ai/v1-brightgreen">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
