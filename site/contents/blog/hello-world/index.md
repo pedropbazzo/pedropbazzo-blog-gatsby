@@ -30,6 +30,9 @@ description: Sharing News 🚀
 - [Ebook for Programmers](#)
   - [Programming](#ebook)
 
+- [MIT specialization in software engineering with Java](#)
+  - [Requirements Engineering](#requirementsEngineering)  
+
 
 <a id="nextjs"></a> 
 
@@ -4609,6 +4612,107 @@ Let's learn it by making practice again;
 - 🔝 [Back to the top](#backtothetop)
 ---
 
+<a id="requirementsEngineering"></a> 
+
+## Requirements Engineering
+
+
+Requirements are the basis for every project, defining what the stakeholders of a new system need and also what the system must do to satisfy their needs. The requirements guide the project's activities and are usually expressed in natural language so that everyone can gain an understanding.
+
+In addition to the requirements defining the problems and solutions, we must also define the risks and provide satisfactory solutions in case these risks fail. Thus, the requirements define the basis for:
+
+Project Planning
+
+Risk management
+
+Acceptance Tests
+
+Change Control
+
+The requirements are so important that they usually have a major impact on the failures of software projects. Below we highlight the three main problems for failures in software projects:
+
+Requirements: poorly organized requirements, very poorly expressed, probably reported to stakeholders, very rapid or unnecessary changes, unrealistic expectations.
+Resource Problem Management: inability to have enough money and lack of support or failure to enforce discipline and planning. Many of them arise from the lack of requirements control.
+Policies: Contributes to the first and second problems.
+The most interesting thing is that all these problems can be solved with little money.
+
+Thus, we can say that requirements engineering is a process that encompasses all activities that contribute to the production of a requirements document and its maintenance over time.
+
+Throughout the article we will see more what is requirements engineering, how does the requirements engineering process take place and what are its main activities.
+
+## 1. Requirements Engineering Process
+
+Therefore, requirements engineering is the process by which the requirements of a software product are collected, analyzed, documented and managed throughout the software life cycle.
+
+Once we understand what requirements engineering is, we can start to know how the requirements engineering process works. Paralleling the software development process, there is a software process that involves several activities that can be classified into: Development Activities where we have activities that contribute to the development of the software product such as survey and requirements analysis, design and implementation; Management activities that involve planning and managerial monitoring of the project; and Quality Control Activities that are related to the evaluation of product quality.
+
+In general, requirements play a fundamental role in software development. Software requirements are one of the main measures of software success, given that if they meet the objectives and requirements for which the software was built and are fully in line with customer needs. Requirements are the basis for estimates, modeling, design, implementation, testing and even maintenance. Thus, the requirements are present throughout the entire software life cycle.
+
+At the beginning of a project, we have to raise the requirements, understand them and document them. As the requirements are extremely important for the success of a project, we must also carry out quality control activities to verify, validate and guarantee the quality of the requirements. Another key measure is to manage the evolution of requirements, since business is dynamic and we cannot guarantee that these requirements will not change. Thus, we must maintain traceability between the requirements and the other artifacts produced in the project.
+
+Therefore, we can see that the requirements involve development activities through the Survey and Analysis and Documentation of Requirements, management through the Requirements Management and finally the quality control through the Verification, Validation and Quality Assurance of Requirements. All of these activities that are related to requirements is the Requirements Engineering Process.
+
+In the rest of the article we will see a little more what each of these activities that are part of the requirements engineering process are.
+
+## 2. Survey of Requirements
+
+This is the initial phase of the requirements engineering process. This activity takes into account the needs of users and customers, domain information, existing systems in the organization, current regulations, laws, etc.
+
+The objective in this phase is to understand the organization as a whole, its processes, needs, possibilities for improvement and existing restrictions. Thus, we are concerned with discovering the requirements.
+
+This phase is quite complex and also requires us to obtain information from interested parties, consult documents, obtain knowledge of the domain and study the business of the organization.
+
+In the requirements survey, we must pay attention to four understandings that we must have: Understanding the Application Domain, in which it is understood, in a general way, the area in which the system will be applied; Understanding the Problem where we understand the details of the specific problem to be solved with the help of the system to be developed; Understanding of the Business where we understand how the system will affect the organization and how it will contribute to the achievement of the business objectives and the general objectives of the organization; and finally, the Understanding of Stakeholder Needs and Restrictions, where the demands for support for the work of each of the stakeholders in the system are understood, the work processes to be supported by the system and the role of any existing systems in the execution and conduction of work processes.
+
+For the requirements survey we have several useful techniques that can be used to help the survey of these requirements, they are: interviews, questionnaires, observation of the environment and individuals in their daily tasks in the organization, analysis of existing documents in the organization, interaction scenario between the end user and the system where the user can simulate his interaction with the system explaining to the analyst what he is doing and what information he needs to perform the task, prototyping where a preliminary version of the system, often not operational and disposable, it is presented to the user to capture specific information about their information requirements, observation reactions, group dynamics, and several other techniques that can also be employed.
+
+## 3. Requirements Analysis
+
+After the Requirements Gathering activity, the Requirements Analysis activity begins, which is where the requirements raised are used as the basis for modeling the system.
+
+The requirements are typically written in natural language, however, it is useful to express more detailed system requirements in a more technical way through different types of models that can be used. These models are graphical representations that describe business processes, the problem to be solved and the system to be developed. Graphical representations are much more understandable than detailed descriptions in natural language and are therefore used.
+
+Thus, analysis is a modeling activity. It is worth mentioning that this modeling is conceptual, as we are concerned with mastering the problem and not with technical solutions. Therefore, the analysis models are developed in order to obtain a greater understanding of the system to be developed and to specify it.
+
+In the requirements analysis, two main perspectives are sought, the first of which is the structural one, in which one seeks to model the concepts, properties and relations of the domain that are considered relevant to the system under development. The second perspective is the behavioral one, in which one seeks to model the general behavior of the system, of one of its functionalities or of an entity.
+
+The UML diagrams provide support for all the diagrams needed in this analysis phase.
+
+## 4. Requirements Documentation
+
+The requirements and models captured in the Requirements Gathering and Requirements Analysis steps must be described and presented in documents. Documentation is an activity of recording and officializing the results of requirements engineering. As a result, one or more documents must be produced.
+
+This written documentation in a good way has several benefits such as ease in communicating requirements, reduction in development effort, provides a realistic basis for estimates, a good basis for verification and validation, among other benefits.
+
+The documentation produced also has several stakeholders who use the documentation for different purposes. Customers, Users and Domain Specialists work in specifying, evaluating and changing requirements. Customer managers use the documentation to plan a proposal for the system and to plan and monitor the development process. Developers use the documentation to understand the system and the relationship between its parts. Testers use the documentation to design test cases.
+
+The Requirements Document must contain a description of the purpose of the system, a brief description of the problem domain and lists of functional, non-functional requirements and business rules, all described in natural language. Developers, customers, users and managers use this document. Another document that can be produced is the Requirements Specification Document, which must contain the requirements written from the developer's perspective, including a direct correspondence with the requirements in the Requirements Document. The models produced in the previous phase must be within this requirements specification document.
+
+## 5. Verification, Validation and Quality Assurance of Requirements
+
+This phase should be started as soon as possible in the software development process. Requirements are the basis for development, so it is essential that they are carefully evaluated. Therefore, documents produced during the previous phase must be subjected to requirements verification and validation.
+
+The difference between verification and validation is that verification ensures that the software is being built correctly. In turn, validation ensures that the software being developed is the correct software. Therefore, verification ensures that the artifacts produced meet the requirements and validation ensures that the requirements and the software that was derived from those requirements meet the proposed use.
+
+## 6. Requirements Management
+Changes in requirements occur throughout the software process, from requirements gathering to system operation during production. This is due to the discovery of errors, omissions, conflicts, inconsistency in requirements, better understanding of users about their needs, technical problems, changes in customer priorities, changes in business, competitors, economic changes, changes in the software environment, changes organizational, etc.
+
+To minimize the problems caused by these changes, it is necessary to manage requirements. The Requirements Management Process involves activities that help the team to identify, control and track requirements and manage changes in requirements at any time throughout the software lifecycle.
+
+Therefore, the objectives of the process are to manage changes to the agreed requirements, manage relationships between requirements, manage dependencies between requirements and other documents produced during the software process. Thus, requirements management has the following activities: change control, version control, monitoring the status of requirements and tracking requirements.
+
+Defining an appropriate process for an organization is very important and has several benefits, as a good description of a process provides guidance and reduces the likelihood of errors or oversights. The most important thing is to know that there is no ideal process, so adapting a process to internal needs is always the best choice instead of imposing a process on the organization.
+
+Validation involves the participation of the user and the customer, as only they are able to confirm that the requirements meet the purposes of the system.
+
+In this phase, the requirements documents are examined to ensure that all requirements have been unambiguously declared, that inconsistencies, conflicts, omissions and errors have been detected and corrected, that the documents are in accordance with established standards, that the requirements really satisfy the needs of customers and users.
+
+Therefore, the requirements must be complete, correct, consistent, realistic, necessary, capable of being prioritized, verifiable and traceable.
+
+## Bibliography - PRESSMAN, Roger, Software Engineering, McGraw-Hill, 6th edition, 2006.
+
+
+- 🔝 [Back to the top](#backtothetop)
 ---
 
 
