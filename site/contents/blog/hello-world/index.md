@@ -30,7 +30,7 @@ description: Sharing News 🚀
 - [Ebook for Programmers](#)
   - [Programming](#ebook)
 
-- [MIT specialization in software engineering with Java](#)
+- [MIT specialization in Software Engineering with Java](#)
   - [Requirements Engineering](#requirementsEngineering)  
 
 
