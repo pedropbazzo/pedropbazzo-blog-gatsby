@@ -5184,6 +5184,749 @@ public class Order {
 }
 ```
 
+Listing 4. Passe.java: Class that represents the Passe entity in the model.
+
+```
+@Entity
+@Table(name="passe")
+@SequenceGenerator(name="seq_passe", sequenceName="passe_id_seq")
+public class Passe {
+
+  @Id
+  @GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seq_passe")
+  @Column(name="id")
+  private long id;
+  @Column(name="codigo")
+  private String codigo;
+  @Column(name="ativo")
+  private boolean ativo;
+  @Column(name="meia_entrada")
+  private boolean meiaEntrada;
+  public static final double PRECO = 190;
+
+  public Passe(){
+    this.ativo = true;
+  }
+
+  // getters & setters
+}
+```
+
+Listing 5. Client.java: Class that represents the Client entity in the model.
+
+```
+@Entity
+@Table(name="cliente")
+@SequenceGenerator(name="seq_cliente", sequenceName="cliente_id_seq", initialValue=1, allocationSize=1)
+public class Cliente {
+
+  @Id
+  @GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seq_cliente")
+  @Column(name="id")
+  private long id;
+  @Column(name="nome")
+  private String nome;
+  @Column(name="cpf")
+  private String cpf;
+  @Column(name="email")
+  private String email;
+  @Column(name="telefone")
+  private String telefone;
+  @Embedded
+  private Endereco endereco;
+
+  public Cliente() {
+    this.endereco = new Endereco();
+  }
+
+  // getters & setters
+}
+```
+Listing 6. Address.java: Class that represents the value object Address in the model.
+
+```
+@Embeddable
+public class Address {
+
+   @Column (name = "street")
+   private String street;
+   @Column (name = "number")
+   private int number;
+   @Column (name = "add-on")
+   private String complement;
+   @Column (name = "state")
+   private String state;
+   @Column (name = "city")
+   private String city;
+   @Column (name = "neighborhood")
+   private String neighborhood;
+   @Column (name = "zip")
+   private String cep;
+
+   public Address () {
+   }
+
+   // getters & setters
+}
+```
+
+```
+Listing 7. CartaoDeCredito.java: Class that represents the CartaoDeCredito value object in the model.
+
+@Embeddable
+public class CartaoDeCredito {
+
+   @Column (name = "card_number")
+   private String number;
+   @Column (name = "mes_cartao")
+   private int mes;
+   @Column (name = "ano_cartao")
+   private int ano;
+   @Column (name = "bandeira_cartao")
+   private String flag;
+
+   // getters & setters
+}
+```
+
+Some ENTITIES keep business rules in their behavior. This is the case of Order (see Listing 3), which is responsible for calculating the total price using the calculaTotal method (double shipping) and generating the customer's passes through the generPasses method (int qtdInteiras, int qtdMeias). Passes are generated in this way, as we are respecting the AGGREGATE Order frontier (see Figure 1). Such rules can be refined, using unit tests, using the TDD (Test-Driven Development) technique. For this, the TestPedido class was created (see Listing 8) and the JUnit library was used.
+
+"The TestPedido class was created as a JUnit Test Case. Thus, we can use JUnit's annotations to run the class as a test case. TDD is a very important tool for developing ‘inside-out’ software, as we work directly on the model layer, creating and refining business rules."
+
+Listing 8. TestPedido.java: JUnit Test Case that groups unit tests related to the Order entity.
+
+```
+public class TestePedido {
+
+   @Test
+   public void can I add passwords to order () {
+
+     Order order = new Order ();
+
+     // arrow order passes
+     request.geraPasses (3, 1);
+
+     Assert.assertEquals (4, request.getPasses (). Size ());
+
+     for (Pass to: request.getPasses ()) {
+       System.out.println (p.getCodigo ());
+     }
+   }
+
+   @Test
+   public void canCheckRequestValid () {
+
+     Order order = new Order ();
+     request.geraPasses (3, 2);
+
+     Assert.assertTrue (new ValidSpecification (). AnsweredBy (request));
+   }
+
+   @Test
+   public void canCalculateTotal () {
+
+     double freight = ServicoDeCalculoDoFrete.calculaFrete ("12345-007");
+
+     Order order = new Order ();
+
+     // arrow order passes
+     request.geraPasses (3, 1);
+
+     double totalCalculado = order.Total calculation (freight);
+     double totalExpected = 677.07;
+
+     // total expected R $ 677.07
+     Assert.assertEquals (totalExpected, totalCalculated, 0);
+     System.out.println (request.getPrecoTotal ());
+   }
+}
+```
+
+There are also business rules that do not fit naturally into the behavior of an ENTITY or a VALUE OBJECT. They can distort the basic meaning of an object in the domain, when the responsibility for treating them is delegated to them. For example, debiting the value of a purchase, on a credit card.
+
+Moving them out of the model layer can be even worse, since the code for the domain is now expressed outside the model. In this case, as a way to model these rules, one can make use of a SPECIFICATION or a SERVICE (SERVICE).
+
+In all types of applications, simple rules are handled with Boolean testing methods. In our example, we can verify this behavior in methods of the type somePass.isHalfEntry () or somePass.isActive (). However, these rules are not always so simple. While they belong to the model layer, they do not fit the behavior of the object being tested. To meet these cases, we can use the SPECIFICATION pattern.
+
+A SPECIFICATION has the function of testing objects to verify that they meet a certain criterion. The basic and simplest format for a specification is:
+
+
+```
+public interface Specification <T> {
+
+   public boolean servicedBy (T obj);
+
+}
+```
+
+When implementing this interface, a specification can answer whether an object meets the requirements defined by domain experts. Our ValidValidationSpecification (see Listing 9) was created with the aim of verifying whether an order has a maximum of five passes and a maximum of one half-price. In practice, it receives an object of the Order type through the method served by (Order Order), which checks whether the number of associated passes meets the quantity requirements, defined through constants in the class.
+
+The customer, when placing an order, must inform their zip code to calculate shipping and credit card details, to pay for the purchase. These operations depend on resources external to the model. Creating a direct interface between objects in the domain and these resources is inadequate. Therefore, we can use the SERVICE pattern, to encapsulate these operations.
+
+Our system has two services, which are: ServicoDePagamento (see Listing 10) and ServicoDeCalculoDoFrete (see Listing 11). They act as FACADES for services outside the application. Their methods provide an interface with postal systems and credit card operators
+
+"The classes of service in this example have been simplified, as it is not part of the purpose of this article to show how communication is done with postal systems and credit card operators. They were created with the intention of showing how to fit such operations into the model."
+
+Listing 9. SpecificacaoDePedidoValido.java: Specification that tests if an object of type Order is valid.
+
+```
+public class ValidOrder Specification implements <Order> Specification {
+
+   // maximum number of passes per order
+   private static final int QTDMAX = 5;
+   // maximum number of socks per order
+   private static final int MAXMEIAS = 1;
+
+   public ValidOrder Specification () {
+
+   }
+
+   public boolean servicedBy (Request Request) {
+
+     if (request.getPasses (). size ()> QTDMAX) {
+       return false;
+     } else {
+       int totalDeSocksOrdder = 0;
+       for (Pass to: request.getPasses ()) {
+         if (p.isMeiaEntrada ()) {
+           totalOrderSocks ++;
+         }
+       }
+       if (orderOverview> MAXMEIAS) {
+         return false;
+       }
+     }
+     return true;
+   }
+}
+```
+
+Listing 10. ServicoDePagamento.java: Service that encapsulates communication with credit card operator systems.
+
+```
+public class ServicoDePagamento {
+
+  private ServicoDePagamento(){
+  }
+
+  public static boolean realizaDebito(String numeroCartao, double valor){
+    return true;
+  }
+
+}
+```
+
+Listing 11. ServicoDeCalculoDoFrete.java: Service that encapsulates communication with postal systems.
+
+```
+public class ServicoDeCalculoDoFrete {
+
+  public enum CampoEndereco{RUA, ESTADO, CIDADE, BAIRRO}
+
+  private ServicoDeCalculoDoFrete(){
+  }
+
+  public static double calculaFrete(String cep){
+    return 12.07;
+  }
+
+  public static Map<CampoEndereco, String> recuperaEndereco(String cep){
+
+    Map<CampoEndereco, String> endereco = new HashMap<CampoEndereco, String>();
+    endereco.put(CampoEndereco.RUA, "Rua de Lugar Nenhum");
+    endereco.put(CampoEndereco.ESTADO, "RJ");
+    endereco.put(CampoEndereco.CIDADE, "Rio de Janeiro");
+    endereco.put(CampoEndereco.BAIRRO, "Bairro Qualquer");
+
+    return endereco;
+  }
+}
+```
+
+We saw, earlier, how to represent ENTITIES and AGGREGATES. With these elements defined in the domain model, we need a mechanism that provides us with references and persistence services for them.
+
+The REPOSITORY pattern (see the box “Repository and the life cycle of an object”) offers a simple model for this purpose. Its interface provides methods that encapsulate the storage, retrieval of objects and collections.
+
+Therefore, our application has a REPOSITORY of objects of the Order type (according to Listing 12), responsible for storing the orders placed by customers, in the database.
+
+Note that the RepositorioDePedidos class is annotated with @Stateless. This annotation, which is part of the EJB specification, transforms our class into a Session Bean and allows us to use dependency injection (@PersistenceContext) in order to delegate transaction control to the container. This makes the job of making operations and queries on the database, through the EntityManager interface, less verbose, simpler and more efficient (review Listing 12).
+
+"REPOSITORIES and SPECIFICATIONS mix seamlessly. We could use this combination to validate that a customer has already requested the number of passes allowed on previous purchases. To reduce the amount of code in the example, we ignore the Customer lifecycle, so that, whenever an order is placed, a new Customer object is persisted. It is interesting that you explore this scenario on your own. "
+
+After using the techniques and patterns presented, we finally have a model expressed in a cohesive manner, with its rules implemented and supported by the TDD (see Listings 3 to 12 and Listing 14). We can then move on to the outermost layers of the application. This does not mean that the work on the model is ready. As previously mentioned, new ideas that improve the design can emerge and bring us closer and closer to an ideal model. Despite this, we are sure that we will work around a domain model that meets the needs raised so far, and most importantly, with its rules tested.
+
+## Repository and the life cycle of an object
+To manage the life cycle of an object, we need a reference to it. We can get it by simply creating a new object with a new operator, for example. From there, we can define its state. Often, it is interesting to persist this state for future operations. Therefore, another way to obtain references to an object is to recover its persisted state.
+
+The REPOSITORY pattern offers a model for encapsulating persistence and object recovery operations. It represents all objects of a given type as a conceptual (emulated) set. That is, the repository creates the illusion that you are working with a collection of objects of a type, in memory. The customer has the impression that he is adding, removing or retrieving objects, directly from this collection.
+
+In practice, its interface offers CRUD operations (Create, Retrieve, Update and Delete). It makes details about the persistence mechanism transparent, such as the creation of SQL queries, for those who use it.
+
+Using the technologies mentioned in this article, we can create the following basic interface for a repository:
+
+```
+@Local
+public interface MeuRepositorioLocal<T> {
+
+  public void adicionar(T obj);
+  public void remover(T obj);
+  public void alterar(T obj);
+  public T buscarPorId(int id);
+  public List<T> buscarTodos();
+
+}
+```
+
+And implement it as follows:
+
+```
+@Stateless
+public class MeuRepositorio implements MeuRepositorioLocal <MeuObjeto> {
+
+   @PersistenceContext
+   private EntityManager in;
+
+   public void add (MyObject obj) {
+      em.persist (obj);
+   }
+
+   public void remover (MyObject obj) {
+     em.remove (em.merge (obj));
+
+   }
+
+   public void change (MyObject obj) {
+     em.merge (obj);
+   }
+
+   public MyObject BuscarPorId (int id) {
+     MeuObjeto obj = em.find (MeuObjeto.class, id);
+     return obj;
+   }
+
+   public List <MyObject> fetchAll () {
+     Query query = em.createQuery ("SELECT o FROM MyObject o");
+     return query.getResultList ();
+   }
+}
+```
+
+Working outside the model
+
+With the domain model in place, it's time to move on to the application and presentation layer, which are the outermost layers of the system. They are represented by the JavaServer Faces (JSF) framework in our project.
+
+The first thing we are going to do is create the controller class RequestController (as per Listing 13). Controller classes are responsible for directing the actions performed by the user in the view layer, into the model layer. Because they do not represent the domain, they must not contain business rules.
+
+The OrderController class was annotated with @ManagedBean. In this way, its life cycle is managed by the container and we can use dependency injection to inject a RepositorioDePedidosLocal Session Bean, through the RepositorioDePedidosLocal interface (see Listing 14), with the annotation @EJB. The @SessionScope annotation is used to define the scope of the life cycle of the object of the controlling class, which in this case is session.
+
+The methods of the controller class, which are part of the application layer, will be called directly from the presentation layer and will pave the way into the model layer, through its interface.
+
+The advantage of using annotations (@ManagedBean and @SessionScope) in control classes is that there is no need to use the faces-config.xml file to define settings.
+
+Listing 12. RepositorioDePedidos.java: Repository that provides and stores objects of type Order.
+
+```
+@Stateless
+public class RepositorioDePedidos implements RepositorioDePedidosLocal {
+
+   @PersistenceContext
+   private EntityManager in;
+
+   // allows adding a request to the repository
+   public void add (Request order) {
+     em.persist (order);
+   }
+}
+```
+
+Listing 13. OrdersController.java: Controller class responsible for opening the way for the model layer, from the presentation.
+
+```
+@ManagedBean
+@SessionScoped
+public class RequestController {
+
+  @EJB
+  private RepositorioDePedidosLocal repositorio;
+
+  private Client client;
+  private Request order;
+  private int qtdInteiras;
+  private int qtdMeias;
+  private String msg;
+
+  // prepare the environment with an order instance
+  public String preparPedido () {
+
+    this.cliente = new Client ();
+    this.pedido = new Order (this.cliente);
+    this.msg = null;
+
+    return "order";
+  }
+
+  // calculates the total order after the user enters quantities and zip code
+  public String calculaTotal () {
+
+    request.geraPasses (this.qtdInteiras, this.qtdMeias);
+
+    System.out.println (this.qtdInteiras);
+    System.out.println (this.qtdSocks);
+
+    // validates requested quantities
+    if (! new ValidOrder Specification (). servicedBy (request)) {
+      this.msg = "<h3 style = 'color: red;'> Sorry! You can order a maximum of 5 passes (half a ticket). </h3> <hr>";
+      return "order";
+    }
+
+    // retrieves address by zip code informed
+    Map <CampoEndereco, String> address = ServicoDeCalculoDoFrete.recuperaEndereco (this.cliente.getCep ());
+    cliente.setStreet (address.get (CampoEndereco.RUA));
+    cliente.setEstado (address.get (CampoEndereco.ESTADO));
+    cliente.setCidade (address.get (CampoEndereco.CIDADE));
+    cliente.setBairros (address.get (CampoEndereco.BAIRRO));
+
+    // calculates total order
+    double freight = ServicoDeCalculoDoFrete.calculaFrete (this.cliente.getCep ());
+    order.Total calculation (freight);
+
+    return "PersonalData";
+  }
+
+  // redirects to payment screen
+  public String effectPayment () {
+    return "payment";
+  }
+
+  // finishes the purchase process. Debit the card and save the order.
+  public String finalizaCompra () {
+
+    // debits the purchase on the informed card
+    ServicoDePagamento.realizaDebito (this.pedido.getNumeroCartao (), this.pedido.getPrecoTotal ());
+
+    // data persists
+    this.repositorio.adar (this.pedido);
+
+    return "sucess";
+  }
+
+  // getters & setters
+}
+```
+Listing 14. RepositorioDePedidosLocal.java: Interface used to inject a local Session Bean.
+
+```
+@Local
+public interface RepositorioDePedidosLocal {
+
+   public void add (Requested request);
+}
+```
+330 / 5000
+Resultados de tradução
+The user interface is made up of JSP files. The main JavaServer Pages that form the presentation layer of the project, are shown in Listings 15, 16, 17 and 18.
+
+This layer makes use of the JavaServer Faces taglibs and EL to communicate with the application layer, which contains the controller classes. 
+
+# The JSPs were presented in the listings in order of execution. For reasons of code simplification, form validations have been omitted at the application layer.
+
+Listing 15. index.jsp: System home page.
+
+```
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://java.sun.com/jsf/core" prefix="f" %>
+<%@taglib uri="http://java.sun.com/jsf/html" prefix="h" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Java in Rio</title>
+  </head>
+  <body>
+    <h1 align="center">Bem vindo ao Java in Rio!</h1>
+    <hr>
+    <f:view>
+      <h:form>
+        <div align="center"><h:commandButton value="Pré-Venda!" action="#{pedidoController.preparaPedido}"></h:commandButton></div>
+      </h:form>
+    </f:view>
+  </body>
+</html>
+```
+
+Listing 16. Ordem.jsp: Page that allows you to choose the number of passes you want.
+
+``` 
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://java.sun.com/jsf/core" prefix="f" %>
+<%@taglib uri="http://java.sun.com/jsf/html" prefix="h" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Java in Rio</title>
+  </head>
+  <body>
+    <h1>Pré-Venda!</h1>
+    <hr>
+    <f:view>
+      <h:outputText value="#{pedidoController.msg}" escape="false" rendered="#{not empty pedidoController.msg}"></h:outputText>
+      <h:form>
+        <h3>Selecione a quantidade de passes desejada:</h3>
+        <table width="300">
+          <tr>
+            <td><h:outputText value="Inteira: "></h:outputText></td>
+            <td align="right">
+              <h:selectOneMenu value="#{pedidoController.qtdInteiras}">
+                <f:selectItem itemLabel="0" itemValue="0" />
+                <f:selectItem itemLabel="1" itemValue="1" />
+                <f:selectItem itemLabel="2" itemValue="2" />
+                <f:selectItem itemLabel="3" itemValue="3" />
+                <f:selectItem itemLabel="4" itemValue="4" />
+                <f:selectItem itemLabel="5" itemValue="5" />
+              </h:selectOneMenu>
+            </td>
+          </tr>
+          <tr>
+            <td><h:outputText value="Meia Entrada: "></h:outputText></td>
+            <td align="right">
+              <h:selectOneMenu value="#{pedidoController.qtdMeias}">
+                <f:selectItem itemLabel="0" itemValue="0" />
+                <f:selectItem itemLabel="1" itemValue="1" />
+              </h:selectOneMenu>
+            </td>
+          </tr>
+        </table>
+        <hr>
+        <h3>Informe o cep:</h3>
+        <h:inputText value="#{pedidoController.cliente.cep}"></h:inputText><h:commandButton value="Calcular Preço" action="#{pedidoController.calculaTotal}"></h:commandButton>
+      </h:form>
+    </f:view>
+  </body>
+</html>
+```
+
+Listing 17. data_pessoais.jsp: Page where the user can enter his personal data and delivery address.
+
+```
+<% @ page language = "java" contentType = "text / html; charset = ISO-8859-1"
+    pageEncoding = "ISO-8859-1"%>
+<% @ taglib uri = "http://java.sun.com/jsf/core" prefix = "f"%>
+<% @ taglib uri = "http://java.sun.com/jsf/html" prefix = "h"%>
+<! DOCTYPE html PUBLIC "- // W3C // DTD HTML 4.01 Transitional // EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv = "Content-Type" content = "text / html; charset = ISO-8859-1">
+    <title> Personal Data </title>
+  </head>
+  <body>
+    <f: view>
+      <h1> Pre-order! </h1>
+      <hr>
+      <h3> Order Summary: </h3>
+      <table width = "300">
+        <tr>
+          <td> Integers: </td>
+          <td> <h: outputText value = "# {orderController.order.Quantity Of Integers}"> </ h: outputText> </td>
+        </tr>
+        <tr>
+          <td> Socks: </td>
+          <td> <h: outputText value = "# {requestController.order.sock Quantity}"> </ h: outputText> </td>
+        </tr>
+      </table>
+      <hr>
+      <div> FREIGHT: <h: outputText value = "# {requestController.pedido.frete}"> </ h: outputText> </div>
+      <div> TOTAL: <h: outputText value = "# {requestController.pedido.precoTotal}"> </ h: outputText> </div>
+      <hr>
+      <h: form>
+        <h3> Enter your details: </h3>
+        <table>
+          <tr>
+            <td> Full Name: </td>
+            <td> <h: inputText value = "# {requestController.cliente.name}"> </ h: inputText> </td>
+          </tr>
+          <tr>
+            <td> CPF: </td>
+            <td> <h: inputText value = "# {requestController.cliente.cpf}"> </ h: inputText> </td>
+          </tr>
+          <tr>
+            <td> Email: </td>
+            <td> <h: inputText value = "# {requestController.cliente.email}"> </ h: inputText> </td>
+          </tr>
+          <tr>
+            <td> Telephone: </td>
+            <td> <h: inputText value = "# {requestController.client.telephone}"> </ h: inputText> </td>
+          </tr>
+          <tr>
+            <td> Street: </td>
+            <td> <h: outputText value = "# {requestController.cliente.rua}" /> </td>
+          </tr>
+          <tr>
+            <td> Number: </td>
+            <td> <h: inputText value = "# {requestController.cliente.numero}"> </ h: inputText> </td>
+          </tr>
+          <tr>
+            <td> Complement: </td>
+            <td> <h: inputText value = "# {requestController.cliente.complemento}"> </ h: inputText> </td>
+          </tr>
+          <tr>
+            <td> State: </td>
+            <td> <h: outputText value = "# {requestController.cliente.state}" /> </td>
+          </tr>
+          <tr>
+            <td> City: </td>
+            <td> <h: outputText value = "# {requestController.cliente.city}" /> </td>
+          </tr>
+          <tr>
+            <td> Neighborhood: </td>
+            <td> <h: outputText value = "# {requestController.cliente.b Bairro}" /> </td>
+          </tr>
+          <tr>
+            <td> CEP: </td>
+            <td> <h: outputText value = "# {requestController.cliente.cep}" /> </td>
+          </tr>
+        </table>
+        <hr>
+        <h: commandButton value = "Proceed to payment" action = "# {orderController.effectPayment}"> </ h: commandButton>
+      </ h: form>
+    </ f: view>
+  </body>
+</html> 
+```
+
+Listing 18. payment.jsp: Page where the user informs the data of a credit card and completes the purchase.
+
+```
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://java.sun.com/jsf/core" prefix="f" %>
+<%@taglib uri="http://java.sun.com/jsf/html" prefix="h" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Pagamento</title>
+  </head>
+  <body>
+    <h1>Pré-Venda!</h1>
+    <hr>
+    <f:view>
+      <h:form>
+        <h3>Informe os dados do cartão de crédito:</h3>
+        <table width="300">
+          <tr>
+            <td>Numero do Cartão: </td>
+            <td align="right"><h:inputText value="#{pedidoController.pedido.numeroCartao}"></h:inputText> </td>
+          </tr>
+          <tr>
+            <td>Validade (mês/ano): </td>
+            <td align="right"><h:inputText value="#{pedidoController.pedido.mesCartao}" style="width: 30px;" maxlength="2"></h:inputText> / <h:inputText value="#{pedidoController.pedido.anoCartao}" style="width: 30px;" maxlength="2"></h:inputText> </td>
+          </tr>
+          <tr>
+            <td>Bandeira</td>
+            <td align="right">
+              <h:selectOneMenu value="#{pedidoController.pedido.bandeiraCartao}">
+                <f:selectItem itemLabel="AMEX" itemValue="AMEX" />
+                <f:selectItem itemLabel="MASTERCARD" itemValue="MASTERCARD" />
+                <f:selectItem itemLabel="VISA" itemValue="VISA" />
+              </h:selectOneMenu>
+            </td>
+          </tr>
+        </table>
+        <hr>
+        <h3>Resumo do Pedido:</h3>
+        <table width="300">
+          <tr>
+            <td>Inteiras: </td>
+            <td><h:outputText value="#{pedidoController.pedido.quantidadeDeInteiras}"></h:outputText> </td>
+          </tr>
+          <tr>
+            <td>Meias: </td>
+            <td><h:outputText value="#{pedidoController.pedido.quantidadeDeMeias}"></h:outputText></td>
+          </tr>
+        </table>
+        <hr>
+        <div>FRETE: <h:outputText value="#{pedidoController.pedido.frete}"></h:outputText> </div>
+        <div>TOTAL: <h:outputText value="#{pedidoController.pedido.precoTotal}"></h:outputText> </div>
+        <hr>
+        <h3>Dados Pessoais:</h3>
+        <table>
+          <tr>
+            <td>Nome Completo: </td>
+            <td><h:outputText value="#{pedidoController.cliente.nome}"/> </td>
+          </tr>
+          <tr>
+            <td>CPF: </td>
+            <td><h:outputText value="#{pedidoController.cliente.cpf}"/> </td>
+          </tr>
+          <tr>
+            <td>Email: </td>
+            <td><h:outputText value="#{pedidoController.cliente.email}"/> </td>
+          </tr>
+          <tr>
+            <td>Telefone: </td>
+            <td><h:outputText value="#{pedidoController.cliente.email}"/> </td>
+          </tr>
+          <tr>
+            <td>Rua: </td>
+            <td><h:outputText value="#{pedidoController.cliente.rua}"/> </td>
+          </tr>
+          <tr>
+            <td>Número: </td>
+            <td><h:outputText value="#{pedidoController.cliente.numero}"/> </td>
+          </tr>
+          <tr>
+            <td>Complemento: </td>
+            <td><h:outputText value="#{pedidoController.cliente.complemento}"/> </td>
+          </tr>
+          <tr>
+            <td>Estado: </td>
+            <td><h:outputText value="#{pedidoController.cliente.estado}"/> </td>
+          </tr>
+          <tr>
+            <td>Cidade: </td>
+            <td><h:outputText value="#{pedidoController.cliente.cidade}"/> </td>
+          </tr>
+          <tr>
+            <td>Bairro: </td>
+            <td><h:outputText value="#{pedidoController.cliente.bairro}"/> </td>
+          </tr>
+          <tr>
+            <td>CEP: </td>
+            <td><h:outputText value="#{pedidoController.cliente.cep}"/> </td>
+          </tr>
+        </table>
+        <hr>
+        <h:commandButton value="Finalizar Compra" action="#{pedidoController.finalizaCompra}"></h:commandButton>
+      </h:form>
+    </f:view>
+  </body>
+</html>
+```
+
+## Conclusions
+
+This article sought to show the use of the technique presented by Eric Evans, in a practical way, focusing more on the design of the application than on the explanation of concepts, supporting technologies and frameworks.
+
+The simple fact of using an object-oriented language, such as Java, in a software project, does not guarantee that the project team is aligned with the paradigm. Object orientation is much more linked to design decisions than the language used.
+
+The great benefits of object orientation appear in the medium and long term, mainly during the maintenance phase of a system, where most of the design time is spent.
+
+DDD helps the development team to follow, in fact, the object-oriented paradigm, in addition to allowing the creation of a rich domain model. In this way, the maintenance of the final product, as well as the addition of improvements and new features, will be facilitated. Thanks to the clarity between business and implementation, based on the effective and efficient use of object orientation.
+
+
+## References
+
+http://domaindrivendesign.org/
+DDD community.
+
+http://www.infoq.com/minibooks/domain-driven-design-quickly
+InfoQ DDD book.
+
+https://www.devmedia.com.br/java-e-domain-driven-design-na-pratica-java-magazine-87/19019
+Devmedia. 
 
 
 - 🔝 [Back to the top](#backtothetop)
