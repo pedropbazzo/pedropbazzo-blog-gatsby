@@ -4716,6 +4716,8 @@ Therefore, the requirements must be complete, correct, consistent, realistic, ne
 - 🔝 [Back to the top](#backtothetop)
 ---
 
+<a id="ServiceOrientedArchitecture(SOA)"></a> 
+
 ## Service-oriented architecture (SOA)
 
 There are divergences in communication between business and IT sectors. What is requested is not always consistent with what users actually imagined. For corporations seeking leadership in the competitive market, there are ways to be traced. To be competitive, it is not enough to have cutting-edge technology, it is necessary to improve business processes, have union between sectors and understanding of all processes involved in business activity.
