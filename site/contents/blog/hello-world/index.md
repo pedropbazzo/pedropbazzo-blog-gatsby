@@ -33,9 +33,12 @@ description: Sharing News 🚀
 - [MIT Specialization in Software Engineering with Java](#)
   - [Requirements Engineering](#requirementsEngineering)  
   - [Service-oriented architecture (SOA)](#ServiceOrientedArchitecture(SOA))
+  - [Domain Driven Design (DDD)](#DomainDrivenDesign(DDD))
+
 
 
 <a id="nextjs"></a> 
+
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png)
 
@@ -4874,6 +4877,139 @@ LOWY, Juval. Programming Services - WCF. Rio de Janeiro: Alta Books, 2007.
 MANES, Anne Thomas. Web Services. A Management Guide. Boston, MA: Addison-Wesley, 2003.
 MARZULLO, Fábio Perez. SOA in Practice. Innovating your business through service-oriented solutions. São Paulo: Editora Novatec, 2009.
 SAMPAIO, Cleuton. SOA and Web Services in Java. Rio de Janeiro: Brasport, 2006.
+
+- 🔝 [Back to the top](#backtothetop)
+---
+
+<a id="DomainDrivenDesign(DDD)"></a> 
+
+## Domain Driven Design (DDD)
+
+This article deals with the use of Domain-Driven Design (DDD) in a practical way, through the creation of a software project from start to finish. In order to demonstrate the patterns proposed by the methodology.
+
+## What is it for:
+
+Developing a software project, following this methodology, puts the team of designers and developers on the path of object orientation, towards a rich domain model. It allows the technical team to take greater advantage of the benefits offered by the paradigm. In addition to facilitating communication with domain experts, due to the focus on the domain, supported by DDD.
+
+## In what situation the useful topic:
+
+DDD is useful for any project team that aims to model the customer's business domain, effectively and efficiently. It also facilitates good communication between those involved in the project, as it allows the creation of a design that reflects the domain, in addition to providing extensibility and reusability, based on the correct use of the object-oriented paradigm.
+
+## Java and Domain-Driven Design in practice:
+
+Modeling systems efficiently is a challenge for any development team. In this context, DDD appears as a support for this objective.
+
+This article presents the implementation, from beginning to end, of a system in Java, using the frameworks JSF 2.0 and EJB 3.0, based on the Domain-Driven Design (DDD) methodology. In this way, it is possible to create a system with all the benefits offered by object orientation, which reflects the business domain and with reduced complexity, due to the patterns proposed by the methodology.
+
+Frameworks play an important role in facilitating the work of the development team, in the most technical aspects of the software creation process.
+
+The Domain-Driven Design (DDD) methodology, presented by Eric Evans in the book “Domain-Driven Design: Tackling Complexity in the Heart of Software”, offers tools for building systems with a focus on the customer's business domain.
+
+In addition, the entire creation process is supported by the language of those who will use the application (Ubiquitous Language), in this way, the communication between the technical team and domain experts, it becomes clearer.
+
+"A domain expert is a member of the design team whose field of expertise is the application domain rather than software development. He is a profound connoisseur of the business.
+Ubiquitous language is a language structured around the model and should be used by all members of the project to connect all activities."
+
+In summary, DDD introduces to the software development process:
+
+1. A layered architecture for division of responsibilities (see the box “DDD's layered architecture”);
+
+2. The ubiquitous language, which facilitates communication between the technical team and domain experts, in addition to generating documentation at the code level;
+
+3. Patterns that simplify and consolidate the design.
+
+The objective of this article is to demonstrate the practical use of DDD, through the implementation of a project in Java, with the frameworks JSF 2.0 and EJB 3.0, making use of the JPA persistence API, inside a Java EE container (GlassFish).
+
+The article does not intend to go much deeper into DDD concepts, the main idea is to show it in a practical way, associated with the development of an application.
+
+Before we start to work on the presented objective, we need details about the system that will be developed.
+
+DDD's layered architecture
+DDD proposes a layered architecture (see Figure Q1) for the division of responsibilities of an application. Each of them must specialize in a particular aspect of the system. This specialization allows the creation of a cohesive design that is easy to interpret. The basic principle is that each element of a layer, depends only on other elements of that same layer or lower layers.
+
+The architecture proposed by the DDD is formed by:
+
+1. Presentation Layer (User Interface): Responsible for interpreting the user's commands;
+
+2. Application Layer (Application): It does not contain business rules or code referring to the domain, it only coordinates tasks and delegates work;
+
+3. Model Layer (Domain): It is the heart of the system. Responsible for representing the domain and its business rules;
+
+4. Infrastructure layer: Provides technical resources for the system, such as data persistence.
+<h3 align="center">
+    <img alt="soa" title="#logo" width="400px" src="https://arquivo.devmedia.com.br/REVISTAS/java/imagens/87/7/image001.jpg"></h3>
+<center>Figure Q1. DDD architecture.
+</center>
+
+
+# Online sales system
+
+An event organization company will launch the 2011 edition of its most famous event, Java in Rio. This event consists of a week of different attractions for IT professionals, which include lectures, workshops, short courses, among others.
+
+Each day of the event will feature activities led by big names in the area. Those interested in participating must purchase tickets for the days of their choice.
+
+The organization has already defined the dates for Java in Rio, but has not yet confirmed all the professionals who will be part of the cycle of attractions offered. As the event is very popular, he decided to put up passes for sale, which will entitle buyers to exchange for tickets of the day they choose, when the attractions are defined.
+
+Based on this scenario, the organizers ordered an online pass sale system, which allows the sale of up to five passes (entitled to a half-price), identified through a unique code, for each customer, at the price of R $ 190.00 a unit.
+
+## Modeling the application
+
+In view of the scenario presented above, we can start modeling the sales system.
+
+In order to build an effective ubiquitous language, it is important to use words that are part of the current language of domain experts when modeling the application. In this universe, project members must discuss the system to make communication clearer.
+
+The design of the application must be aligned with the current language of the business. It is important that class names, attributes, variables and method signatures are part of the ubiquitous language. Thus, the team of designers and programmers, can show how elements of the client's business will relate within the system, using a vocabulary familiar to domain experts. In addition, a domain expert who has some technical knowledge about the technology employed, can talk at a lower level of abstraction with the development team, more easily.
+
+The patterns offered by DDD will allow the technical team to introduce their own terms to the ubiquitous language, thus, more technical aspects of the development process can be discussed with the domain experts, in a simplified way. Instead of designers and developers talking about DAOs, queries, JDBC, Java Beans and other things that are not part of the daily life of a domain expert, they will be able to express themselves with a higher level of abstraction, using more common terms such as: entities, services, specifications and repositories, for example.
+
+After conversations between the technical team and domain experts, it was decided that the system should allow the user to choose the number of passes he wants to purchase, enter his personal data and delivery address, and then pay the order with a credit card.
+
+<h3 align="center">
+    <img alt="soa" title="#logo" width="400px" src="https://arquivo.devmedia.com.br/REVISTAS/java/imagens/87/7/image002.jpg"></h3>
+<center>
+Figure 1. Class diagram.</center>
+
+The initial model, illustrated in Figure 1, emerged based on the scenario presented and is composed of three ENTITIES (Client, Order and Pass) and two VALUE OBJECTS (Address and CartaoDeCredito).
+
+ENTITIES are objects defined essentially by an identity. They must be distinguished from each other not by their attributes, but by the identity they carry. In practice, this is possible by assigning the object a unique identifier.
+
+Thus, we can differentiate each object of an ENTITY, unequivocally, in order to avoid problems with data corruption. For example, in our case, we do not want orders associated with the wrong people or duplicate passes delivered to customers. ENTITIES must have their life cycles efficiently tracked in the model, that is, operations on them, must be based on their identities.
+
+VALUE OBJECTS, on the other hand, are objects that describe something and are not based on an identity. For the system it does not matter if the order was paid with the customer's, father's or friend's credit card. It also doesn't matter if the delivery address has been used more than once, as each order must be delivered, regardless of whether another order has already been placed to the same address. In short, there is no need to track the life cycle of these objects.
+
+A good analogy for VALUABLE OBJECTS is that of a child drawing with a green crayon. If the tip of the chalk breaks, she can just throw it away, take another green chalk from her case and continue drawing. The result will be the same.
+
+This division between ENTITIES and VALUE OBJECTS reduces complexity, as it helps us to stay focused on what really matters. DDD proposes another pattern, called AGGREGATE, which can also be used to assist in this task.
+
+AGGREGATES allow the creation of "borders", so that objects of classes that reside inside a border, are only accessed through the root class (ROOT ENTITY), which acts as a kind of "gateway". This approach helps to limit the number of dependencies on the model. In practice, objects external to AGGREGATE can only carry references to the ROOT ENTITY. Thus, the root class is responsible for controlling all operations on AGGREGATE objects. For example, it is the responsibility of the Order class to create instances of objects of the Pass class. In addition, deleting a root object must result in the removal of all objects within the boundary.
+
+This division between ENTITIES and VALUE OBJECTS reduces complexity, as it helps us to stay focused on what really matters. DDD proposes another pattern, called AGGREGATE, which can also be used to assist in this task.
+
+In the proposed model there are two AGGREGATES, with roots in Customer and Order, which can be identified in Figure 1, by the represented borders.
+
+Now that we have a domain model in hand, it's time to start coding.
+
+"Domain model or model is a set of abstractions that describe certain aspects of a domain and can be used to solve problems related to it. For example, the astrolabe, used to determine positions of stars, is a mechanical implementation of a model of the sky."
+
+Working on the model
+
+Before we actually start writing the code, it is worth mentioning that the model presented in the previous section is not necessarily the definitive and perfect one. Great ideas can emerge (and do!) During the implementation of a system and, as this occurs, we must change the model to reflect the improvements made in the design.
+
+Even over coffee, great ideas can also come up. Therefore, we should not be afraid to make the necessary modifications to the model and refactor our code. It is important to always look for the ideal domain model, and refactoring is the key word for that.
+
+The first thing we will do is create a project and set up the environment. In this article, the following tools were used: the Eclipse Helios IDE (with the GlassFish plugin installed), the Java EE GlassFish Server 3.0.1 container and the PostgreSQL database.
+
+With the project created, we will configure the necessary XML files to work in an environment with JSF and EJB, as shown in Listings 1 and 2. In addition to these configurations, it is necessary to download and add the Hibernate libraries to the classpath, as we need an implementation for JPA.
+
+"Installing and configuring Eclipse, GlassFish and PostgreSQL is not part of the scope of this article. It is important to note, when creating the project in Eclipse, the selection of the ‘Dynamic Web Project’, ‘JavaServer Faces’ and ‘JPA’ facets, in addition to associating the project with the GlassFish container. In this way, all JSF and EJB libraries will be present in the project."
+
+With the environment ready and configured, we can dive into the domain model to implement its classes and business rules. We will start our journey by writing the ENTITIES and VALUE OBJECTS that appear in the model represented by Figure 1. Listings 3, 4 and 5, represent the ENTITIES of the system, while Listings 6 and 7, the VALUE OBJECTS.
+
+As you may have noticed, annotations from the persistence API (JPA) were used for the O / R mapping of classes. Thus, there is no need to use Hibernate XML files.
+
+Listing 1. web.xml: Deployment Descriptor of the application.
+
+
 
 - 🔝 [Back to the top](#backtothetop)
 ---
