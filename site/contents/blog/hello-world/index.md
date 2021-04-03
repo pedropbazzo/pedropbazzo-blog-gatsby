@@ -4752,7 +4752,7 @@ As shown in Figure 1, there are two ways to implement SOA governance.
 
 <h3 align="center">
     <img alt="soa" title="#logo" width="400px" src="https://arquivo.devmedia.com.br/REVISTAS/es/imagens/56/9/image001.png"></h3>
-Figure 1. Bottom-up and Top-down approach.
+<center>Figure 1. Bottom-up and Top-down approach.</center>
 
 The Top-down form is where requests come from the company's presidents, managers and executives, whereas Bottom-up refers to where requests come from users, analysts, programmers and technicians.
 
@@ -4761,7 +4761,7 @@ Figure 2 shows an SOA maturity model developed by Sonic Software (a software dev
 
 <h3 align="center">
     <img alt="soa" title="#logo" width="400px" src="https://arquivo.devmedia.com.br/REVISTAS/es/imagens/56/9/image002.png"></h3>
-Figure 2. Sonic Software's SOA Maturity Model.
+<center>Figure 2. Sonic Software's SOA Maturity Model.</center>
 
 As can be seen, level one represents the initial learning and implementation phase of the project. At level two, services are provided that use defined standards, such as technical governance of SOA implementation.
 
@@ -4793,7 +4793,7 @@ As shown in Figure 3, it is possible to work with complex structures without man
 
 <h3 align="center">
     <img alt="soa" title="#logo" width="400px" src="https://arquivo.devmedia.com.br/REVISTAS/es/imagens/56/9/image003.jpg"></h3>
-Figure 3. Scheme of the encapsulation levels.
+<center>Figure 3. Scheme of the encapsulation levels.</center>
 
 Figure 3 shows levels that a service can encapsulate, where the primary lines of code are in a given language, which represent the step-by-step of a given procedure. The procedural module refers to the set of primary lines of code, becoming a function or procedure that receives values ​​and returns results.
 
@@ -4809,7 +4809,7 @@ Services can be categorized into three groups, shown in Figure 4.
 
 <h3 align="center">
     <img alt="soa" title="#logo" width="400px" src="https://arquivo.devmedia.com.br/REVISTAS/es/imagens/56/9/image004.png"></h3>
-Figure 4. SOA expansion stages
+<center>Figure 4. SOA expansion stages</center>
 
 Basic services, also known as corporate services, are those that provide a basic business function.
 
