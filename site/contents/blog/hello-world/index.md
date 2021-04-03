@@ -4826,6 +4826,7 @@ Figure 5 shows the three stages of service expansion in more detail.
 
 <h3 align="center">
     <img alt="soa" title="#logo" width="400px" src="https://arquivo.devmedia.com.br/REVISTAS/es/imagens/56/9/image005.png"></h3>
+<center>Figure 5. Process-enabled SOA</center>
 
 The existence of backends (systems normally run on the server side), which make up the main layer of the architecture, where there may be application servers, databases, ERPs (Enterprise Resource Planning) etc. In this layer, all care and security of information is necessary.
 
