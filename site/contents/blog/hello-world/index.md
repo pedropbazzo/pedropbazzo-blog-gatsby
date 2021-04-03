@@ -32,6 +32,7 @@ description: Sharing News 🚀
 
 - [MIT Specialization in Software Engineering with Java](#)
   - [Requirements Engineering](#requirementsEngineering)  
+  - [Service-oriented architecture (SOA)](#ServiceOrientedArchitecture(SOA))
 
 
 <a id="nextjs"></a> 
@@ -4711,6 +4712,165 @@ Therefore, the requirements must be complete, correct, consistent, realistic, ne
 
 ## Bibliography - PRESSMAN, Roger, Software Engineering, McGraw-Hill, 6th edition, 2006.
 
+
+- 🔝 [Back to the top](#backtothetop)
+---
+
+## Service-oriented architecture (SOA)
+
+There are divergences in communication between business and IT sectors. What is requested is not always consistent with what users actually imagined. For corporations seeking leadership in the competitive market, there are ways to be traced. To be competitive, it is not enough to have cutting-edge technology, it is necessary to improve business processes, have union between sectors and understanding of all processes involved in business activity.
+
+SOA (Service Oriented Architecture) helps companies to be prepared to evolve in technology and profitability, reducing technology restrictions for business leaders, it also makes it possible to ensure a flexible and reusable structure.
+
+In a simple way, SOA is a business approach to create IT (Information Technology) systems that allow leveraging existing resources, creating new resources and, above all, being prepared for inevitable changes required by the market, obtaining more productivity and profit for the company.
+
+To enjoy the benefits of this architecture, investment of time and learning is required. Through the use of SOA, understanding between business leaders and the IT area is facilitated. The main item of SOA are the services that serve to describe the relationship between a provider and a consumer, which have the objective of solving a certain activity in common.
+
+Each service can be defined as a specific activity, due to the identification of the services found in the corporation. The same can be compared with the famous toy "Lego", where you can use the same pieces for countless occasions. An example is "a service for consulting products ...", which is created only once and can be used in any system.
+
+SOA helps to answer and improve issues reflected in scenarios, such as, Is the business large and complex? Does the niche change quickly? Is our legacy the center of our business? Are our systems flexible? Can they have changes attributed? Are the business rules organized? Is there quality in our data?
+
+## SOA Governance
+
+Every company needs governance to raise, plan, execute, control and improve processes and, consequently, generate better results.
+
+Governance means ensuring that people do what is right, in addition to “controlling the development and operation of software”.
+
+Some crucial points associated with SOA governance are:
+
+Policies: define what is right;
+Processes: reinforce policies;
+Metrics: provide visibility and possible policy reinforcements;
+Organization: establishes a culture that supports the governance process.
+Processes have to be flexible enough to be able to support frequent updates, they must be as explicit as possible, so that the team can monitor their execution.
+
+The technical aspects of a process can be classified as, documentation, service management, monitoring and change management.
+
+As shown in Figure 1, there are two ways to implement SOA governance.
+
+<h3 align="center">
+    <img alt="soa" title="#logo" width="400px" src="https://arquivo.devmedia.com.br/REVISTAS/es/imagens/56/9/image001.png"></h3>
+Figure 1. Bottom-up and Top-down approach.
+
+The Top-down form is where requests come from the company's presidents, managers and executives, whereas Bottom-up refers to where requests come from users, analysts, programmers and technicians.
+
+SOA Maturity
+Figure 2 shows an SOA maturity model developed by Sonic Software (a software development company).
+
+<h3 align="center">
+    <img alt="soa" title="#logo" width="400px" src="https://arquivo.devmedia.com.br/REVISTAS/es/imagens/56/9/image002.png"></h3>
+Figure 2. Sonic Software's SOA Maturity Model.
+
+As can be seen, level one represents the initial learning and implementation phase of the project. At level two, services are provided that use defined standards, such as technical governance of SOA implementation.
+
+Level three provides services within the partnership between technology and business organizations, seeking to ensure that the use of SOA suppliers clarifies business responsibilities.
+
+Then, at level four, the focus is on the implementation of internal and external business processes. At level five, business processes are optimized, so that the information system using SOA becomes the main system of the organization.
+
+In addition to this maturity model, there is also the option developed by IBM and known as ServiceMaturity ModelIntegration (SIMM). This model consists of seven levels, which are (in increasing order of maturity):
+
+Silo: data integration;
+Integrated: application integration;
+Modular: functional integration;
+Simple services: integration process;
+Composite services: supply chain integration;
+Virtualized services: virtual infrastructure;
+Dynamically configurable: automatic scalability.
+The levels of SOA maturity indicate how well the company is already able to survey, plan, implement and control processes and allows identifying the quality and success that will be achieved in initiatives for SOA implementation.
+
+Services
+Although the difficulty in finding an exact definition for "service", its main objective is associated with representing a natural step in business functionality.
+
+In business, the steps of a corporation's activity can be classified as services. With all the steps being performed in sync, a process is created generating results for other processes.
+
+Service can also be defined as one or more steps that use messages to exchange data between a supplier and a consumer. Technically, a service is a description of one or more operations that use (multiple) messages to exchange data between a supplier and a consumer, with the common effect that the consumer obtains some information, modifies the state of the system or modifies the process component.
+
+Through services, business processes can be encapsulated, where each process or part of a process can be implemented through services.
+
+As shown in Figure 3, it is possible to work with complex structures without many management obstacles.
+
+<h3 align="center">
+    <img alt="soa" title="#logo" width="400px" src="https://arquivo.devmedia.com.br/REVISTAS/es/imagens/56/9/image003.jpg"></h3>
+Figure 3. Scheme of the encapsulation levels.
+
+Figure 3 shows levels that a service can encapsulate, where the primary lines of code are in a given language, which represent the step-by-step of a given procedure. The procedural module refers to the set of primary lines of code, becoming a function or procedure that receives values ​​and returns results.
+
+The Class / Object structure is the union of several procedures and attributes responsible for the functionalities. Components are the union of several structures, forming micro processes and services are the union of several processes, creating a macro process.
+
+Complex structures can be represented by small steps, which can be reused in another structure that needs the function that this service provides, highlighting that it is necessary for a service to be independent and self-sufficient in its objectives.
+
+SOA brings as a main resource the reuse of code, routines and database, because a service can be used several times, at various times during work processes, avoiding redundancies and rework.
+
+## Classification of services
+
+Services can be categorized into three groups, shown in Figure 4.
+
+<h3 align="center">
+    <img alt="soa" title="#logo" width="400px" src="https://arquivo.devmedia.com.br/REVISTAS/es/imagens/56/9/image004.png"></h3>
+Figure 4. SOA expansion stages
+
+Basic services, also known as corporate services, are those that provide a basic business function.
+
+Basic services can be subdivided into “data services”, such as, create customer, change customer address, create account, return customer list and “logic services”, such as, return if a year is leap, define valid dates for the system. After establishing basic services, the “Fundamental SOA” is obtained.
+
+Intermediate services, also known as composite services, are those that do an “orchestration of services” work. As in a musical orchestra in which the conductor has several instruments (services) to orchestrate, the composite services use the basic services to obtain results. After establishing composite services, the “Federative SOA” is obtained.
+
+The "Process Services" process is the union of composite services, defining a particular process that has been in place. Thus, unlike basic and compound services, process services keep states during their execution, being able to work with the flow. An example can be mentioned an e-commerce system shopping cart, where during the purchase process several additions, changes and deletions are made to it, with the possibility of making the purchase at the end or not.
+
+Process services established, the “Process-Enabled SOA” is obtained.
+
+
+Figure 5 shows the three stages of service expansion in more detail.
+
+<h3 align="center">
+    <img alt="soa" title="#logo" width="400px" src="https://arquivo.devmedia.com.br/REVISTAS/es/imagens/56/9/image005.png"></h3>
+
+The existence of backends (systems normally run on the server side), which make up the main layer of the architecture, where there may be application servers, databases, ERPs (Enterprise Resource Planning) etc. In this layer, all care and security of information is necessary.
+
+The basic services (Data and Logics) make contact with the backends. There are also ESBs (enterprise service bus) - corporate service bus, that is, an interface responsible for providing connectivity, transforming data, routing data, security, monitoring, among other definitions.
+
+Data transformation is inherently part of the bus in an ESB distribution, with transformation services, specialized for the needs of individual applications connected to the bus, located anywhere and accessible from anywhere on the bus. An ESB can be defined as a resolution of independence between applications, due to the fact that the given transformation is an integral part. The ESB is responsible for the interoperability of the services, regardless of the source or destination of the data, and its main function is to make it possible for consumers and suppliers to interact.
+
+Figure 5 also presents the “orchestration layer” (Federative Stage) and the “process layer” (Process-Enabled Stage), where the ESB is like a tunnel for the consumption of services and the front-end.
+
+## Service modeling considerations
+
+The levels of granularity define how specific the service is. The processes that are defined can be broken into several sub-processes by performing a certain system action.
+
+There are two types of granularity, being "fine" and "coarse". Modeling based on coarse granularity serves to implement few services for various processes. Fine granularity, on the other hand, refers to the implementation of several services for few processes. It should be noted that the larger the subdivision, the more specific the services are and the more specific they are, the better the maintenance, scalability and reuse of them.
+
+If the component services come together and separate easily, they are loosely coupled, that is, not interconnected like traditional applications and because they are codependent, they can be mixed and combined with other component services.
+
+The weaker the coupling, the more useful and flexible it will be, since it can be combined for different processes. For example, a service that returns a customer list can be used in a sales module, in a reporting module, or in a supplier module.
+
+Components can be joined dynamically in real time, behaving as a single application, tightly coupled.
+
+Loose coupling is a concept that aims to deal with scalability, flexibility and fault tolerance, allowing its use to eliminate dependencies, so that maintenance does not impact the existing functionalities.
+
+## Conclusion
+
+Throughout this article, a series of benefits made possible by the use of SOA were presented, highlighting the better interaction between the IT area and the organization's business area.
+
+The implementation of SOA proved to be challenging, not being possible to implement it completely immediately, but gradually, through models of maturity.
+
+The use of SOA can expand further in the development and maintenance of corporate software, because working with the concept of well-defined and loosely coupled services allows adjustments to be made more easily to the software developed, allowing the organization to adapt quickly to changes expected by the market.
+
+## References
+
+AECE, Israel. WCF - Architecture, Development and Standards
+ARSANJANI, Ali. IBM - SOA Maturity Model
+BACHMAN, Jon. Sonic Software. SOA Maturity Model
+CHAPPEL, David A. Enterprise Service Bus. Sevastopol, CA: O'Reilly Media, 2004.
+CONDÉ, L; GODINHO, R. “Service Oriented Architecture” WCF Good practices (survey, construction and accommodation)
+ECKSTEIN, Jutta. Agile Software Development in the Large. New York: Dorset House, 2004.
+ERL, Thomas. Service Oriented Architecture. Concepts, Technologies and Development. Upper Sadlle River, NJ: Prentice Hall, 2005.
+HURWITZ, BLOOR, KAUFMAN and HALPER, Judith, Robin, Marcia and Fern. Service Oriented Architecture - SOA. Series for Dummies. Rio de Janeiro, Alta Books, 2009.
+JOSUTTIS, Nicolai M. SOA in Practice. The Art of Distributed Systems Modeling. Rio de Janeiro, AltaBooks, 2008.
+KRAFZIG AND SLAMA, Dirk, Karl. Enterprise SOA: Service-Oriented Architecture Best Practices, Upper Saddle River, NJ: Prentice Hall, 2004.
+LOWY, Juval. Programming Services - WCF. Rio de Janeiro: Alta Books, 2007.
+MANES, Anne Thomas. Web Services. A Management Guide. Boston, MA: Addison-Wesley, 2003.
+MARZULLO, Fábio Perez. SOA in Practice. Innovating your business through service-oriented solutions. São Paulo: Editora Novatec, 2009.
+SAMPAIO, Cleuton. SOA and Web Services in Java. Rio de Janeiro: Brasport, 2006.
 
 - 🔝 [Back to the top](#backtothetop)
 ---
