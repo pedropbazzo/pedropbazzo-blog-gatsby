@@ -5009,6 +5009,181 @@ As you may have noticed, annotations from the persistence API (JPA) were used fo
 
 Listing 1. web.xml: Deployment Descriptor of the application.
 
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <context-param>
+    <param-name>javax.faces.PROJECT_STAGE</param-name>
+    <param-value>Development</param-value>
+  </context-param>
+  <servlet>
+    <servlet-name>Faces Servlet</servlet-name>
+    <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Faces Servlet</servlet-name>
+    <url-pattern>*.jsf</url-pattern>
+  </servlet-mapping>
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+  <welcome-file-list>
+    <welcome-file>jsp/index.jsf</welcome-file>
+  </welcome-file-list>
+</web-app>
+```
+
+Listing 2. persistence.xml: Configuration file for the persistence framework used, in this case, Hibernate.
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="JavaInRio" transaction-type="JTA">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <jta-data-source>jdbc/java_in_rio</jta-data-source>
+    <class>br.com.devmedia.javamagazine.prevenda.model.CartaoDeCredito</class>
+    <class>br.com.devmedia.javamagazine.prevenda.model.Cliente</class>
+    <class>br.com.devmedia.javamagazine.prevenda.model.Endereco</class>
+    <class>br.com.devmedia.javamagazine.prevenda.model.Passe</class>
+    <class>br.com.devmedia.javamagazine.prevenda.model.Pedido</class>
+  </persistence-unit>
+</persistence>
+```
+Listing 3. Order.java: Class that represents the Order entity in the model.
+
+```
+@Entity
+@Table (name = "order")
+@SequenceGenerator (name = "order_seq", sequenceName = "order_id_seq")
+public class Order {
+
+  @Id
+  @GeneratedValue (strategy = GenerationType.SEQUENCE, generator = "seq_pedido")
+  @Column (name = "id")
+  private long id;
+
+  // @ManyToOne, represents the ‘many to one’ relationship between Order and Customer.
+  // The cascade attribute, tells Hibernate, what type of operation should
+  // be propagated to the relationship.
+  @ManyToOne (cascade = CascadeType.PERSIST)
+  @JoinColumn (name = "customer_id")
+  private Client client;
+
+  @OneToMany (cascade = CascadeType.ALL)
+  @JoinColumn (name = "order_id", nullable = false)
+  private List <Passe> passes;
+
+  private transient double precoTotal;
+  @Column (name = "shipping")
+  private double freight;
+  @Embedded
+  private CartaoDeCredito cartaoUused;
+
+  public Order () {
+    this.passes = new ArrayList <Passe> ();
+    this.cartaoUusedado = new CartaoDeCredito ();
+    this.cliente = new Client ();
+  }
+
+  public Order (Customer Customer) {
+    this.cliente = customer;
+    this.passes = new ArrayList <Passe> ();
+    this.cartaoUusedado = new CartaoDeCredito ();
+  }
+
+  // generates passes based on the quantities passed as parameters
+  public void generationPasses (int qtdInteiras, int qtdMeias) {
+    this.passes = new ArrayList <Passe> ();
+    this.addPassesInteiros (qtdInteiras);
+    this.add PassesDeMeiaEntrada (qtdMeias);
+  }
+
+  // internal method for adding entire passes to the collection
+  private void adds IntegerPasses (int quantity) {
+
+    for (int i = 0; i <quantity; i ++) {
+      Pass passe = new Passe ();
+
+      // generate pass code
+      UUID guid = UUID.randomUUID ();
+      String code = guid.toString ();
+
+      passe.setCode (code);
+
+      this.passes.add (pass);
+    }
+  }
+
+  // internal method for adding half-price passes to the collection
+  private void adds PassesDeMeiaEntrada (int quantity) {
+
+    for (int i = 0; i <quantity; i ++) {
+      Pass passe = new Passe ();
+
+      // generate pass code
+      UUID guid = UUID.randomUUID ();
+      String code = guid.toString ();
+
+      passe.setCode (code);
+      passe.setMeiaEntrada (true);
+
+      this.passes.add (pass);
+    }
+  }
+
+  // method responsible for calculating the total order price
+  public double calculaTotal (double shipping) {
+
+    double total = 0;
+
+    for (Pass p: this.passes) {
+      if (! p.isMeiaEntrada ()) {
+        total + = PASS.PRECO;
+      } else {
+        total + = PASS.PRECO / 2;
+      }
+    }
+
+    // add shipping
+    this.frete = shipping;
+    total + = this.frete;
+
+    this.precoTotal = total;
+
+    total return;
+  }
+
+  // returns the number of passes for the entire collection
+  public int getQuantityDeInteiras () {
+
+    int qty = 0;
+
+    for (Pass p: this.passes) {
+      if (! p.isMeiaEntrada ()) {
+        qty ++;
+      }
+    }
+    return qty;
+  }
+
+  // returns the number of half-entry passes in the collection
+  public int getQuantityStockings () {
+
+    int qty = 0;
+
+    for (Pass p: this.passes) {
+      if (p.isMeiaEntrada ()) {
+        qty ++;
+      }
+    }
+    return qty;
+  }
+
+  // getters & setters
+}
+```
+
 
 
 - 🔝 [Back to the top](#backtothetop)
