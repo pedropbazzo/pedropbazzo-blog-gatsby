@@ -6024,7 +6024,6 @@ From the point of view of information protection and security, depending on the 
 
 Enable the IIS service or install it. Click start, then open Server Manager and click Manage> Add roles and features. Select next until you reach the Server roles option and check the Web server (IIS) option for installation.1. Log on to the Web server computer as an administrator; 2. Click Start, point to Settings, and click Control Panel; 3. Double-click Administrative Tools and then Internet Service Manager; 4. Click the Site tab. Here you can continue configuring the sitedefault, or create a new one, by right-clicking and then a new website; 5. Click on the website you want to configure in the left panel and then click on basic settings in the right panel (actions); 6. Enter the path to the folder where the files to be viewed by the customer (content) will contain. The default path is inetpub / wwwroot. Close the configuration window;
 
-1353 / 5000
 Resultados de tradução
 7. Click on binding in the right panel (actions), select the http line and, in the IP address field, choose the IP address to be used for the website or leave the default setting All (Unassigned); 8. Modify the transmission control protocol (TCP) port as appropriate. Default, port 80. Close the configuration window; 9. Click explore, also in the right panel (actions); 10. To use a folder on your local computer, click a directory on this computer, then click Browse to find the folder you want to use. At this point, you can now create your default file to be displayed to customers who will access this site, for example, index.html, with content similar to that illustrated in Figure 11, changing the data to your name and course and enrollment information; 11. To use a folder that was shared from another computer on the network, click on a share located on another computer and enter the network path or click Browse to select the shared folder. Close the configuration window; 12. Click on edit permissions, also in the right pane (actions). Click on the security tab and edit the permissions of the IIS user to perform other operations besides reading, if necessary for your site; 13. Click OK to accept the properties of the site. 
 
@@ -6049,13 +6048,6 @@ In flow d, also with the presence of MITM in the circuit, an attack occurs very 
 By looking at these attack formats, it is possible to identify a basic difference between them. There are those that can be executed passively, and those that require various actions by the attacker, intervening in the communication, content or flow of the sending. For those who want to find out if an attack is taking place using specific monitoring tools, attacks where there is no active action by the attacker are more difficult to detect. In these cases, the attacker can spend hours and even days watching corporate communication, for example, without being noticed (especially in cases of Wi-Fi).
 
 In this unit we talk about the Web infrastructure, in a general overview. We saw basic information security terms and definitions. We observe how fast the expansion of the Web is, the introduction of Big Data, cloud computing and IoT in this scenario. We've seen basic network components associated with how the Web works in the context of attacks, and you can see how complex it is to think about implementing security on this network. We saw Web applications and you can get to know the client-server paradigm, distributed processing and we thought about the different types of protection needed in a generic information system, both on the front-end and back-end. We saw Web services, sockets and TCP-based protocol flow. We observed characteristics of Web devices, client-side and server-side language, in addition to the MVC model. Finally, we conceptualized attacker profiles and attack formats.
-
-
-
-
-
-
-
 
 
 - 🔝 [Back to the top](#backtothetop)
