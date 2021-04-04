@@ -37,6 +37,7 @@ description: Sharing News 🚀
 
 - [Specialization in Cybersecurity, Lato Sensu](#)
   - [Web Infrastructure](#WebInfrastructure)
+  - [Types of Web Attack](#typesOfWebAttack)
 
 
 <a id="nextjs"></a> 
@@ -6048,6 +6049,79 @@ In flow d, also with the presence of MITM in the circuit, an attack occurs very 
 By looking at these attack formats, it is possible to identify a basic difference between them. There are those that can be executed passively, and those that require various actions by the attacker, intervening in the communication, content or flow of the sending. For those who want to find out if an attack is taking place using specific monitoring tools, attacks where there is no active action by the attacker are more difficult to detect. In these cases, the attacker can spend hours and even days watching corporate communication, for example, without being noticed (especially in cases of Wi-Fi).
 
 In this unit we talk about the Web infrastructure, in a general overview. We saw basic information security terms and definitions. We observe how fast the expansion of the Web is, the introduction of Big Data, cloud computing and IoT in this scenario. We've seen basic network components associated with how the Web works in the context of attacks, and you can see how complex it is to think about implementing security on this network. We saw Web applications and you can get to know the client-server paradigm, distributed processing and we thought about the different types of protection needed in a generic information system, both on the front-end and back-end. We saw Web services, sockets and TCP-based protocol flow. We observed characteristics of Web devices, client-side and server-side language, in addition to the MVC model. Finally, we conceptualized attacker profiles and attack formats.
+
+<a id="typesOfWebAttack"></a> 
+
+# Types of web attack
+
+
+## Vulnerabilities
+Every day companies suffer from cases of invasion or security breaches and most of the time we do not know why there is no disclosure in the media.
+In 2016, companies like Snapchat, Verizon, LinkedIn and Dropbox had several vulnerability issues, from phishing to leaking emails, passwords and other sensitive information, forcing teams to find these breaches as quickly as possible. In 2017, the scenario has not changed much and companies like E-Sports, Gmail and even Washington State University continue to suffer from the same problems. These cases affected +20 million users, who had their data revealed. Do you have any idea how much it cost the giants? Too many zeros!
+OWASP (Open Web Application Security Project)
+Founded in December 2001, OWASP is an online community that creates and makes free articles, methodologies, documentation and tools available to educate developers, designers, architects and organizations about the consequences of security breaches. To help other organizations reduce the risks of their applications, in addition to producing free and open content, they also annually launch a list of the TOP 10 vulnerabilities, based mainly on data from 11 companies specializing in application security, totaling more than 50,000 applications. and APIs in use.
+The material produced and made available by OWASP can be divided into several categories, some of which are:
+
+Cheat Sheet Series
+
+It is a collection of valuable tips on specific topics about web applications, providing an excellent security guide that is easy to read and understand. Some topics covered are Ajax, Authentication, HTML5 Security, Session Management, among others.
+Enterprise Security API
+ESAPI is a free and open-source library that aims to make it easier to write applications with low risk of vulnerability. It was designed to adapt to the security of existing applications and can be implemented by several languages.
+
+# Broken Web Applications Project
+
+Collection of known vulnerabilities in web applications, distributed and executed in a virtual machine, perfect for those who want to learn more about security in web applications, test some tools and observe how the flow of attacks works.
+
+
+Top 10 Risks
+
+The identification of risks is done by collecting information about the threat involved, the type of attack that will be used, the vulnerability involved and the impact of this vulnerability if the attacker succeeds. This analysis is calculated using the following formula:
+
+risk = probability * impact
+The main security risks for 2017 have not yet been finalized, but let's talk about the ones that are being found the most so far.
+If you are interested in a specific subject, the names are in English to facilitate the search.
+
+## Denial of Service - DoS
+
+Also known as denial of service, it is an attempt to make system resources unavailable, with web servers as the main target. When the attack comes from several sources it is called Distributed Denial of Service.
+
+## Password Guessing Attacks
+
+As the name implies, it targets access passwords. The attacker uses several tools such as random password generators, lists with the most common passwords, hashes and combinations existing on the web to help in this brute force attack.
+
+## Cross-Site Scripting— XSS
+
+This vulnerability consists of the insertion of malicious scripts that will be executed when the page is accessed. There are several approaches, the most used are through the URL or inputs. And a tip, be careful when using eval () and output escaping whenever possible.
+Insecure Direct Object References - Insecure DOR
+This type of attack happens when a malicious user gets access to information like userID, via the URL. Using a sequential ID, the user is able to gain access to other users' information by changing the URL.
+
+## Sensitive Data Exposure
+
+This type of vulnerability can be discovered when the server does not adequately protect data, such as a password, credit card information and e-mails. Encryption is essential and two-factor authentication is the minimum. Learn from Github.
+Missing Function Level Access Control
+Defining an access control makes it impossible for unauthorized users to change inappropriate information. From the moment a user accesses information that he or she does not have permission, there is a security breach.
+
+## Cross-Site Request Forgery - CSRF
+
+The attacker deceives the user and sends a link via email or chat in order to perform actions without their consent. In this way, it is possible to make a request to the server impersonating the user, using his session cookie. Avoid this type of attack using the CSRF Token.
+
+# Complementary material
+
+https://github.com/chuckfw/owaspbwa
+https://lists.owasp.org/mailman/listinfo/owasp-cheat-sheets
+https://github.com/FallibleInc/security-guide-for-developers
+https://github.com/OWASP/Top10
+https://nodesecurity.io/advisories
+https://www.identityforce.com/blog/2017-data-breaches
+https://stackoverflow.com/a/477578/4008711
+https://speakerdeck.com/mathiasbynens/front-end-performance-the-dark-side-at-fronteers-spring-conference-2016
+https://capec.mitre.org
+https://javascript.info/frames-and-windows
+https://blog.apiki.com/2016/09/09/cross-site-scripting-xss/
+https://mkw.st/r/csp
+https://speakerdeck.com/mikewest/frontend-security-frontend-conf-zurich-2013-08-30
+https://www.owasp.org
+https://www.exploit-db.com
 
 
 - 🔝 [Back to the top](#backtothetop)
