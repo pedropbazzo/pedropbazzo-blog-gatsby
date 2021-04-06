@@ -39,6 +39,10 @@ description: Sharing News 🚀
   - [Web Infrastructure](#WebInfrastructure)
   - [Types of Web Attack](#typesOfWebAttack)
 
+- [Specialization in Front end Development, MBA](#)
+  - [Javascript](#Javascript)
+  - [Modern Javascript](#modernJavascript)
+
 
 <a id="nextjs"></a> 
 
@@ -6122,6 +6126,16 @@ https://mkw.st/r/csp
 https://speakerdeck.com/mikewest/frontend-security-frontend-conf-zurich-2013-08-30
 https://www.owasp.org
 https://www.exploit-db.com
+
+
+- 🔝 [Back to the top](#backtothetop)
+---
+
+<a id="Javascript"></a> 
+
+## Front end
+
+[Javascript](https://github.com/pedropbazzo/pedropbazzo-blog-gatsby/blob/master/site/contents/blog/hello-world/Javascript.pdf)
 
 
 - 🔝 [Back to the top](#backtothetop)
