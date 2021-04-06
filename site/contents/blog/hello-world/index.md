@@ -43,6 +43,9 @@ description: Sharing News 🚀
   - [Javascript](#Javascript)
   - [Modern Javascript](#modernJavascript)
 
+- [Master in Computer Science](#)
+  - [Analysis of Algorithms and Computation Complexity](#)
+
 
 <a id="nextjs"></a> 
 
@@ -6141,6 +6144,28 @@ https://www.exploit-db.com
 
 [Modern Javascript](https://github.com/pedropbazzo/pedropbazzo-blog-gatsby/blob/master/site/contents/blog/hello-world/JavascriptModerno.pdf)
 
+
+- 🔝 [Back to the top](#backtothetop)
+---
+
+<a id="Algorithms"></a> 
+
+## Analysis of Algorithms and Computation Complexity
+
+Computing models. Asymptotic analysis: tools and notation for analysis of algorithms. Algorithm design techniques: greedy algorithms, division and conquest, dynamic programming. Complexity of algorithms for sorting and selection. Complexity of algorithms for graph problems. Problem classes: P, NP, NP-difficult and NPcomplete.
+
+
+# Bibliography
+AHO, A. V .; HOPCROFT, J. E .; ULLMAN, J. D. Data Structures and Algorithms. Reading: Addison-Wesley, 1982.
+AHO, A. V .; ULLMAN, J. D. Foundations of Computer Science. 1st Ed. New York: W. H. Freeman and Company, 1992.
+CORMEN, T .; LEISERSON, C .; RIVEST, R .; STEIN, C. Introduction to Algorithms. New York: MIT Press, 2004.
+MANBER, U. Introduction to Algorithms: A Creative Approach. Boston: Addison Wesley, 1989.
+HOROWITZ, E .; SAHNI S. Fundamentals of Computer Algorithms. Rockville: Computer Science Press, 1984.
+GAREY, M .; JOHNSON, D. Computers and Intractability: a guide to the theory of NP-completeness. New York: Freeman, 1979.
+PAPADIMITRIOU, C. H. Computational Complexity. Reading: Addison-Wesley, 1993.
+SEDGEWICK, R. Algorithms. Reading: Addison-Wesley, 1983.
+ZIVIANI, N. Algorithms Project with Implementation in Pascal and C. 2ª. Ed. São Paulo: Thomson, 2004.
+TOSCANI, L. V .; VELOSO, P. A. S. Complexity of Algorithms. 2nd Ed. Porto Alegre: Bookman, 2008.
 
 - 🔝 [Back to the top](#backtothetop)
 ---
