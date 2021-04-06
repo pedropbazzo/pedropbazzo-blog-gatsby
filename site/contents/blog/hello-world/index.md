@@ -6137,6 +6137,10 @@ https://www.exploit-db.com
 
 [Javascript](https://github.com/pedropbazzo/pedropbazzo-blog-gatsby/blob/master/site/contents/blog/hello-world/Javascript.pdf)
 
+<a id="modernJavascript"></a> 
+
+[Modern Javascript](https://github.com/pedropbazzo/pedropbazzo-blog-gatsby/blob/master/site/contents/blog/hello-world/JavascriptModerno.pdf)
+
 
 - 🔝 [Back to the top](#backtothetop)
 ---
