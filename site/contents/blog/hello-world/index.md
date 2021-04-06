@@ -43,8 +43,8 @@ description: Sharing News 🚀
   - [Javascript](#Javascript)
   - [Modern Javascript](#modernJavascript)
 
-- [Master in Computer Science](#)
-  - [Analysis of Algorithms and Computation Complexity](#)
+- [Master in Computer Science](#Algorithms)
+  - [Analysis of Algorithms and Computation Complexity](#Algorithms)
 
 
 <a id="nextjs"></a> 
