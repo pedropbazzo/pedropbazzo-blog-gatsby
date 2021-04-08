@@ -6245,10 +6245,7 @@ Book: Clean Architecture: A Craftsman’s Guide to Software Structure — ISBN: 
 
 <a id="#KartRaceImporter"></a>
 
-## [JAVA] The 'Kart Race Importer' is a project to import data held in log files
-
-
-[Repository](https://github.com/pedropbazzo/kart-race-importer)
+## [JAVA] [Repository - The 'Kart Race Importer' is a project to import data held in log files](https://github.com/pedropbazzo/kart-race-importer)
 
 
 - 🔝 [Back to the top](#backtothetop)
