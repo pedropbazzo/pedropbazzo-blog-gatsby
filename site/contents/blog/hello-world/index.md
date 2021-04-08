@@ -11,6 +11,8 @@ description: Sharing News 🚀
 
 # 📚 Summary
 
+- [Clean Architecture](#cleanArchitecture)
+
 - [Cloud Computing](#cloud)
   - [AWS vs. Azure vs. Google: Cloud Comparison](#comparisoncloud) 
 
@@ -6170,5 +6172,79 @@ TOSCANI, L. V .; VELOSO, P. A. S. Complexity of Algorithms. 2nd Ed. Porto Alegre
 - 🔝 [Back to the top](#backtothetop)
 ---
 
+<a id="cleanArchitecture"></a> 
+
+## Clean Architecture
+
+Objective: The objective is to show that we can adapt any software design keeping its principles to arrive at a solution that can be suitable for each type of problem.
+Inspiration: This article is inspired by real situations and difficulties already experienced that made me have a slightly more comprehensive view on having an ideal of architecture.
+Clean Architecture was created by Robert C. Martin and promoted in his book Clean Architecture: A Craftsman’s Guide to Software Structure. Like other software design philosophies, Clean Architecture tries to provide a methodology to be used in coding, in order to facilitate code development, allow for better maintenance, updating and less dependencies.
+An important goal of Clean Architecture is to provide developers with a way to organize code in a way that encapsulates business logic, but keeps it separate from the delivery mechanism.
+
+<p align="center">
+    <img alt="cleancodearq" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/blog/hello-world/arquitetura-limpa.jpeg" width="800" />
+</p>
+<center>The Clean Architecture by Robert C. Martin</center>
+
+Clean Architecture was not the first software design concept that appeared, over time software architectures have been created with the same objective of solving a design principle known as SoC (separation of concerns).
+The advantages of using a layered architecture are many, but we can point out a few:
+Testable. Business rules can be tested without the user interface, database, server or any other external elements.
+Regardless of the user interface. The user interface can easily change without changing the rest of the system. A web UI can be replaced with a console UI, for example, without changing business rules.
+Database independent. You can exchange Oracle or SQL Server, for Mongo, BigTable, CouchDB or any other. Your business rules are not linked to the database.
+Independent of any external agent. In fact, your business rules simply do not know anything about the outside world, they are not linked to any Framework.
+Separating layers will save the developer many future problems with software maintenance, the well-applied dependency rule will make your system completely testable. When a framework, a database, or an API becomes obsolete, replacing a layer will not be a headache, in addition to ensuring the integrity of the project core. For more details on each layer of Clean Architecture we can see on Uncle Bob’s blog.
+“Good architecture makes the system easy to understand, easy to develop, easy to maintain, and easy to deploy. The ultimate goal is to minimize the lifetime cost of the system and to maximize programmer productivity. ”
+- Robert C. Martin, Clean Architecture
+Uncomplicated
+Such an architectural solution proves to be very efficient, but for each bonus there is a burden, in practice the creation of a structural model of this size proves to be quite a job in the beginning, even more with the applications being reduced more and more to levels of micro-services. We also cannot allow any application to be built without a minimum of structure and respect for the principles of SOLID.
+“Good software systems begin with clean code. On the one hand, if the bricks aren’t well made, the architecture of the building doesn’t matter much. On the other hand, you can make a substantial mess with well-made bricks. This is where the SOLID principles come in. ”
+- Robert C. Martin, Clean Architecture
+What is wrong?
+Imagine an application with a well-known design and that I believe that every software developer has used:
+First of all, the most glaring problem with this design is the non-use of a business layer, concentrating the entire rule on services or even on other points such as entities or, as incredible as it seems in controllers, is a major architectural flaw.
+As well-written as it is, this coupling can cost a lot to maintain in the future. Possibly the entities have direct dependencies with business rules and their ORM, bringing to them a great responsibility and a great point of failure with this mix of low and high level policies.
+With this structure, how could we migrate a technology or a Framework without changing practically all the code?
+“If you think good architecture is expensive, try bad architecture.”
+- Brian Foote and Joseph Yoder
+Is the Ideal complicated?
+Studying the different architectures and concepts, going through Hexagonal, Onion and finally Clean Architecture, which presented the ideal of a layered, modular and relatively low maintenance software after its complete implementation, he and others generated a problem of knowledge and confusion between the teams, some with difficulties in implementing a project from scratch, or others forgetting the trivial in the case of configuring a dependency injection or failing to understand how all those modules work. When we go through these difficulties we evolved a lot in knowledge, but is it worth it to lose (or gain) a good part of our productivity in the definition of an extremely ideal architecture?
+I remember going through several problems until I came up with a suitable build solution for a multi-module project implemented from end to end and then I wondered, was all the effort worth it? Does any and all software need this effort?
+A good architect serves precisely to try to define these limits, having a more comprehensive view of when, what to implement, what the project needs at the moment and how far it can go.
+Is the ideal complicated? You shouldn’t, so always remember the famous YAGNI (You aren’t gonna need it).
+“Architectural refactoring is hard, and we’re still ignorant of its full costs, but it isn’t impossible.”
+- Martin Fowler, Patterns of Enterprise Application Architecture
+How can we make it uncomplicated?
+With a more simplistic view of architecture, following all good concepts, mainly that of maintaining the total isolation of the core, but with a single external layer for the application, simulating a physically modular division by packages with config, entrypoint and dataprovider.
+To illustrate a little more the model based on Clean Architecture and Ports and Adapters, here is an illustration to visualize the dependencies of each layer and the connections with its components, making its responsibilities very clear.
+
+<p align="center">
+    <img alt="cleancodearq" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/blog/hello-world/simple.png" width="800" />
+</p>
+<center>The Simple Clean Architecture by HelpDev</center>
+
+See how the premises always go to the center, and how the core is fully protected from any external interference, allowing the development of the implementation details to be fully contract-based, never exposing the high-level details directly. We prove this with the following class diagram:
+
+<p align="center">
+    <img alt="cleancodearq" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/blog/hello-world/clean-app.png" width="800" />
+</p>
+
+Note: It is observed that in the class diagram shown, the notation @ javax.inject.Named was inserted in the classes that implement the interfaces, this notation for those who do not know it, or use another language, is a notation of the dependency injection specification. of Java (JSR-330). It is used as a dependency on the core so that it does not have any direct dependency on Framework, thus containing only the trivial, as specifications. In Java applications using the Spring Framework, this notation allows our application to configure dependency injection automatically, just insert the package you want to scan in the scanBasePackages property of the @SpringBootApplication notation of your main class and if your core package is the even from your application, nothing needs to be done (really magical).
+This model is also briefly presented in Robert C. Martin’s book as “Périphérique anti pattern of ports and adapters” for its potential trade-off if access modifiers are not given importance, however if we use the package-private access modifier correctly in our implementations, this would be discarded, as your application (eg entry points) would not directly call your infrastructure (dataprovider), so the only available contracts that make sense are the use case contracts.
+“Architecture is a hypothesis, that needs to be proven by implementation and measurement.”
+- Tom Gilb
+Conclusion
+The solution of an adequate architecture is trivial in any system.
+Regardless of any architecture or method for telling how you should or should not build your software, I believe that first we have to respect some principles, such as SOLID and the principles of cohesion and coupling.
+Robert C. Martin said that software architecture means knowing how to draw clear boundaries of its classes and components to minimize the human resources needed for its construction and maintenance. Your model has these very well defined limits but in this article I tried to show that not everything needs to be done as an ideal step by step, each problem can have one or more appropriate solutions, the important thing when defining a software architecture is to be able to anticipate some decisions for that it’s not too late.
+“The only way to go fast, is to go well.”
+- Robert C. Martin
+References
+Uncle Bob Blog: https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+Book: Clean Architecture: A Craftsman’s Guide to Software Structure — ISBN: 0134494164
+
+
+
+- 🔝 [Back to the top](#backtothetop)
+---
 
 
