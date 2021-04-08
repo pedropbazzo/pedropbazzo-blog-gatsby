@@ -12,7 +12,7 @@ description: Sharing News 🚀
 # 📚 Summary
 
 - [Clean Architecture](#cleanArchitecture)
-  - [(JAVA) The 'Kart Race Importer' is a project to import data held in log files](#KartRaceImporter)
+  - [(JAVA) The 'Kart Race Importer' is a project to import data held in log files](#kart)
 
 - [Cloud Computing](#cloud)
   - [AWS vs. Azure vs. Google: Cloud Comparison](#comparisoncloud) 
@@ -6243,7 +6243,7 @@ References
 Uncle Bob Blog: https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 Book: Clean Architecture: A Craftsman’s Guide to Software Structure — ISBN: 0134494164
 
-<a id="#KartRaceImporter"></a>
+<a id="#kart"></a>
 
 ## [JAVA] [Repository - The 'Kart Race Importer' is a project to import data held in log files](https://github.com/pedropbazzo/kart-race-importer)
 
