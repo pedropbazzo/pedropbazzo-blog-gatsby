@@ -6245,7 +6245,7 @@ Book: Clean Architecture: A Craftsman’s Guide to Software Structure — ISBN: 
 
 <a id="kart"></a>
 
-## [Clean Architecture] [Book](https://github.com/ChrisLeNeve/books/blob/master/Clean%20architecture.pdf)
+## [Clean Architecture] [Book](https://github.com/pedropbazzo/pedropbazzo-blog-gatsby/blob/master/site/contents/blog/hello-world/Clean%20architecture.pdf)
 
 
 - 🔝 [Back to the top](#backtothetop)
