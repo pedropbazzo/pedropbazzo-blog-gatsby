@@ -11,7 +11,8 @@ image: ./event.png
 <a id="backtothetop"></a>
 
 - [Tech Talk](#techtalk01)
-  - [Organizing an application with React](#techtalk01) 
+  - [Organizing an application with React](#techtalk01)
+  - [Cloud Modernization](#techtalk02)  
 
 - [Portfolio](#portfolio)
   - [Mobile](#mobile)
@@ -291,6 +292,16 @@ added benefit that there's no such thing as an "MSC" yet, so the word
 they know what a "view" is supposed to be.
 
 ---
+
+<a id="techtalk02"></a>
+
+<h3 align="center">
+    <img alt="techtalk02" title="#techtalk02" width="400px" src="">
+    <br>
+</h3>
+
+
+
 <a id="portfolio"></a>
 # <center>Portfolio</center>
 
