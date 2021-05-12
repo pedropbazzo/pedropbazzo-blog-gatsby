@@ -296,7 +296,7 @@ they know what a "view" is supposed to be.
 <a id="techtalk02"></a>
 
 <h3 align="center">
-    <img alt="techtalk02" title="#techtalk02" width="400px" src="">
+    <img alt="techtalk02" title="#techtalk02" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/palestraAwsFamo.jpeg">
     <br>
 </h3>
 
