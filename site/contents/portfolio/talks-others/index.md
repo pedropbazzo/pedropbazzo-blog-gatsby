@@ -336,7 +336,42 @@ Azure, which appeared in 2010, is Microsoft's platform for running applications 
 
 Azure is also an example of the growth of cloud computing: according to data from the American consultancy Wedbush Securities, Microsoft is very close to taking the lead in the cloud industry.
 
+## What are the main benefits of investing in the cloud?
 
+Investing in cloud computing can bring several benefits to the company. The first to be detected is the gain in operational mobility. After all, each professional will be able to access their work tools anywhere, just having an active connection to the Web.
+
+At the same time, the possibility of hiring resources as needed reduces operating costs in the medium and long term. This is one of the main factors that lead companies to invest in the cloud, since the technology expands the capacity of the enterprise to plan efficiently and improves the openness to make new investments.
+
+With automated backup routines, data security becomes more reliable. Legacy systems, for example, can run in a high-performance environment, which is unaffected by vulnerabilities on the client machine.
+
+Check out other benefits of investing in cloud computing below.
+
+## Scalability
+
+Operational scalability is also a key factor in cloud computing. By handling resources according to internal demands, the company is able to prepare itself precisely for changes in the market. This will directly influence the enterprise's ability to remain productive and able to serve its customers with agility.
+
+As resources are made available automatically, the return on investment (also known by the acronym ROI, Return On Investiment) will be high. The company will transform the amount invested in new systems quickly, either with the gain in productivity, or with the reduction of expenses with technology.
+
+At the same time, the simplification of management policies translates into a strategic point for the company. IT professionals will be able to give a greater focus to internal projects and other factors that influence the performance of the sector. Thus, the company will innovate more.
+
+Centralization of data
+The centralization of information is another significant differential, since this model prevents data from being kept in different programs. This guideline prevents different types of forms of authentication and access from being generated, which would confuse employees.
+
+Absence of geographical barriers
+The cloud is a kind of virtual meeting point for employees. Imagine a company with several branches, whose employees are always exchanging information to streamline the business. Flat files can be sent by email. But what about when that document is too big to be attached?
+
+A few decades ago, the solution would have been to send a package that would take a few days to reach the recipient. With cloud computing, this problem no longer exists: it is possible to upload the file to the cloud, follow it in real time and, if necessary, edit the document quickly, speeding up the work together.
+
+Remote work and corporate mobility
+With digital transformation, it is no longer necessary for every employee to have to travel daily to the workplace. The cloud complements the possibility of remote work, as professionals can access and send data through any computer or mobile device.
+
+In addition, certain companies prioritize corporate mobility, which consists of the possibility for the professional to continue producing even in the field, receiving and passing on information in real time. The cloud fits perfectly in this process, since all that the employee needs to use it is to access his smartphone.
+
+## How does cloud computing work?
+
+Cloud computing uses a remote server to connect users' devices to centralized resources. A remote server stores all the data and programs you need and can be located geographically anywhere.
+
+What really matters is that it is possible to access files from anywhere, even if they are stored on the other side of the world. There are three models of cloud computing: public, private and hybrid. We will get to know each one of them below.
 
 
 <a id="portfolio"></a>
