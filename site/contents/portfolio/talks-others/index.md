@@ -295,12 +295,13 @@ they know what a "view" is supposed to be.
 
 <a id="techtalk02"></a>
 
-<center>
-
 ### [EN-US] Cloud Modernization 
-</center>
 
-<div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/palestraAwsFamo.jpeg" />
+<h3 align="center">
+    <img alt="techtalk02" title="#techtalk02" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/palestraAwsFamo.jpeg">
+    <br>
+</h3>
+
 
 
 <a id="portfolio"></a>
