@@ -373,6 +373,57 @@ Cloud computing uses a remote server to connect users' devices to centralized re
 
 What really matters is that it is possible to access files from anywhere, even if they are stored on the other side of the world. There are three models of cloud computing: public, private and hybrid. We will get to know each one of them below.
 
+## Public Cloud
+
+In this model, computational resources, such as servers and storage capacity, are provided by third parties and made available to individual users or companies that wish to hire them.
+
+In this way, the customer becomes responsible for what will be sent to the cloud. The provider takes care of maintenance, security and general management practices.
+
+In the public cloud, everything is available on the Web and the information is shared among several users who use the files simultaneously.
+
+## Private Cloud
+
+Here, the company maintains the cloud infrastructure in its own environment, offering access to authorized users, such as employees and partners. The private cloud model provides the company with the possibility to customize the service according to their needs and preferences.
+
+In general, this modality is adopted by organizations that follow certain regulations and rules designed to guarantee the security and privacy of data. As examples, we can mention financial institutions and government agencies.
+
+## Hybrid cloud
+
+Finally, when we mention the hybrid option, we are talking about the junction between the two previous models. This combination allows for optimal sharing of information between them.
+
+Thus, according to the business demand, some resources are delegated to the private model and others are used publicly.
+
+## What are the cloud services?
+
+Today, cloud computing operates across a wide range of services, tools and features. Among the main ones, we can highlight three models.
+
+## SaaS (Software as a Service)
+SaaS ensures that you can access the software directly, without having to purchase the license. This use is made free of charge through the cloud.
+
+In this model, the company can access the program over the Internet, without having to worry about installation, configuration and care with licenses.
+
+## PaaS (Platform as a Service)
+In this model, the client obtains a complete environment to develop, the so-called on demand, which provides the creation, modification and optimization of applications and programs.
+
+The great thing about PaaS is that it includes operating and database management systems, as well as other valuable resources for running applications.
+
+## IaaS (Infrastructure as a Service)
+
+Finally, in the IaaS model, all infrastructure resources are rented. It can include equipment, such as servers, data centers, hardware solutions and racks, among other machines for data processing.
+
+With IaaS everything is used according to the company's demand, and it will only pay for what it uses. It is especially valuable for companies that like to measure spending accurately.
+
+## What is cloud computing today?
+
+It is basically the Internet standard. Companies like Netflix, Spotify and other on-demand services are already part of the online ritual and conviviality. Fewer and fewer people store content on their computers, mobile phones and tablets, opting to move from work documents to personal photos on cloud services.
+
+Organizations themselves are benefiting from cloud services, which bring speed, freedom of choice and cost savings.
+
+As not everyone can keep up with technological developments closely, there are those who still fear for security, data privacy, network performance and savings in cloud computing. However, with applications naturally evolving into a model available on the Web, the tendency is for these concerns to disappear.
+
+All this that currently still concerns a few will evolve technically, to the point that they are no longer a hindrance even for the most suspicious. Cloud computing will transform today's computing world! 
+
+---
 
 <a id="portfolio"></a>
 # <center>Portfolio</center>
