@@ -318,6 +318,23 @@ However, the most comprehensive concept, which is to provide computing resources
 
 ## Beginnings
 
+The idea of ​​an “intergalactic computer network” was introduced in the 1960s by J.C.R. Licklider, who was responsible for the development of the ARPANET (Advanced Research Projects Agency Network), the first operational computer network based on packet switching.
+
+Since the 1960s, cloud computing has developed in several ways, at least theoretically. However, in the 1990s, things started to become real, as the Internet began to offer more significant bandwidth packages, allowing cloud computing to reach the masses.
+
+One of the first milestones in the history of cloud computing was the arrival of Hotmail in 1996, a pioneer in the concept of providing applications through a simple website. The consolidation of business applications happened with the arrival of Salesforce, right after.
+
+## Evolution
+
+Then came Amazon Web Services in 2002, which envisaged a set of cloud-based services, which in 2006 became Amazon EC2 / S3, the first widely accessible cloud computing infrastructure service. Today, AWS involves a large set of services aimed at the corporate environment.
+
+By 2009 the world was already on this trend, and Google, Microsoft and other giants began offering browser-based business applications, such as Google Docs or Office Online, for example.
+
+## Azure arrival
+
+Azure, which appeared in 2010, is Microsoft's platform for running applications and services, based on the concepts of cloud computing. It allows you to use the company's computing and storage resources, along with a series of services and applications integrated with each device that accesses that cloud.
+
+Azure is also an example of the growth of cloud computing: according to data from the American consultancy Wedbush Securities, Microsoft is very close to taking the lead in the cloud industry.
 
 
 
