@@ -302,6 +302,24 @@ they know what a "view" is supposed to be.
     <br>
 </h3>
 
+## What is cloud computing?
+
+The concept of the cloud merges with that of the Internet, that is, computers around the world, united by a communication network, capable of offering information to anyone who has access to them. On the web, it doesn't matter to the user where the information is physically housed - it can be on any computer connected to the network.
+
+Thus, the cloud allows access to different applications, without them being installed on our devices (computers, cell phones, tablets). In other words, a corporation acquires the service and the supplier takes care of the development, maintenance, data storage and backup of the saved systems and documents. The user is only responsible for accessing and using the resources.
+
+Through the cloud, companies and people can easily connect, optimizing their processes. Thus, several people work collaboratively on the same platform or file, and security is guaranteed. Thus, there is no risk of compromising the entire process because a machine has broken or had an error.
+
+## How did cloud computing come about?
+
+Cloud computing has evolved through diverse solutions. A good example is the SaaS model (Software as a Service), in which the software provider is responsible for all the necessary structure for making the system available and the customer uses the product via the Internet, paying a fee for what he uses.
+
+However, the most comprehensive concept, which is to provide computing resources on a global network, has its roots even in the 1960.
+
+## Beginnings
+
+
+
 
 
 <a id="portfolio"></a>
