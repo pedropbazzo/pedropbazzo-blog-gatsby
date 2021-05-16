@@ -430,7 +430,7 @@ All this that currently still concerns a few will evolve technically, to the poi
     <br>
 </h3>
 
-
+Medium: https://medium.com/edureka/on-premise-vs-cloud-computing-f9aee3b05f50
 
 Before building your architecture, it is essential to decide whether you want to manage your infrastructure locally (on your own) or let third parties manage it for you. These factors related to your environment should be considered for smooth operations.
 
