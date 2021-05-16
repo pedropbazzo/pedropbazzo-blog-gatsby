@@ -423,7 +423,13 @@ As not everyone can keep up with technological developments closely, there are t
 
 All this that currently still concerns a few will evolve technically, to the point that they are no longer a hindrance even for the most suspicious. Cloud computing will transform today's computing world! 
 
-## On-Premise
+## On-Premise X Cloud Computing
+
+<h3 align="center">
+    <img alt="onpromise" title="#onpremise" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/onpremise.png">
+    <br>
+</h3>
+
 
 
 Before building your architecture, it is essential to decide whether you want to manage your infrastructure locally (on your own) or let third parties manage it for you. These factors related to your environment should be considered for smooth operations.
