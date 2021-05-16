@@ -423,6 +423,13 @@ As not everyone can keep up with technological developments closely, there are t
 
 All this that currently still concerns a few will evolve technically, to the point that they are no longer a hindrance even for the most suspicious. Cloud computing will transform today's computing world! 
 
+## On-Premise
+
+
+Before building your architecture, it is essential to decide whether you want to manage your infrastructure locally (on your own) or let third parties manage it for you. These factors related to your environment should be considered for smooth operations.
+
+Let's talk about a subject that interests most people: money. In general, you have money in your wallet and bank account. Here, the wallet is your local environment. On-Premise means that a company maintains all of its data, servers and everything in its IT environment internally. The company is responsible for administering, supporting and maintaining data at all times. This is the traditional way of hosting your architecture.
+As a local environment refers to the maintenance of the entire internal infrastructure, it is also called “thermoelectric packaging”. An alternative to this is Cloud Computing.
 ---
 
 <a id="portfolio"></a>
