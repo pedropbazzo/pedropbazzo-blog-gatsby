@@ -426,7 +426,7 @@ All this that currently still concerns a few will evolve technically, to the poi
 ## On-Premise X Cloud Computing
 
 <h3 align="center">
-    <img alt="onpromise" title="#onpremise" width="920px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/onpremise.png">
+    <img alt="onpromise" title="#onpremise" width="2400px" height="1248px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/onpremise.png">
     <br>
 </h3>
 
