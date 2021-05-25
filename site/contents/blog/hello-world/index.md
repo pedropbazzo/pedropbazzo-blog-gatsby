@@ -6247,6 +6247,87 @@ Book: Clean Architecture: A Craftsman’s Guide to Software Structure — ISBN: 
 
 ## [Clean Architecture] [Book](https://github.com/pedropbazzo/pedropbazzo-blog-gatsby/blob/master/site/contents/blog/hello-world/Clean%20architecture.pdf)
 
+<a id="javaEngineer"></a>
+
+## Java Engineer, What you need to know?
+
+# Step by step guide to becoming a modern backend developer
+
+This guide will absolutely assist you in answering different such consuming inquiries, for example, the innovations that the Java engineer must learn? You ought to likewise realize what are the apparatuses that cause you to be the better Java Developer? Likewise, which sort of structure the Java Developer should learn.
+Anyway, we should encounter this Software Engineer RoadMap to understand how to come to be a Java Developer.
+Btw, you in no way, shape or form require to fathom everything on this guide to wind up being a software engineer. All things considered, you don’t likewise require to pay attention to them that on the off chance that you would prefer not to. Rather, utilize these maps as a start show help your understanding as you go.
+
+## Principals skills — Design Patterns, YAGNI, KISS, SOLID
+
+When I started programming I was happy that my program was compiling and was working as I expected it to work, but as I wrote more and more code over time I’ve started to appreciate design patterns.
+Design patterns not only make my code better, more readable and easier to maintain, but also save me a lot, and I mean A LOT of debugging hours.
+That is why I wanted to share some with you.
+This design patterns originated from so called “gang of four”, authors of a [DesignPatterns Book](http://wiki.c2.com/?DesignPatternsBook).
+They introduced this principles that are extremely useful especially in object-oriented programming.
+Probably you are already using all that, but it is always good to refresh your knowledge.
+
+These are the concepts that you need to know before starting any training:
+
+YAGNI — Ya Ain’t Gonna Need It — The philosophy that most of the code you think you’ll need to write and the features you’ll need to implement will actually turn out to be unnecessary
+KISS — Keep it simple, silly! — The simpler you keep your projects the easier your life will be when it comes to maintenance.
+SOLID — This is a mnemonic for “Single responsibility,‌‌Open–closed, Liskov substitution, Interface segregation, Dependency inversion”. Yeah — not beginner’s stuff, but look into this if you’re curious.
+
+## Mandatory Skills for Java Software Engineers
+
+<h3 align="center">
+    <img alt="techtalk02" title="#techtalk02" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/palestraAwsFamo.jpeg">
+    <br>
+</h3>
+
+What does “To know Java” mean?
+The most accurate, albeit very general answer to this question would be “be able to solve the problem using Java.” Such a problem may be the goal of “passing an exam” or “getting a job”. Or it can be a technical task, either a big one “to create my own project good enough for Play Market”, for example, or a small one such as “understand how to write code that does what you need.”
+Java students usually learn the next topics:
+Core Java or
+Core Java + JUnit or
+Core Java + DataBases or
+Core Java + Tools or
+Core Java + Libraries or
+Core Java + Spring + SpringBoot + Hibernate or
+…and all of the above combinations.
+All these topics have one thing in common. It is Core Java, the basics. So if you don’t know Core Java, you definitely don’t know Java at all. Therefore, to learn Core Java is step#1 for every future Java Software Developer.
+Core Java covers the fundamental concepts of the language:
+Basic types and objects
+Basic constructions (Special Operators, Loops, Branches)
+OOPs Concepts
+Wrapper Classes
+Collections
+Multithreading
+I/O Streams
+Exception Handling
+So Core Java contains basic types, objects, constructions, and principles as well as the most important libraries and frameworks. In addition Core Jav covers classes for networking, security, database access, graphical user interface (GUI) development, and XML parsing. Mostly all packages of “Core Java” started with ‘java.lang..’
+Good ratio for theory and practice
+You can’t learn how to swim without trying to swim, just by a book. The same story with programming. You can’t learn Programming without writing code. Programming is a practical activity. It is important to start writing code as early as possible. You don’t need to learn too much theory at once, especially in the first months of study. It is better to study it in small portions, and then immediately fix it in practice. So, 20% of your time is for theory research and 80% for practice.
+Here is the right place to return to the very first question “What does it mean to know Java” and clarify the answer. To know Java means to be able to code in Java. Not “know about Java” but be able to write programs of varying complexity and have some experience in such coding.
+Be able to ask questions
+Beginners often hesitate whether they should ask questions on forums and communities, because they think that their questions could be stupid. Well, they definitely could! But it is ok, there is no reason to worry! Every software developer was in your shoes and needed an answer on a rookie question. So what? Programming communities are somewhat collaborative. Software developers usually work as a team and all of them were beginners once.
+
+Best forums to ask questions or look for answers:
+
+This selection is 6 books that will either make you a better coder in general or an essential book you will need at some point in your career, such as during interviews. Or, see a complete list of programming book recommendations.
+
+Clean Code by Robert C Martin
+
+The Pragmatic Programmer by Andrew Hunt & David Thomas
+
+The Effective Engineer by Edmund Lau Cracking the Coding Interview by Gayle Laakmann McDowell
+
+The Art of Computer Programming by Donald Knuth
+
+Design Patterns: Elements of Reusable Object-Oriented Software
+
+If you are learning to web development, there is also a high likelihood you’re interested in startups.
+
+## Conclusions
+
+How to learn Java fast? Try not to take long stops, or procrastinate while you’re learning. It is extremely important, because during long stops, you don’t just stand still, but roll back little by little.
+Daily practice, perseverance and motivation — you’ll definitely need all of these if you decide to learn Java and related technologies.
+If you follow a set schedule, observe the right balance of theory and practice, and practice daily for at least 1–3 hours, not be afraid to ask questions, it is quite possible to learn Java to the level that will allow you to find your first Job in 6–12 months. … And then continue your learning as a Software Engineers professional to infinity and beyond!
+
 
 - 🔝 [Back to the top](#backtothetop)
 ---
