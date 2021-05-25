@@ -23,12 +23,14 @@ description: Sharing News 🚀
 - [Git](#)
   - [Git Tutorial With Command Line](#git) 
 
+
 - [Technologies](#tech)
   - [What is Next.js?](#nextjs) 
   - [Angular](#angular) 
   - [React](#react)
   - [Vue](#vue) 
   - [GraphQL vs. REST | What are the diferences?](#graphql) 
+  - [Java Roadmap](#javaRoadmap)
 
 - [Ebook for Programmers](#)
   - [Programming](#ebook)
@@ -6247,7 +6249,7 @@ Book: Clean Architecture: A Craftsman’s Guide to Software Structure — ISBN: 
 
 ## [Clean Architecture] [Book](https://github.com/pedropbazzo/pedropbazzo-blog-gatsby/blob/master/site/contents/blog/hello-world/Clean%20architecture.pdf)
 
-<a id="javaEngineer"></a>
+<a id="javaRoadmap"></a>
 
 ## Java Engineer, What you need to know?
 
@@ -6275,7 +6277,7 @@ SOLID — This is a mnemonic for “Single responsibility,‌‌Open–closed, L
 ## Mandatory Skills for Java Software Engineers
 
 <h3 align="center">
-    <img alt="techtalk02" title="#techtalk02" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/palestraAwsFamo.jpeg">
+    <img alt="javaModern" title="#javaModern" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/blog/hello-world/roadmapJava.png">
     <br>
 </h3>
 
