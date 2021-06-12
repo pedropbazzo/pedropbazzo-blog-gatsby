@@ -2419,8 +2419,8 @@ Kerridge (PDF) (email address *requested*, not required)
 # React Developer Roadmap
 
 
-[README in Portuguese (Brazil)](#reactroadmapen)
-<a id="reactroadmapen"></a> )
+[README in Portuguese (Brazil)](#reactroadmapbr)
+<a id="reactroadmapbr"></a> 
 
 > Roadmap to becoming a React developer in 2019:
 
