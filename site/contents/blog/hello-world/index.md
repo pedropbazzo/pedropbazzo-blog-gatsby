@@ -26,7 +26,7 @@ description: Sharing News 🚀
 
 - [Technologies](#tech)
   - [What is Next.js?](#nextjs) 
-  - [Angular](#angular) 
+  - [Angular](#angular)(#roadmapAngular)  
   - [React](#react)
   - [Vue](#vue) 
   - [GraphQL vs. REST | What are the diferences?](#graphql) 
@@ -135,6 +135,8 @@ Slow processing
 Limited SEO Option
 
 ## Roadmap
+
+<a id="roadmapAngular"></a>
 
 <div style="text-align:center"><img src ="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/blog/hello-world/roadmap.png" />
 
