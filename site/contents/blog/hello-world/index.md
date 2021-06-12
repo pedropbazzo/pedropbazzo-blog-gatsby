@@ -2252,9 +2252,6 @@ Kerridge (PDF) (email address *requested*, not required)
   
   # Guia do desenvolvedor React
 
-[README em PT-BR](#reactroadmapbr)
-
-[README in English](#reactroadmapen)
 
 > Guia para se tornar um desenvolvedor React em 2019:
 > Abaixo, você pode encontrar um diagrama mostrando os caminhos que podem levar, bem como as bibliotecas que você precisa aprender para se tornar um desenvolvedor React. Eu fiz esse esquema como uma dica para qualquer um que me perguntasse: "O que eu deveria aprender mais como desenvolvedor React?"
@@ -2423,7 +2420,9 @@ Kerridge (PDF) (email address *requested*, not required)
 <a id="reactroadmapbr"></a> 
 
 > Roadmap to becoming a React developer in 2019:
+<a id="reactroadmapen"></a>
 
+  
 Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn to become a React developer. I made this chart as a tip for everyone who asks me, "What should I learn next as a React developer?"
 
 ## Disclaimer
