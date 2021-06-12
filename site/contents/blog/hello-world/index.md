@@ -26,7 +26,8 @@ description: Sharing News 🚀
 
 - [Technologies](#tech)
   - [What is Next.js?](#nextjs) 
-  - [Angular](#angular)(#roadmapAngular)  
+  - [Angular](#angular)
+  - [Angular Roadmap](#roadmapAngular)  
   - [React](#react)
   - [Vue](#vue) 
   - [GraphQL vs. REST | What are the diferences?](#graphql) 
