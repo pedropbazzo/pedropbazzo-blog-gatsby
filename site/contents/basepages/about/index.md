@@ -6,7 +6,6 @@ image: ./imageme2.png
 ---
  
 <p align="center">
-<a href="http://pedropbazzo.com.br"><img src="https://img.shields.io/badge/pedropbazzo-brightgreen"></a>
 <a href="https://pedropbazzo.blog"><img src="https://img.shields.io/badge/Blog-black"></a>
 <a href="https://pedropbazzo.github.io/online-cv/"><img src="https://img.shields.io/badge/My%20online%20curriculum-0077B5.svg"></a></p>
 
@@ -80,6 +79,8 @@ image: ./imageme2.png
 <center>
 <tr>
 <td><img width="440px" align="center" src="https://activity-graph.herokuapp.com/graph?username=pedropbazzo&theme=dracula"/></td></tr></center></br>
+
+![Snake animation](https://github.com/pedropbazzo/pedropbazzo/blob/master/snake.svg)
 
 ---
 
