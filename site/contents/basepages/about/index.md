@@ -23,10 +23,10 @@ image: ./imageme2.png
 
 ✉️ **If you want to contact me for work purposes or if you have any questions send me an email**
 
-<div>
+<p>
 <img src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/basepages/about/_work%20%20%20(1).png"/>
 
-I work at Itaú Unibanco daily to create new front-end functionalities for the web system, mobile system and back-end, creating and maintaining microservices in the cloud. </div>
+I work at Itaú Unibanco daily to create new front-end functionalities for the web system, mobile system and back-end, creating and maintaining microservices in the cloud. </p>
 
 
 
