@@ -80,7 +80,7 @@ image: ./imageme2.png
 <tr>
 <td><img width="440px" align="center" src="https://activity-graph.herokuapp.com/graph?username=pedropbazzo&theme=dracula"/></td></tr></center></br>
 
-![Snake animation](https://github.com/pedropbazzo/pedropbazzo/blob/master/snake.svg)
+<td><img width="440px" align="center" src="https://github.com/pedropbazzo/pedropbazzo/blob/master/snake.svg"/></td></tr></center></br>
 
 ---
 
