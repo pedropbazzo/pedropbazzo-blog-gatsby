@@ -23,6 +23,12 @@ image: ./imageme2.png
 
 ✉️ **If you want to contact me for work purposes or if you have any questions send me an email**
 
+<img src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/basepages/about/_work%20%20%20(1).png"/>
+
+I work at Itaú Unibanco daily to create new front-end functionalities for the web system, mobile system and back-end, creating and maintaining microservices in the cloud.
+
+
+
 <ul>
   <li>💻  I'm Developer from <b>São Paulo <img src="https://image.flaticon.com/icons/svg/197/197386.svg" width="13"/> Brasil</b></li>
   <li>💾  I'm working with Typescript, Angular, Android, Java, JSP, NodeJS, AWS and Git</li>
