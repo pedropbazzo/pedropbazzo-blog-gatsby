@@ -26,7 +26,7 @@ image: ./imageme2.png
 <p>
 <img src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/basepages/about/_work%20%20%20(1).png"/>
 
-I work at Itaú Unibanco daily to create new front-end functionalities for the web system, mobile system and back-end, creating and maintaining microservices in the cloud. </p>
+I work daily at Itaú Unibanco to create new front-end functionalities and take workloads to AWS from the web system, mobile system and back-end, creating and maintaining microservices. </p>
 
 
 
