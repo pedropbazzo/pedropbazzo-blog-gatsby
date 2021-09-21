@@ -5,7 +5,7 @@ let siteMetadata = {
   icon: `/images/icon.png`,
   titleImage: `/images/wall.jpg`,
   introTag: `Senior Software Engineer 🛡️`,
-  description: `I work daily to create new front-end features for the web system, mobile system and back-end, creating and maintaining microservices on cloud.`,
+  description: `I work daily at Itaú Unibanco to create new front-end features and take workloads to AWS from the web system, mobile system and back-end, creating and maintaining microservices.`,
   author: `@pedropbazzo`,
   blogItemsPerPage: 20,
   portfolioItemsPerPage: 20,
