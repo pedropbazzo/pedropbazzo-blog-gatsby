@@ -6677,6 +6677,7 @@ If you follow a set schedule, observe the right balance of theory and practice, 
 
 <a id="roadmap2021"></a> 
 
+## [EN-US] DevOps Roadmap?
 
 ![](https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/devops.png)
 
