@@ -21,7 +21,7 @@ image: ./imageme2.png
 <a href="https://gist.github.com/pedropbazzo"><img src="https://img.shields.io/badge/github_gist-000000.svg?style=for-the-badge&logo=github&logoColor=white%22"></a>
 
 
-### I work daily at Itaú Unibanco to create new front-end features and take workloads to AWS from the web system, mobile system and back-end, creating and maintaining microservices. 
+### I work daily at Itaú Unibanco to create new front-end features and take workloads to AWS from the web system, mobile system and back-end, creating and maintaining microservices on cloud. 
 
 <p>
 <img src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/basepages/about/_work%20%20%20(1).png"/>
