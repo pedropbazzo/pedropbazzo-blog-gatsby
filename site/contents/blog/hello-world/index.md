@@ -20,6 +20,10 @@ description: Sharing News 🚀
 - [Cyber Security](#cyber)
   - [Cybersecurity Statistics, Predictions, and Solutions for 2021](#cyber2021) 
 
+
+- [DevOps](#devopsRoadmap)
+  - [Rodmap 2021](#roadmap2021) 
+
 - [Git](#)
   - [Git Tutorial With Command Line](#git) 
 
@@ -6668,6 +6672,13 @@ How to learn Java fast? Try not to take long stops, or procrastinate while you�
 Daily practice, perseverance and motivation — you’ll definitely need all of these if you decide to learn Java and related technologies.
 If you follow a set schedule, observe the right balance of theory and practice, and practice daily for at least 1–3 hours, not be afraid to ask questions, it is quite possible to learn Java to the level that will allow you to find your first Job in 6–12 months. … And then continue your learning as a Software Engineers professional to infinity and beyond!
 
+<a id="devopsRoadmap"></a> 
+
+
+<a id="roadmap2021"></a> 
+
+
+![](https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/devops.png)
 
 - 🔝 [Back to the top](#backtothetop)
 ---
