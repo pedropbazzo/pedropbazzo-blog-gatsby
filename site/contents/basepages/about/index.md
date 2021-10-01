@@ -6,8 +6,6 @@ image: ./imageme2.png
 ---
  
 <p align="center">
- 
-<a href="https://pedropbazzo.blog"><img src="https://img.shields.io/badge/pedropbazzo-brightgreen"></a>
 <a href="https://pedropbazzo.github.io/online-cv/"><img src="https://img.shields.io/badge/My%20online%20curriculum-0077B5.svg"></a></p>
 
 ### <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="60"/> Hi there, I'm Pedro Bazzo 
@@ -21,20 +19,10 @@ image: ./imageme2.png
 <a href="https://gist.github.com/pedropbazzo"><img src="https://img.shields.io/badge/github_gist-000000.svg?style=for-the-badge&logo=github&logoColor=white%22"></a>
 
 <ul>
-  <li>💻 I work daily at Itaú Unibanco to create new front-end features and take workloads to AWS from the web system, mobile system and back-end, creating and maintaining microservices on cloud.</li>
-</ul>
-
-<p>
-<img src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/basepages/about/_work%20%20%20(1).png"/>
-</p>
-
-
-
-<ul>
+  <li>💻  I work daily at Itaú Unibanco to create new front-end features and take workloads to AWS from the web system, mobile system and back-end, creating and maintaining microservices on cloud.</li>
   <li>😍  Passionate about education and problem solution through programming</li>
   <li>🤝  Willing to contribute in opensource development projects</li>
 </ul>
-
 
 ## 🛠 Tech Stack
 
