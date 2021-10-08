@@ -1,7 +1,7 @@
 ---
 title: About me
 template: basepage
-image: ./
+image: ./imageme2.png
 
 ---
 
