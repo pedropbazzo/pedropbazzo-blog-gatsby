@@ -714,12 +714,7 @@ Application Developed for Dasa - for Web Responsive platform
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
     <img src="https://github.com/Shpota/github-activity-generator/workflows/build/badge.svg">
 </h3>
-  
-  <center>
-    
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=qirav3a3Le0)
-    
-</center>
+        
    
 Web Responsive | Access to the customer portal : https://dasa.ai/
 
@@ -727,6 +722,10 @@ Web Responsive | Access to the customer portal : https://dasa.ai/
     <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/responsive.png">
     <br>
 </h3>
+  
+  
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=qirav3a3Le0)
+
 
 ## 🚀 Technologies Used
 
