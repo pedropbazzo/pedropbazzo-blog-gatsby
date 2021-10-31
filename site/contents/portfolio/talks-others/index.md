@@ -704,9 +704,8 @@ This project is under the MIT license.
 ## 💻   Web Responsive 📱
 
 Application Developed for Dasa - for Web Responsive platform
-  
-  
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=qirav3a3Le0)
+ 
+
 
 <h3 align="center">
     <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/logo-dasa-ai.png">
@@ -715,7 +714,11 @@ Application Developed for Dasa - for Web Responsive platform
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
     <img src="https://github.com/Shpota/github-activity-generator/workflows/build/badge.svg">
 </h3>
-
+  
+ <h3 align="center"> 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=qirav3a3Le0)
+</h3>
+   
 Web Responsive | Access to the customer portal : https://dasa.ai/
 
 <h3 align="center">
