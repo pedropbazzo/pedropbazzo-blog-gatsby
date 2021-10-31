@@ -723,8 +723,6 @@ Web Responsive | Access to the customer portal : https://dasa.ai/
     <br>
 </h3>
   
-  
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=qirav3a3Le0)
 
 
 ## 🚀 Technologies Used
@@ -761,6 +759,10 @@ This project is under the MIT license.
     <br>
 </h3>
 
+  
+  
+  
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=qirav3a3Le0)
 
 
 ## 👩🏼‍💻 [Open Source Community](https://github.com/pedropbazzo/) 👨‍💻
