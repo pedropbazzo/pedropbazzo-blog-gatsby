@@ -715,9 +715,11 @@ Application Developed for Dasa - for Web Responsive platform
     <img src="https://github.com/Shpota/github-activity-generator/workflows/build/badge.svg">
 </h3>
   
- <h3 align="center"> 
+  <center>
+    
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=qirav3a3Le0)
-</h3>
+    
+</center>
    
 Web Responsive | Access to the customer portal : https://dasa.ai/
 
