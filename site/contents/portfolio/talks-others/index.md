@@ -715,7 +715,7 @@ Application Developed for Itaú Unibanco - for Web platform
 Web | Access to the customer portal : https://www.itau.com.br/empresas/emprestimos-financiamentos/conta-garantida/
 
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/conta_garantida.png">
+    <img alt="Logo" title="#logo" width="800px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/conta_garantida.png">
     <br>
 </h3>
 
@@ -731,11 +731,11 @@ Web | Access to the customer portal : https://www.itau.com.br/empresas/emprestim
 
 <h3 align="center">
 
-[Itaú Unibanco](https://www.itau.com.br/empresas/emprestimos-financiamentos/conta-garantida/)
+[Team Rotativos](https://www.itau.com.br/)
 </h3>    
-<h3 align="center"><img alt="conta_garantida" title="#taking" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/1550063601948d8b36a78ccdadcfd04710f9aa86/site/contents/portfolio/talks-others/logo_itau-empresas-01.svg">
+<h3 align="center"><img alt="Avatar" title="#pedropbazzo" width="280px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/1550063601948d8b36a78ccdadcfd04710f9aa86/site/contents/portfolio/talks-others/logo_itau-empresas-01.svg">
     <br>
-</h3>  
+</h3>
   
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/-MA7A2fBdRA)  
 
