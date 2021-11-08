@@ -705,7 +705,7 @@ Application Developed for Itaú Unibanco - for Web platform
 
 <h3 align="center">
     <img alt="Logo" title="#logo" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/itau.png"> <br/>
-    <br>
+    
     <img alt="web" src="https://img.shields.io/badge/web/dash/v1-brightgreen">
     <img alt="api" src="https://img.shields.io/badge/api/v1-brightgreen">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
