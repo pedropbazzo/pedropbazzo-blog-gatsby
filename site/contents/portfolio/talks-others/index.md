@@ -712,65 +712,12 @@ Application Developed for Hospital Israelita Albert Einstein - for Web platform
     <img src="https://github.com/Shpota/github-activity-generator/workflows/build/badge.svg">
 </h3>
 
-Web | Access to the customer portal : https://dash-business.vercel.app/telemedicina
+Web | Access to the customer portal : https://www.itau.com.br/empresas/emprestimos-financiamentos/conta-garantida/
 
 <h3 align="center">
     <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/dash-einstein.jpeg">
     <br>
 </h3>
-
-## 🚀 Technologies Used
-
-The project was developed using the following technologies
-
-- [React JS](https://pt-br.reactjs.org/docs/getting-started.html) <br>
-- [Node JS](https://nodejs.org/en/docs/) <br>
-  Were used here:<br/><br/>
-
-- [Front]
-- "@testing-library/jest-dom": "^5.11.4",
-- "@testing-library/react": "^11.1.0",
-- "@testing-library/user-event": "^12.1.10",
-- "axios": "^0.21.0",
-- "bootstrap": "^4.5.3",
-- "chart.js": "^2.9.4",
-- "multiselect-react-dropdown": "^1.6.3",
-- "npm": "5",
-- "npm5": "^5.0.0-beta.69",
-- "react": "^17.0.1",
-- "react-chartjs-2": "^2.11.1",
-- "react-csv": "^2.0.3",
-- "react-dom": "^17.0.1",
-- "react-export-excel": "^0.5.3",
-- "react-google-charts": "^3.0.15",
-- "react-icons": "^3.11.0",
-- "react-loading-skeleton": "^2.1.1",
-- "react-map-gl": "^5.2.10",
-- "react-router-dom": "^5.2.0",
-- "react-scripts": "^4.0.0",
-- "react-scroll": "^1.8.1",
-- "react-select": "^3.2.0",
-- "reactstrap": "^8.7.1",
-- "styled-components": "^5.2.1",
-- "web-vitals": "^0.2.4" <br/><br/>
-
-- [Back]
-- "cors": "^2.8.5",
-- "express": "^4.17.1",
-- "knex": "^0.21.12",
-- "mssql": "^6.3.0",
-- "mysql2": "^2.2.5",
-- "npm5": "^5.0.0-beta.69",
-- "request": "^2.88.2",
-- "xlsx": "^0.16.9"<br/><br/>
-
-- [Deploy]
-- API - Heroku - Azure
-- Front - Vercel - Azure - Firebase
-
-## License
-
-This project is under the MIT license. 
 
 ## 👨‍💻  [Developed by:](https://github.com/pedropbazzo/) 
 
