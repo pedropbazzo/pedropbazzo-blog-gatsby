@@ -697,8 +697,10 @@ This project is under the MIT license.
 <h3 align="center"><img alt="Taking" title="#taking" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/Taking_i%CC%81cone_logo.png">
     <br>
 </h3>
+  
 
 <a id="web"></a>
+  
 ## 💻 Web
 
 
@@ -737,6 +739,7 @@ Web | Access to the customer portal : https://www.itau.com.br/empresas/emprestim
 <h3 align="center"><img alt="Avatar" title="#pedropbazzo" width="280px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/1550063601948d8b36a78ccdadcfd04710f9aa86/site/contents/portfolio/talks-others/logo_itau-empresas-01.svg">
     <br>
 </h3>
+  
   
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/-MA7A2fBdRA)  
 
