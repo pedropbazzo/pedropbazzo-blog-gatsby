@@ -733,7 +733,7 @@ Web | Access to the customer portal : https://www.itau.com.br/empresas/emprestim
 
 [Itaú Unibanco](https://www.itau.com.br/empresas/emprestimos-financiamentos/conta-garantida/)
 </h3>    
-<h3 align="center"><img alt="conta_garantida" title="#taking" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/">
+<h3 align="center"><img alt="conta_garantida" title="#taking" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/1550063601948d8b36a78ccdadcfd04710f9aa86/site/contents/portfolio/talks-others/logo_itau-empresas-01.svg>
     <br>
 </h3>  
   
