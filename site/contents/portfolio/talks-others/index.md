@@ -701,7 +701,7 @@ This project is under the MIT license.
 <a id="web"></a>
 ## 💻 Web
 
-Application Developed for Hospital Israelita Albert Einstein - for Web platform
+Application Developed for Itaú Unibanco - for Web platform
 
 <h3 align="center">
     <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/einstein1.png">
@@ -715,7 +715,7 @@ Application Developed for Hospital Israelita Albert Einstein - for Web platform
 Web | Access to the customer portal : https://www.itau.com.br/empresas/emprestimos-financiamentos/conta-garantida/
 
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/dash-einstein.jpeg">
+    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/1550063601948d8b36a78ccdadcfd04710f9aa86/site/contents/portfolio/talks-others/logo_itau-empresas-01.svg">
     <br>
 </h3>
 
