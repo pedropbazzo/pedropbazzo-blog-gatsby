@@ -740,8 +740,7 @@ Web | Access to the customer portal : https://www.itau.com.br/empresas/emprestim
     <br>
 </h3>
   
-  
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/-MA7A2fBdRA)  
+  [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/-MA7A2fBdRA)  
 
 
 
