@@ -697,21 +697,22 @@ This project is under the MIT license.
 <h3 align="center"><img alt="Taking" title="#taking" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/static/images/Taking_i%CC%81cone_logo.png">
     <br>
 </h3>
-  
+
 <a id="web"></a>
 ## 💻 Web
+
 
 Application Developed for Itaú Unibanco - for Web platform
 
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/itau.png"> <br/>
-    
+    <img alt="Logo" title="#logo" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/itau.png">
+    <br>
     <img alt="web" src="https://img.shields.io/badge/web/dash/v1-brightgreen">
     <img alt="api" src="https://img.shields.io/badge/api/v1-brightgreen">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
     <img src="https://github.com/Shpota/github-activity-generator/workflows/build/badge.svg">
 </h3>
-
+  
 Web | Access to the customer portal : https://www.itau.com.br/empresas/emprestimos-financiamentos/conta-garantida/
 
 <h3 align="center">
