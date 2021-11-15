@@ -745,10 +745,8 @@ Web | Access to the customer portal : https://www.itau.com.br/empresas/emprestim
 ##📱 Mobile
 
 
-Application Developed for Itaú Unibanco - for Android platform
+Application Developed for Itaú Unibanco - for Android/IOS (Java/Kotlin/Adroid/ObjectiveC/Swift) platform
   
-  https://play.google.com/store/apps/details?id=com.itau.empresas&hl=pt_BR&gl=US
-
 <h3 align="center">
     <img alt="Logo" title="#logo" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/itau.png">
     <br>
@@ -758,11 +756,14 @@ Application Developed for Itaú Unibanco - for Android platform
     <img src="https://github.com/Shpota/github-activity-generator/workflows/build/badge.svg">
 </h3>
   
-Web | Access to the customer portal : https://www.itau.com.br/empresas/emprestimos-financiamentos/conta-garantida
+Mobile | Access to the customer portal Android:  https://play.google.com/store/apps/details?id=com.itau.empresas&hl=pt_BR&gl=US
+  
+Mobile | Access to the customer portal IOS:  https://apps.apple.com/br/app/banco-ita%C3%BA-empresas-mei-e-pj/id348274534
 
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="800px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/conta_garantida.png">
+    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/pedro1.jpeg">
     <br>
+  <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/pedro.jpeg">
 </h3>
 
 ## 👨‍💻  [Developed by:](https://github.com/pedropbazzo/) 
