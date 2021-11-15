@@ -761,13 +761,13 @@ Mobile | Access to the customer portal Android:  https://play.google.com/store/a
   
 Mobile | Access to the customer portal IOS:  https://apps.apple.com/br/app/banco-ita%C3%BA-empresas-mei-e-pj/id348274534
 
- 
+<div>
 <h3 align="inline">
     <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/pedro1.jpeg"></h3>
     <br>
   <h3 align="inline">
   <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/pedro.jpeg">
-   </h3>
+  </h3></div>
 
 ## 👨‍💻  [Developed by:](https://github.com/pedropbazzo/) 
 
