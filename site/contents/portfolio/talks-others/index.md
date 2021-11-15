@@ -739,6 +739,50 @@ Web | Access to the customer portal : https://www.itau.com.br/empresas/emprestim
 <h3 align="center"><img alt="Avatar" title="#pedropbazzo" width="280px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/1550063601948d8b36a78ccdadcfd04710f9aa86/site/contents/portfolio/talks-others/logo_itau-empresas-01.svg">
     <br>
 </h3>
+  
+  <a id="web"></a>
+  
+##📱 Mobile
+
+
+Application Developed for Itaú Unibanco - for Android platform
+  
+  https://play.google.com/store/apps/details?id=com.itau.empresas&hl=pt_BR&gl=US
+
+<h3 align="center">
+    <img alt="Logo" title="#logo" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/itau.png">
+    <br>
+    <img alt="web" src="https://img.shields.io/badge/web/dash/v1-brightgreen">
+    <img alt="api" src="https://img.shields.io/badge/api/v1-brightgreen">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+    <img src="https://github.com/Shpota/github-activity-generator/workflows/build/badge.svg">
+</h3>
+  
+Web | Access to the customer portal : https://www.itau.com.br/empresas/emprestimos-financiamentos/conta-garantida
+
+<h3 align="center">
+    <img alt="Logo" title="#logo" width="800px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/conta_garantida.png">
+    <br>
+</h3>
+
+## 👨‍💻  [Developed by:](https://github.com/pedropbazzo/) 
+
+<h3 align="center">
+
+[@pedropbazzo](https://www.instagram.com/pedropbazzo/)
+</h3>    
+<h3 align="center"><img alt="Avatar" title="#pedropbazzo" width="140px" src="https://avatars.githubusercontent.com/u/32115702?s=460&u=18b6f3c1f7fb02331ad007fd21a6fdd1c2105790&v=4">
+    <br>
+</h3>
+
+<h3 align="center">
+
+[Team Open Banking](https://www.itau.com.br/)
+</h3>    
+<h3 align="center"><img alt="Avatar" title="#pedropbazzo" width="280px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/1550063601948d8b36a78ccdadcfd04710f9aa86/site/contents/portfolio/talks-others/logo_itau-empresas-01.svg">
+    <br>
+</h3>
+
 
 <a id="responsive"></a>
 ## 💻   Web Responsive 📱
