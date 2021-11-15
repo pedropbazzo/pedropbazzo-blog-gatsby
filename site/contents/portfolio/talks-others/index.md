@@ -763,8 +763,9 @@ Mobile | Access to the customer portal IOS:  https://apps.apple.com/br/app/banco
 
  
 <h3 align="inline">
-    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/pedro1.jpeg">
+    <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/pedro1.jpeg"></h3>
     <br>
+  <h3 align="inline">
   <img alt="Logo" title="#logo" width="400px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/pedro.jpeg">
    </h3>
 
