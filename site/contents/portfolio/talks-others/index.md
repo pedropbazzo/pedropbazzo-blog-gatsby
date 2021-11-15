@@ -746,7 +746,7 @@ Web | Access to the customer portal : https://www.itau.com.br/empresas/emprestim
  ## 📱 Mobile
 
 
-Application Developed for Itaú Unibanco - for Android/IOS (Java/Kotlin/Adroid/ObjectiveC/Swift) platform
+Application Developed for Itaú Unibanco - for Android/IOS (Java/Kotlin/Android/ObjectiveC/Swift) platform
   
 <h3 align="center">
     <img alt="Logo" title="#logo" width="140px" src="https://raw.githubusercontent.com/pedropbazzo/pedropbazzo-blog-gatsby/master/site/contents/portfolio/talks-others/itau.png">
