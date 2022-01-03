@@ -3951,6 +3951,7 @@ Here is what we are going to do;
 - push it to the git server (github)
 
 In your github UI, you can create a repository by pressing the + button on top right. When you create it, it will be similar to the following;
+  
 
 ![creating-a-github-project](https://raw.githubusercontent.com/pedropbazzo/git-tutorial/main/misc/01-create-repo.png)
 
