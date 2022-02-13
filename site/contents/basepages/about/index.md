@@ -16,7 +16,7 @@ image: ./imageme2.png
 <a href="https://gist.github.com/pedropbazzo"><img src="https://img.shields.io/badge/github_gist-000000.svg?style=for-the-badge&logo=github&logoColor=white%22"></a>
 
 <ul>
-  <li>💻  I work daily at Itaú Unibanco to create new front-end features and take workloads to AWS from the web system, mobile system and back-end, creating and maintaining microservices on cloud.</li>
+  <li>💻  I work daily at to create new front-end features and take workloads to AWS from the web system, mobile system and back-end, creating and maintaining microservices on cloud.</li>
   <li>😍  Passionate about education and problem solution through programming</li>
   <li>🤝  Willing to contribute in opensource development projects</li>
 </ul>
