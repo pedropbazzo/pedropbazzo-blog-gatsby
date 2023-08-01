@@ -7,7 +7,8 @@
     "scripts": {
         "develop": "yarn workspace site develop",
         "build": "yarn workspace site build",
-        "clean": "yarn workspace site clean"
+        "clean": "yarn workspace site clean",
+        "install": "yarn upgrade --latest"
     },
     "dependencies": {
         "gatsby-remark-reading-time": "^1.1.0",
