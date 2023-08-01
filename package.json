@@ -15,5 +15,8 @@
         "react-disqus-comments": "^1.4.0",
         "styled-components": "^5.1.0",
         "styled-media-query": "^2.1.2"
-    }
+    },
+    "engines": {
+  "node": "18.x"
+  }
 }
