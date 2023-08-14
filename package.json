@@ -7,7 +7,7 @@
     "scripts": {
         "develop": "yarn workspace site develop",
         "build": "yarn workspace site build",
-        "clean": "yarn workspace site clean",
+        "clean": "yarn cache clean",
         "install": "yarn upgrade --latest"
     },
     "dependencies": {
