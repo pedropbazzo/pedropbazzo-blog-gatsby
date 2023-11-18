@@ -39,7 +39,8 @@
         "react-sidebar": "^3.0.2"
     },
     "engines": {
-    "node": "18.x"
+    "node": "18.x",
+    "npm": "7.x"
     },
     "keywords": [
         "gatsby",
