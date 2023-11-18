@@ -1,21 +1,21 @@
 {
-    "private": true,
-    "workspaces": [
-        "gatsby-theme-elemental",
-        "site"
-    ],
-    "scripts": {
-        "develop": "yarn workspace site develop",
-        "build": "yarn workspace site build",
-        "clean": "yarn cache clean",
-        "install": "yarn"
-    },
-    "dependencies": {
-        "gatsby-remark-reading-time": "^1.1.0",
-        "@babel/types": "^7.15.0",
-        "gatsby-theme-elemental": "file:gatsby-theme-elemental",
-        "react-disqus-comments": "^1.4.0",
-        "styled-components": "^5.1.0",
-        "styled-media-query": "^2.1.2"
-    },
+  "private": true,
+  "workspaces": [
+    "gatsby-theme-elemental",
+    "site"
+  ],
+  "scripts": {
+    "develop": "yarn workspace site develop",
+    "build": "yarn workspace site build",
+    "clean": "yarn cache clean",
+    "install": "cd /home/runner/work/pedropbazzo-blog-gatsby/gatsby-theme-elemental/ && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "gatsby-remark-reading-time": "^1.1.0",
+    "@babel/types": "^7.15.0",
+    "gatsby-theme-elemental": "file:gatsby-theme-elemental",
+    "react-disqus-comments": "^1.4.0",
+    "styled-components": "^5.1.0",
+    "styled-media-query": "^2.1.2"
+  }
 }
