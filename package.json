@@ -7,7 +7,7 @@
   "scripts": {
     "develop": "yarn workspace site develop",
     "build": "yarn workspace site build",
-    "clean": "yarn cache clean",
+    "clean": "yarn cache clean --force",
     "install": "cd /home/runner/work/pedropbazzo-blog-gatsby/gatsby-theme-elemental/ && yarn upgrade --latest"
   },
   "dependencies": {
