@@ -2,9 +2,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
@@ -18,11 +18,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Remove package-lock.json
-      run: rm package-lock.json
-
-    - name: Install Dependencies
-      run: npm install
+    - name: Check if package-lock.json exists
+      run: |
+        if [ -f "package-lock.json" ]; then
+          rm package-lock.json
+        fi
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
