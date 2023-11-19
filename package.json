@@ -5,11 +5,12 @@
       "site"
     ],
     "scripts": {
-      "develop": "npm workspace site develop",
-      "build": "npm workspace site build",
-      "clean": "npm cache clean",
-       "install": "npm i && npm ci"
-    },
+    "develop": "npm workspace site develop",
+    "build": "npm workspace site build",
+    "clean": "npm cache clean",
+    "preinstall": "npm ci",
+    "install": "npm install"
+  },
     "dependencies": {
       "gatsby-remark-reading-time": "^1.1.0",
       "@babel/types": "^7.15.0",
