@@ -5,9 +5,10 @@
       "site"
     ],
     "scripts": {
-      "develop": "yarn workspace site develop",
-      "build": "yarn workspace site build",
-      "clean": "yarn cache clean --force"
+      "develop": "npm workspace site develop",
+      "build": "npm workspace site build",
+      "clean": "npm cache clean",
+      "install": "npm install && npm cache clean"
     },
     "dependencies": {
       "gatsby-remark-reading-time": "^1.1.0",
