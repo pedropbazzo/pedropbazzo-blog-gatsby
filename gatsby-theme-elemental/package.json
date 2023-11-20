@@ -36,7 +36,8 @@
       "react": "^16.8.6",
       "react-dom": "^16.8.6",
       "react-helmet": "^5.2.1",
-      "react-sidebar": "^3.0.2"
+      "react-sidebar": "^3.0.2",
+      "sockjs-client": "1.6.1"
     },
     "engines": {
     "node": "18.x",
