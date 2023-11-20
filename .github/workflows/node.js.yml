@@ -25,7 +25,7 @@ jobs:
     # Verifica a existência do package-lock.json
     - run: |
         if [ ! -f "package-lock.json" ]; then
-          npm install
+          npm install -g npm@7
         fi
 
     # Usa npm ci para instalar dependências
