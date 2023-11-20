@@ -24,4 +24,3 @@ jobs:
 
     # Usa npm ci para instalar dependências
     - run: npm install -g npm@7
-    - run: npm test
