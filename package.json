@@ -6,9 +6,9 @@
     ],
     "scripts": {
     "develop": "npm workspace site develop",
-    "build": "npm workspace site build",
     "clean": "npm cache clean",
-    "install": "npm install -g npm@7"
+    "install": "npm install -g npm@7",
+    "build": "npm workspace site build"
   },
     "dependencies": {
       "gatsby-remark-reading-time": "^1.1.0",
