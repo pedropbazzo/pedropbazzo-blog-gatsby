@@ -8,7 +8,7 @@
     "develop": "npm workspace site develop",
     "clean": "npm cache clean",
     "install": "npm install -g npm@7",
-    "build": "npm gatsby build"
+    "build": "npx gatsby build"
   },
     "dependencies": {
       "gatsby-remark-reading-time": "^1.1.0",
