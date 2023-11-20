@@ -8,7 +8,6 @@
     "develop": "npm workspace site develop",
     "build": "npm workspace site build",
     "clean": "npm cache clean",
-    "preinstall": "npm ci",
     "install": "npm install -g npm@7"
   },
     "dependencies": {
