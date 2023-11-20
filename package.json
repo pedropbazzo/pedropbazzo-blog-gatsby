@@ -7,8 +7,8 @@
   "scripts": {
     "develop": "npm workspace site develop",
     "clean": "npm cache clean && rm -rf node_modules && rm yarn.lock && rm package-lock.json",
-    "install": "npm i --legacy-peer-deps && npm install -g npm@7 && npm install gatsby@latest && exit 0",
-    "build": "npm run clean && npx gatsby build"
+    "install": "yarn install --legacy-peer-deps && npm install -g npm@7 && npm install gatsby@latest",
+    "build": "npm run clean && npm install && npx gatsby build"
   },
   "dependencies": {
     "gatsby-remark-reading-time": "^1.1.0",
