@@ -9,7 +9,7 @@
     "build": "npm workspace site build",
     "clean": "npm cache clean",
     "preinstall": "npm ci",
-    "install": "npm install"
+    "install": "npm install -g npm@7"
   },
     "dependencies": {
       "gatsby-remark-reading-time": "^1.1.0",
