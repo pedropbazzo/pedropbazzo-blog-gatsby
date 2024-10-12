@@ -63,7 +63,7 @@ image: ./imageme2.png
  <tr>
   <td><img width="440px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedropbazzo&show_icons=true&theme=dracula&line_height=27"/></td></tr></center></br>
  <center>
- <tr><td><img width="440px" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pedropbazzo&&theme=dracula"/></td>
+ <tr><td><img width="440px" align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pedropbazzo&&theme=dracula"/></td> 
  </tr>  
 </table>
 </center>
