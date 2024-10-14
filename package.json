@@ -4,8 +4,8 @@
     "gatsby-theme-elemental",
     "site"
   ],
-
   "dependencies": {
+    "gatsby": "^4.0.0",
     "gatsby-remark-reading-time": "^1.1.0",
     "@babel/types": "^7.15.0",
     "gatsby-theme-elemental": "file:gatsby-theme-elemental",
@@ -14,7 +14,7 @@
     "styled-media-query": "^2.1.2"
   },
   "engines": {
-    "node": "18.x",
+    "node": "^20.0.0",
     "npm": "7.x"
   }
 }
