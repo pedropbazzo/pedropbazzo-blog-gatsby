@@ -14,7 +14,7 @@
     "styled-media-query": "^2.1.2"
   },
   "engines": {
-    "node": "20.x",
+    "node": "18.20.4",
     "npm": "7.x"
   }
 }
