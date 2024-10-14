@@ -1,45 +1,65 @@
-const path = require("path");
+let siteMetadata = {
+  title: `@pedropbazzo`,
+  capitalizeTitleOnHome: true,
+  logo: `/images/logo.png`,
+  icon: `/images/icon.png`,
+  titleImage: `/images/wall.jpg`,
+  introTag: `Senior Software Engineer 🛡️`,
+  description: `I work daily at to create new front-end features and take workloads to AWS from the web system, mobile system and back-end, creating and maintaining microservices on cloud.`,
+  author: `@pedropbazzo`,
+  blogItemsPerPage: 20,
+  portfolioItemsPerPage: 20,
+  darkmode: true,
+  switchTheme: true,
+  navLinks: [
+    {
+      name: "HOME",
+      url: "/",
+    },
+    {
+      name: "ABOUT",
+      url: "/about",
+    },
+    {
+      name: "BLOG",
+      url: "/blog",
+    },
+    {
+      name: "PORTFOLIO",
+      url: "/portfolio",
+    },
+  ],
+  footerLinks: [
+    {
+      name: "PRIVACY POLICY",
+      url: "/privacy-policy",
+    },
+  ],
+  social: [
+    {
+      name: "",
+      icon: "",
+      url: "",
+    },
+  ],
+  contact: {
+    api_url: "",
+    /* Leave this completely empty (no space either) if you don't want a contact form. */
+    description: `If you want to contact me for work purposes or if you have any questions send me an email. `,
+    mail: "developerpedropbazzo@gmail.com",
+    phone: "+55 15 998088356",
+    address: "+55 \nSão Paulo",
+  },
+};
 
-module.exports = ({ contentPath = `contents` }) => {
-    return {
-        plugins: [
-            `gatsby-plugin-sharp`,
-            `gatsby-transformer-sharp`,
-            `gatsby-plugin-react-helmet`,
-            {
-                resolve: `gatsby-transformer-remark`,
-                options: {
-                    plugins: [
-                        "gatsby-remark-copy-linked-files",
-                        "gatsby-remark-reading-time",
-                        {
-                            resolve: `gatsby-remark-images`,
-                            options: {
-                                maxWidth: 1280
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                resolve: `gatsby-source-filesystem`,
-                options: {
-                    name: `contents`,
-                    path: path.resolve(contentPath)
-                }
-            },
-            {
-                resolve: `gatsby-plugin-page-creator`,
-                options: {
-                    path: path.join(__dirname, `src`, `pages`)
-                }
-            },
-            {
-                resolve: `gatsby-plugin-less`,
-                options: {
-                    strictMath: true,
-                },
-            },
-        ],
-    }
-}
+module.exports = {
+  siteMetadata: siteMetadata,
+  plugins: [
+    {
+      resolve: "gatsby-theme-elemental",
+      options: {
+        contentPath: "contents",
+      },
+    },
+  ],
+};
